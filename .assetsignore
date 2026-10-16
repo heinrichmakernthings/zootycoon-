@@ -1,0 +1,17 @@
+# Files Cloudflare must not publish. Only the game goes online: index.html, css/, js/ and assets/.
+.git
+.github
+.gitignore
+.prettierrc.json
+.assetsignore
+.wrangler
+.DS_Store
+node_modules
+wrangler.jsonc
+package.json
+package-lock.json
+README.md
+docs
+tools
+test
+art-inbox

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#FBF5E8" />
+    <title>Cutise Zoo</title>
+    <meta name="description" content="A little zoo. A lot of personality. A cosy zoo tycoon: build habitats, welcome animals, get to know them." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Nunito:wght@600;700;800;900&display=swap" />
+    <link rel="stylesheet" href="css/zoo.css" />
+  </head>
+  <body>
+    <main id="map">
+      <canvas id="zoo"></canvas>
+
+      <header id="hud">
+        <div class="pill name" title="Your zoo"><b id="zooname">Your new zoo</b><small id="zoostage">Opening day</small></div>
+        <div class="pill" title="Today's weather and how far through the day it is">
+          <span id="event">⛅</span> <b id="day">Day 1</b><span class="bar thin"><i id="dayfill"></i></span>
+        </div>
+        <div class="pill" title="Coins">🪙 <b id="coins">0</b></div>
+        <div class="pill" title="Visitors in the zoo">👥 <b id="guests">0</b></div>
+        <div class="pill" id="rep" title="Care: how well your animals are doing">🍃 Care <b id="care">–</b><span class="bar thin"><i id="repfill"></i></span></div>
+      </header>
+
+      <div id="modetip" hidden></div>
+      <div id="toasts"></div>
+      <div class="corner">
+        <button class="round" id="speed" data-ui="speed" title="Speed (space to pause)">▶</button>
+        <button class="round" data-ui="zoomin" title="Zoom in">＋</button>
+        <button class="round" data-ui="zoomout" title="Zoom out">－</button>
+      </div>
+      <button id="goal" class="goal-card"></button>
+
+      <nav id="toolbar">
+        <button data-panel="build"><span>🔨</span>Build</button>
+        <button data-panel="animals"><span>🐾</span>Animals</button>
+        <button data-panel="staff"><span>🧑‍🌾</span>Staff</button>
+        <button data-panel="zoo"><span>🗺️</span>Zoo</button>
+      </nav>
+
+      <aside id="panel" hidden>
+        <button class="close" data-panel="">✕</button>
+        <div class="body"></div>
+      </aside>
+      <div id="confetti"></div>
+    </main>
+
+    <div id="modal" hidden><div class="box"></div></div>
+
+    <script src="js/content.js"></script>
+    <script src="js/sim.js"></script>
+    <script src="js/art.js"></script>
+    <script src="js/game/core.js"></script>
+    <script src="js/game/render.js"></script>
+    <script src="js/game/ui.js"></script>
+    <script src="js/game/input.js"></script>
+    <script src="js/game/boot.js"></script>
+  </body>
+</html>
