@@ -1,0 +1,2482 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "id": "capybara",
+    "display_name": "Capybara",
+    "example_name": "Mochi",
+    "zone": "Wetlands",
+    "unlock_stage": "starter",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Rounded barrel body, blunt muzzle, tiny ears, warm caramel coat",
+      "baby": "Smaller rounded muzzle and short legs. Nestle beside parent and make short follow bursts."
+    },
+    "personality": "Social lounger",
+    "signature_behaviour": "rests beside a companion at the water edge",
+    "habitat_id": "capybara-habitat",
+    "catalogue_path": "animals/01-capybara/items.json",
+    "habitat": {
+      "name": "Pondside Meadow",
+      "suggested_footprint_tiles": [
+        12,
+        10
+      ],
+      "tiles_per_resident_slot": 19,
+      "initial_group_range": [
+        2,
+        4
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "shade",
+      "action_label": "Add a shaded rest spot",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Pool ramp and shaded bed"
+        },
+        {
+          "level": 2,
+          "description": "Wider pond and separate feeding patch"
+        },
+        {
+          "level": 3,
+          "description": "Planted boardwalk and waterfall backdrop"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 2,
+      "baby_game_days": 4,
+      "juvenile_game_days": 3,
+      "breeding_cooldown_game_days": 4,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Smaller rounded muzzle and short legs. Nestle beside parent and make short follow bursts.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 600,
+      "adult_base_sale_price_coins": 360,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 4,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "swim",
+        "soak",
+        "graze"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "A cosy home",
+      "objective": "Add shade beside the pond and observe a relaxed soak",
+      "reward_coins": 100
+    },
+    "art": {
+      "concept_path": "animals/01-capybara/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-wetland-woodland.png",
+      "baby_reference_region": "top-left",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "red-panda",
+    "display_name": "Red panda",
+    "example_name": "Maple",
+    "zone": "Woodland",
+    "unlock_stage": "early",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Rust-red fur, cream face markings, black legs, long ringed tail",
+      "baby": "Fluffy round head, soft ringed tail. Follow a low branch route and curl beside parent."
+    },
+    "personality": "Curious climber",
+    "signature_behaviour": "tests a new climbing route then curls its tail around its face",
+    "habitat_id": "red-panda-habitat",
+    "catalogue_path": "animals/02-red-panda/items.json",
+    "habitat": {
+      "name": "Canopy Corner",
+      "suggested_footprint_tiles": [
+        12,
+        12
+      ],
+      "tiles_per_resident_slot": 31,
+      "initial_group_range": [
+        1,
+        2
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "climbing",
+      "action_label": "Add a connected climbing route",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Den and two connected climbing trunks"
+        },
+        {
+          "level": 2,
+          "description": "Branch circuit with shaded rest shelf"
+        },
+        {
+          "level": 3,
+          "description": "Layered canopy and discreet viewing window"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 3,
+      "baby_game_days": 6,
+      "juvenile_game_days": 4,
+      "breeding_cooldown_game_days": 6,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Fluffy round head, soft ringed tail. Follow a low branch route and curl beside parent.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 900,
+      "adult_base_sale_price_coins": 540,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 7,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "climb",
+        "curl_sleep",
+        "paw_reach"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Up in the branches",
+      "objective": "Connect the den to two elevated resting spots",
+      "reward_coins": 150
+    },
+    "art": {
+      "concept_path": "animals/02-red-panda/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-wetland-woodland.png",
+      "baby_reference_region": "top-right",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "asian-small-clawed-otter",
+    "display_name": "Asian small-clawed otter",
+    "example_name": "Pebble",
+    "zone": "Wetlands",
+    "unlock_stage": "early",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Long flexible brown body, cream chin, short legs and expressive whiskers",
+      "baby": "Shorter body and tail, cream chin. Stay near dry den, nuzzle and practise paddling."
+    },
+    "personality": "Playful explorer",
+    "signature_behaviour": "rolls a pebble between its paws after swimming",
+    "habitat_id": "asian-small-clawed-otter-habitat",
+    "catalogue_path": "animals/03-asian-small-clawed-otter/items.json",
+    "habitat": {
+      "name": "Pebblebrook",
+      "suggested_footprint_tiles": [
+        14,
+        10
+      ],
+      "tiles_per_resident_slot": 22,
+      "initial_group_range": [
+        2,
+        6
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "enrichment",
+      "action_label": "Add a pebble puzzle tray",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Pool access and dry den"
+        },
+        {
+          "level": 2,
+          "description": "Stream loop and puzzle feeding station"
+        },
+        {
+          "level": 3,
+          "description": "Underwater window and planted riverbank"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 3,
+      "baby_game_days": 6,
+      "juvenile_game_days": 4,
+      "breeding_cooldown_game_days": 6,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Shorter body and tail, cream chin. Stay near dry den, nuzzle and practise paddling.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 1000,
+      "adult_base_sale_price_coins": 600,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 7,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "swim",
+        "dive",
+        "pebble_play"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "A little puzzle",
+      "objective": "Place a puzzle tray next to a dry resting area",
+      "reward_coins": 150
+    },
+    "art": {
+      "concept_path": "animals/03-asian-small-clawed-otter/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-wetland-woodland.png",
+      "baby_reference_region": "bottom-left",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "african-penguin",
+    "display_name": "African penguin",
+    "example_name": "Pip",
+    "zone": "Coastal",
+    "unlock_stage": "early",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Black back, white belly with dark chest band, short flippers and pink eye patches",
+      "baby": "Fluffy grey chick with dark bill. No adult banding. Wobble and nest beside parent."
+    },
+    "personality": "Busy waddler",
+    "signature_behaviour": "waddles to the pool then makes a quick diving loop",
+    "habitat_id": "african-penguin-habitat",
+    "catalogue_path": "animals/04-african-penguin/items.json",
+    "habitat": {
+      "name": "Pebble Cove",
+      "suggested_footprint_tiles": [
+        14,
+        12
+      ],
+      "tiles_per_resident_slot": 18,
+      "initial_group_range": [
+        4,
+        10
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "nesting",
+      "action_label": "Add a quiet nest box",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Pool ramp and sheltered nest corner"
+        },
+        {
+          "level": 2,
+          "description": "Expanded swimming loop and shaded beach"
+        },
+        {
+          "level": 3,
+          "description": "Rocky cove with underwater viewing"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": true,
+      "prebirth_game_days": 3,
+      "baby_game_days": 6,
+      "juvenile_game_days": 4,
+      "breeding_cooldown_game_days": 6,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Fluffy grey chick with dark bill. No adult banding. Wobble and nest beside parent.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 1100,
+      "adult_base_sale_price_coins": 660,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 7,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "waddle",
+        "swim",
+        "dive",
+        "preen"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "A quiet corner",
+      "objective": "Place nesting cover away from the main viewing path",
+      "reward_coins": 150
+    },
+    "art": {
+      "concept_path": "animals/04-african-penguin/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-wetland-woodland.png",
+      "baby_reference_region": "bottom-right",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "meerkat",
+    "display_name": "Meerkat",
+    "example_name": "Scout",
+    "zone": "Drylands",
+    "unlock_stage": "starter",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Small sandy upright body, dark eye patches and a slender tail",
+      "baby": "Tiny sandy pup with dark eye patches. Peek out of burrow and copy a lookout pose."
+    },
+    "personality": "Watchful digger",
+    "signature_behaviour": "stands upright on a rock then digs at a marked sand patch",
+    "habitat_id": "meerkat-habitat",
+    "catalogue_path": "animals/05-meerkat/items.json",
+    "habitat": {
+      "name": "Lookout Dunes",
+      "suggested_footprint_tiles": [
+        10,
+        10
+      ],
+      "tiles_per_resident_slot": 13,
+      "initial_group_range": [
+        3,
+        8
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "digging",
+      "action_label": "Add a diggable sand patch",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Burrow shelter and sand patch"
+        },
+        {
+          "level": 2,
+          "description": "Linked burrow exits and lookout rocks"
+        },
+        {
+          "level": 3,
+          "description": "Layered dunes and low viewing window"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 2,
+      "baby_game_days": 4,
+      "juvenile_game_days": 3,
+      "breeding_cooldown_game_days": 4,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Tiny sandy pup with dark eye patches. Peek out of burrow and copy a lookout pose.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 500,
+      "adult_base_sale_price_coins": 300,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 4,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "scurry",
+        "stand_watch",
+        "dig",
+        "huddle"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "The lookout club",
+      "objective": "Add a lookout rock beside the digging area",
+      "reward_coins": 100
+    },
+    "art": {
+      "concept_path": "animals/05-meerkat/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-meadow-drylands.png",
+      "baby_reference_region": "top-left",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "fennec-fox",
+    "display_name": "Fennec fox",
+    "example_name": "Biscuit",
+    "zone": "Drylands",
+    "unlock_stage": "early",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Very large pointed ears, tiny cream-sand body and dark nose",
+      "baby": "Tiny cream kit with oversized ears. Curl near den and make a small playful pounce."
+    },
+    "personality": "Shy listener",
+    "signature_behaviour": "tilts oversized ears before pouncing on a forage toy",
+    "habitat_id": "fennec-fox-habitat",
+    "catalogue_path": "animals/06-fennec-fox/items.json",
+    "habitat": {
+      "name": "Moonlit Dunes",
+      "suggested_footprint_tiles": [
+        12,
+        10
+      ],
+      "tiles_per_resident_slot": 19,
+      "initial_group_range": [
+        2,
+        4
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "privacy",
+      "action_label": "Add a secluded den entrance",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Private den and shaded sand patch"
+        },
+        {
+          "level": 2,
+          "description": "Scent trail and two retreat routes"
+        },
+        {
+          "level": 3,
+          "description": "Dune garden with concealed viewing"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 3,
+      "baby_game_days": 6,
+      "juvenile_game_days": 4,
+      "breeding_cooldown_game_days": 6,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Tiny cream kit with oversized ears. Curl near den and make a small playful pounce.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 800,
+      "adult_base_sale_price_coins": 480,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 7,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "trot",
+        "ear_twitch",
+        "pounce",
+        "den_sleep"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Quiet please",
+      "objective": "Place retreat cover beyond the busiest viewing edge",
+      "reward_coins": 150
+    },
+    "art": {
+      "concept_path": "animals/06-fennec-fox/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-meadow-drylands.png",
+      "baby_reference_region": "top-right",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "rabbit",
+    "display_name": "Domestic rabbit",
+    "example_name": "Clover",
+    "zone": "Meadow",
+    "unlock_stage": "starter",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Soft round body, long upright ears, cream and caramel patches, small cotton tail",
+      "baby": "Round fluffy kit, shorter ears. Tiny hops and sibling snuggle."
+    },
+    "personality": "Gentle hopper",
+    "signature_behaviour": "hops through a tunnel then performs a joyful little binky",
+    "habitat_id": "rabbit-habitat",
+    "catalogue_path": "animals/07-rabbit/items.json",
+    "habitat": {
+      "name": "Clover Patch",
+      "suggested_footprint_tiles": [
+        8,
+        8
+      ],
+      "tiles_per_resident_slot": 10,
+      "initial_group_range": [
+        2,
+        6
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "cover",
+      "action_label": "Add an extra tunnel hideout",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Dry hideout and forage patch"
+        },
+        {
+          "level": 2,
+          "description": "Tunnel loop and shaded rest area"
+        },
+        {
+          "level": 3,
+          "description": "Flower meadow with raised viewing edge"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 2,
+      "baby_game_days": 4,
+      "juvenile_game_days": 3,
+      "breeding_cooldown_game_days": 4,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Round fluffy kit, shorter ears. Tiny hops and sibling snuggle.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 250,
+      "adult_base_sale_price_coins": 150,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 4,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "hop",
+        "nibble",
+        "groom",
+        "binky"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Tunnel time",
+      "objective": "Connect two hideouts with a short tunnel route",
+      "reward_coins": 100
+    },
+    "art": {
+      "concept_path": "animals/07-rabbit/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-meadow-drylands.png",
+      "baby_reference_region": "bottom-left",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "pygmy-goat",
+    "display_name": "Pygmy goat",
+    "example_name": "Buttons",
+    "zone": "Meadow",
+    "unlock_stage": "starter",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Compact stocky goat, short horns, little beard and cream-brown coat",
+      "baby": "Small kid with short horns or horn buds. Springy hop and short parent-follow walk."
+    },
+    "personality": "Cheeky climber",
+    "signature_behaviour": "steps onto a low platform and gives a proud head tilt",
+    "habitat_id": "pygmy-goat-habitat",
+    "catalogue_path": "animals/08-pygmy-goat/items.json",
+    "habitat": {
+      "name": "Tumblehill",
+      "suggested_footprint_tiles": [
+        12,
+        10
+      ],
+      "tiles_per_resident_slot": 19,
+      "initial_group_range": [
+        2,
+        6
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "climbing",
+      "action_label": "Add a safe low climbing platform",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Dry shelter and broad low platform"
+        },
+        {
+          "level": 2,
+          "description": "Connected climbing ramps and browse station"
+        },
+        {
+          "level": 3,
+          "description": "Terraced hill with shaded viewing deck"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 2,
+      "baby_game_days": 4,
+      "juvenile_game_days": 3,
+      "breeding_cooldown_game_days": 4,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Small kid with short horns or horn buds. Springy hop and short parent-follow walk.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 450,
+      "adult_base_sale_price_coins": 270,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 4,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "step_up",
+        "browse",
+        "head_tilt"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "King of the hill",
+      "objective": "Build a broad ramp to the first platform",
+      "reward_coins": 100
+    },
+    "art": {
+      "concept_path": "animals/08-pygmy-goat/concept-animal-habitat.png",
+      "baby_reference_path": "shared/nursery-meadow-drylands.png",
+      "baby_reference_region": "bottom-right",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "alpaca",
+    "display_name": "Alpaca",
+    "example_name": "Cloud",
+    "zone": "Meadow",
+    "unlock_stage": "early",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Long neck, fluffy cream fleece, small pointed ears and rounded muzzle",
+      "baby": "Fluffy cria with long thin legs and larger head. Gentle follow and curious ear twitch."
+    },
+    "personality": "Mellow grazer",
+    "signature_behaviour": "chews slowly then rolls in a dust patch",
+    "habitat_id": "alpaca-habitat",
+    "catalogue_path": "animals/09-alpaca/items.json",
+    "habitat": {
+      "name": "Cloud Meadow",
+      "suggested_footprint_tiles": [
+        16,
+        12
+      ],
+      "tiles_per_resident_slot": 31,
+      "initial_group_range": [
+        2,
+        6
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "space",
+      "action_label": "Add an open grazing patch",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Open grazing and dry shelter"
+        },
+        {
+          "level": 2,
+          "description": "Dust bath and extra shade"
+        },
+        {
+          "level": 3,
+          "description": "Rolling flower meadow and viewing pergola"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 3,
+      "baby_game_days": 6,
+      "juvenile_game_days": 4,
+      "breeding_cooldown_game_days": 6,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Fluffy cria with long thin legs and larger head. Gentle follow and curious ear twitch.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 850,
+      "adult_base_sale_price_coins": 510,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 7,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "graze",
+        "chew",
+        "dust_roll"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Room to roam",
+      "objective": "Keep a clear grazing corridor between shelter and feeder",
+      "reward_coins": 150
+    },
+    "art": {
+      "concept_path": "animals/09-alpaca/concept-animal-habitat.png",
+      "baby_reference_path": "animals/09-alpaca/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "aldabra-giant-tortoise",
+    "display_name": "Aldabra giant tortoise",
+    "example_name": "Moss",
+    "zone": "Tropical",
+    "unlock_stage": "early",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Large domed charcoal shell, sturdy scaled legs and gentle wrinkled head",
+      "baby": "Tiny hatchling with a domed shell. Slow independent exploration near a safe retreat."
+    },
+    "personality": "Patient explorer",
+    "signature_behaviour": "stretches its neck toward a low browse station",
+    "habitat_id": "aldabra-giant-tortoise-habitat",
+    "catalogue_path": "animals/10-aldabra-giant-tortoise/items.json",
+    "habitat": {
+      "name": "Fern Hollow",
+      "suggested_footprint_tiles": [
+        14,
+        12
+      ],
+      "tiles_per_resident_slot": 27,
+      "initial_group_range": [
+        2,
+        5
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "warmth",
+      "action_label": "Add a warm sheltered retreat",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Warm retreat and broad clear path"
+        },
+        {
+          "level": 2,
+          "description": "Shallow soak and browse circuit"
+        },
+        {
+          "level": 3,
+          "description": "Fern garden with accessible viewing ledge"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": true,
+      "prebirth_game_days": 3,
+      "baby_game_days": 6,
+      "juvenile_game_days": 4,
+      "breeding_cooldown_game_days": 6,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Tiny hatchling with a domed shell. Slow independent exploration near a safe retreat.",
+      "family_follow": "independent_hatchling",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 1000,
+      "adult_base_sale_price_coins": 600,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 7,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "slow_walk",
+        "browse",
+        "soak",
+        "neck_stretch"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Slow and steady",
+      "objective": "Create an unobstructed loop around the warm retreat",
+      "reward_coins": 150
+    },
+    "art": {
+      "concept_path": "animals/10-aldabra-giant-tortoise/concept-animal-habitat.png",
+      "baby_reference_path": "animals/10-aldabra-giant-tortoise/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "chilean-flamingo",
+    "display_name": "Chilean flamingo",
+    "example_name": "Petal",
+    "zone": "Wetlands",
+    "unlock_stage": "mid",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Pale pink plumage, long slender legs, curved pink neck and black-tipped bill",
+      "baby": "Grey-white fluffy chick with short bill and legs, not a pink miniature adult. Nest wobble."
+    },
+    "personality": "Graceful flockmate",
+    "signature_behaviour": "preens then balances quietly on one leg",
+    "habitat_id": "chilean-flamingo-habitat",
+    "catalogue_path": "animals/11-chilean-flamingo/items.json",
+    "habitat": {
+      "name": "Blush Lagoon",
+      "suggested_footprint_tiles": [
+        18,
+        14
+      ],
+      "tiles_per_resident_slot": 20,
+      "initial_group_range": [
+        6,
+        12
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "flock",
+      "action_label": "Add more room around the flock resting area",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Shallow lagoon and dry resting bank"
+        },
+        {
+          "level": 2,
+          "description": "Protected nesting island and wider wading shelf"
+        },
+        {
+          "level": 3,
+          "description": "Curved lagoon walk and layered reed backdrop"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": true,
+      "prebirth_game_days": 4,
+      "baby_game_days": 8,
+      "juvenile_game_days": 6,
+      "breeding_cooldown_game_days": 8,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Grey-white fluffy chick with short bill and legs, not a pink miniature adult. Nest wobble.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 1400,
+      "adult_base_sale_price_coins": 840,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 12,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "wade",
+        "preen",
+        "one_leg_rest"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Pink together",
+      "objective": "Extend the wading shelf without blocking the resting bank",
+      "reward_coins": 200
+    },
+    "art": {
+      "concept_path": "animals/11-chilean-flamingo/concept-animal-habitat.png",
+      "baby_reference_path": "animals/11-chilean-flamingo/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "indian-peafowl",
+    "display_name": "Indian peafowl",
+    "example_name": "Prism",
+    "zone": "Woodland",
+    "unlock_stage": "early",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Royal-blue neck, small crown crest and emerald eye-spotted male train",
+      "baby": "Tan-brown peachick, no display train. Short quick follow steps. Adult female requires separate brown-plumage art."
+    },
+    "personality": "Showy stroller",
+    "signature_behaviour": "opens an eye-spotted train in a clear display area",
+    "habitat_id": "indian-peafowl-habitat",
+    "catalogue_path": "animals/12-indian-peafowl/items.json",
+    "habitat": {
+      "name": "Jewel Garden",
+      "suggested_footprint_tiles": [
+        14,
+        12
+      ],
+      "tiles_per_resident_slot": 27,
+      "initial_group_range": [
+        2,
+        5
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "display",
+      "action_label": "Add a clear display patch",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Secure garden and roost shelter"
+        },
+        {
+          "level": 2,
+          "description": "Leafy retreat and display clearing"
+        },
+        {
+          "level": 3,
+          "description": "Formal garden with elevated roost walk"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": true,
+      "prebirth_game_days": 3,
+      "baby_game_days": 6,
+      "juvenile_game_days": 4,
+      "breeding_cooldown_game_days": 6,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Tan-brown peachick, no display train. Short quick follow steps. Adult female requires separate brown-plumage art.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 900,
+      "adult_base_sale_price_coins": 540,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 7,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "forage",
+        "roost",
+        "fan_display"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "A little spectacle",
+      "objective": "Leave clear space in front of the display perch",
+      "reward_coins": 150
+    },
+    "art": {
+      "concept_path": "animals/12-indian-peafowl/concept-animal-habitat.png",
+      "baby_reference_path": "animals/12-indian-peafowl/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "ring-tailed-lemur",
+    "display_name": "Ring-tailed lemur",
+    "example_name": "Ziggy",
+    "zone": "Tropical",
+    "unlock_stage": "mid",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Grey body, white face, black eye mask and long black-and-white ringed tail",
+      "baby": "Small grey infant with large eyes and ringed tail. Cling or stay close to parent."
+    },
+    "personality": "Social sunbather",
+    "signature_behaviour": "sits with arms spread in a sunny patch then joins a companion",
+    "habitat_id": "ring-tailed-lemur-habitat",
+    "catalogue_path": "animals/13-ring-tailed-lemur/items.json",
+    "habitat": {
+      "name": "Sunbeam Grove",
+      "suggested_footprint_tiles": [
+        18,
+        14
+      ],
+      "tiles_per_resident_slot": 32,
+      "initial_group_range": [
+        3,
+        8
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "social",
+      "action_label": "Add a shared sunny resting platform",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Private shelter and linked tree perches"
+        },
+        {
+          "level": 2,
+          "description": "Rope loop and shared sun terrace"
+        },
+        {
+          "level": 3,
+          "description": "Canopy grove with sheltered viewing deck"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 4,
+      "baby_game_days": 8,
+      "juvenile_game_days": 6,
+      "breeding_cooldown_game_days": 8,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Small grey infant with large eyes and ringed tail. Cling or stay close to parent.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 1600,
+      "adult_base_sale_price_coins": 960,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 12,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "climb",
+        "sunbathe",
+        "social_groom"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Sunbeam gathering",
+      "objective": "Build a connected route to a shared resting terrace",
+      "reward_coins": 200
+    },
+    "art": {
+      "concept_path": "animals/13-ring-tailed-lemur/concept-animal-habitat.png",
+      "baby_reference_path": "animals/13-ring-tailed-lemur/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "two-toed-sloth",
+    "display_name": "Two-toed sloth",
+    "example_name": "Drowse",
+    "zone": "Tropical",
+    "unlock_stage": "mid",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Shaggy tan body, rounded dark eye mask and two prominent hooked foreclaws",
+      "baby": "Small fluffy infant with round face. Cling to parent and practise tiny leaf reaches."
+    },
+    "personality": "Unhurried browser",
+    "signature_behaviour": "hangs upside down and slowly reaches for a leaf",
+    "habitat_id": "two-toed-sloth-habitat",
+    "catalogue_path": "animals/14-two-toed-sloth/items.json",
+    "habitat": {
+      "name": "Cloudforest Nook",
+      "suggested_footprint_tiles": [
+        14,
+        14
+      ],
+      "tiles_per_resident_slot": 42,
+      "initial_group_range": [
+        1,
+        2
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "route",
+      "action_label": "Add a continuous overhead branch route",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Warm shelter and overhead branch"
+        },
+        {
+          "level": 2,
+          "description": "Continuous canopy loop and elevated browse"
+        },
+        {
+          "level": 3,
+          "description": "Cloudforest house with quiet viewing balcony"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 4,
+      "baby_game_days": 8,
+      "juvenile_game_days": 6,
+      "breeding_cooldown_game_days": 8,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Small fluffy infant with round face. Cling to parent and practise tiny leaf reaches.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 1700,
+      "adult_base_sale_price_coins": 1020,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 12,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "hang_idle",
+        "climb_slow",
+        "leaf_reach",
+        "hang_sleep"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "No gaps please",
+      "objective": "Join the resting branch to the feeding branch",
+      "reward_coins": 200
+    },
+    "art": {
+      "concept_path": "animals/14-two-toed-sloth/concept-animal-habitat.png",
+      "baby_reference_path": "animals/14-two-toed-sloth/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "malayan-tapir",
+    "display_name": "Malayan tapir",
+    "example_name": "Pudding",
+    "zone": "Tropical",
+    "unlock_stage": "mid",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Rounded black body with broad white saddle, short flexible snout and small white-rimmed ears",
+      "baby": "Brown calf with cream stripes and spots. Do not use the adult white saddle. Follow and sniff."
+    },
+    "personality": "Shy wanderer",
+    "signature_behaviour": "sniffs a trail with its little trunk before entering the pool",
+    "habitat_id": "malayan-tapir-habitat",
+    "catalogue_path": "animals/15-malayan-tapir/items.json",
+    "habitat": {
+      "name": "Moonpool Forest",
+      "suggested_footprint_tiles": [
+        22,
+        18
+      ],
+      "tiles_per_resident_slot": 85,
+      "initial_group_range": [
+        1,
+        2
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "privacy",
+      "action_label": "Add dense retreat planting",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Private shelter and shaded water access"
+        },
+        {
+          "level": 2,
+          "description": "Wallow and planted retreat route"
+        },
+        {
+          "level": 3,
+          "description": "Forest pool with screened viewing hide"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 4,
+      "baby_game_days": 8,
+      "juvenile_game_days": 6,
+      "breeding_cooldown_game_days": 8,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Brown calf with cream stripes and spots. Do not use the adult white saddle. Follow and sniff.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 2200,
+      "adult_base_sale_price_coins": 1320,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 12,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "sniff",
+        "wade",
+        "wallow"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "A hidden haven",
+      "objective": "Screen a retreat path from the main viewing area",
+      "reward_coins": 200
+    },
+    "art": {
+      "concept_path": "animals/15-malayan-tapir/concept-animal-habitat.png",
+      "baby_reference_path": "animals/15-malayan-tapir/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "african-elephant",
+    "display_name": "African elephant",
+    "example_name": "Nala",
+    "zone": "Savanna",
+    "unlock_stage": "late",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Large grey rounded body, broad ears, long trunk and clear weight-bearing legs",
+      "baby": "Round calf with short trunk and no long adult tusks. Trunk wobble and parent follow."
+    },
+    "personality": "Thoughtful forager",
+    "signature_behaviour": "uses its trunk to lift browse then sprays water over its back",
+    "habitat_id": "african-elephant-habitat",
+    "catalogue_path": "animals/16-african-elephant/items.json",
+    "habitat": {
+      "name": "Baobab Basin",
+      "suggested_footprint_tiles": [
+        32,
+        26
+      ],
+      "tiles_per_resident_slot": 108,
+      "initial_group_range": [
+        3,
+        6
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "space",
+      "action_label": "Add a larger unobstructed roaming area",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Large roaming zone and robust shelter"
+        },
+        {
+          "level": 2,
+          "description": "Mud bath and separated feeding points"
+        },
+        {
+          "level": 3,
+          "description": "Baobab landscape with broad water basin"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 6,
+      "baby_game_days": 12,
+      "juvenile_game_days": 8,
+      "breeding_cooldown_game_days": 12,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Round calf with short trunk and no long adult tusks. Trunk wobble and parent follow.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 4800,
+      "adult_base_sale_price_coins": 2880,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 20,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "trunk_browse",
+        "dust_bathe",
+        "water_spray"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Big footsteps",
+      "objective": "Extend the roaming route before adding a new enrichment station",
+      "reward_coins": 250
+    },
+    "art": {
+      "concept_path": "animals/16-african-elephant/concept-animal-habitat.png",
+      "baby_reference_path": "animals/16-african-elephant/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "giraffe",
+    "display_name": "Giraffe",
+    "example_name": "Toffee",
+    "zone": "Savanna",
+    "unlock_stage": "late",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Tall tan neck, warm brown patches, small ossicones and long elegant legs",
+      "baby": "Small calf with long thin legs and shorter neck proportions. Careful steps and curious head tilt."
+    },
+    "personality": "Gentle browser",
+    "signature_behaviour": "reaches toward a high browse rack with a slow head turn",
+    "habitat_id": "giraffe-habitat",
+    "catalogue_path": "animals/17-giraffe/items.json",
+    "habitat": {
+      "name": "Acacia Heights",
+      "suggested_footprint_tiles": [
+        28,
+        22
+      ],
+      "tiles_per_resident_slot": 100,
+      "initial_group_range": [
+        2,
+        5
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "height",
+      "action_label": "Add an elevated browse station",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Tall shelter and broad clear route"
+        },
+        {
+          "level": 2,
+          "description": "Multiple elevated browse stations"
+        },
+        {
+          "level": 3,
+          "description": "Acacia grove and elevated guest viewing deck"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 6,
+      "baby_game_days": 12,
+      "juvenile_game_days": 8,
+      "breeding_cooldown_game_days": 12,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Small calf with long thin legs and shorter neck proportions. Careful steps and curious head tilt.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 3500,
+      "adult_base_sale_price_coins": 2100,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 20,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "high_browse",
+        "neck_turn",
+        "rest"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Dinner up high",
+      "objective": "Place high browse without narrowing the walking route",
+      "reward_coins": 250
+    },
+    "art": {
+      "concept_path": "animals/17-giraffe/concept-animal-habitat.png",
+      "baby_reference_path": "animals/17-giraffe/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "plains-zebra",
+    "display_name": "Plains zebra",
+    "example_name": "Zest",
+    "zone": "Savanna",
+    "unlock_stage": "mid",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Compact equine body, bold black-and-white stripes and short upright mane",
+      "baby": "Small foal with large ears and shorter muzzle. Soft juvenile stripe treatment and follow walk."
+    },
+    "personality": "Alert herd walker",
+    "signature_behaviour": "walks in loose formation and pauses for an ear flick",
+    "habitat_id": "plains-zebra-habitat",
+    "catalogue_path": "animals/18-plains-zebra/items.json",
+    "habitat": {
+      "name": "Stripe Plains",
+      "suggested_footprint_tiles": [
+        24,
+        18
+      ],
+      "tiles_per_resident_slot": 56,
+      "initial_group_range": [
+        3,
+        8
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "herd",
+      "action_label": "Add a second open resting area",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Open grass and shaded shelter"
+        },
+        {
+          "level": 2,
+          "description": "Dust patch and separated feeding zones"
+        },
+        {
+          "level": 3,
+          "description": "Rolling grassland with broad viewing frontage"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 4,
+      "baby_game_days": 8,
+      "juvenile_game_days": 6,
+      "breeding_cooldown_game_days": 8,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Small foal with large ears and shorter muzzle. Soft juvenile stripe treatment and follow walk.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 2400,
+      "adult_base_sale_price_coins": 1440,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 12,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "trot",
+        "graze",
+        "dust_roll"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Space for the herd",
+      "objective": "Create a second feeding area away from the shelter door",
+      "reward_coins": 200
+    },
+    "art": {
+      "concept_path": "animals/18-plains-zebra/concept-animal-habitat.png",
+      "baby_reference_path": "animals/18-plains-zebra/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "arctic-fox",
+    "display_name": "Arctic fox",
+    "example_name": "Flurry",
+    "zone": "Coollands",
+    "unlock_stage": "mid",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Compact fox with small rounded ears, plush white winter coat and thick fluffy tail",
+      "baby": "Round fluffy kit with short muzzle and small ears. Tiny pounce and parent-side nap."
+    },
+    "personality": "Bright-eyed pouncer",
+    "signature_behaviour": "listens at a snow patch then performs a gentle nose-first pounce",
+    "habitat_id": "arctic-fox-habitat",
+    "catalogue_path": "animals/19-arctic-fox/items.json",
+    "habitat": {
+      "name": "Frostberry Ridge",
+      "suggested_footprint_tiles": [
+        14,
+        12
+      ],
+      "tiles_per_resident_slot": 27,
+      "initial_group_range": [
+        2,
+        4
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "cooling",
+      "action_label": "Add a cooled sheltered retreat",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Cooled den and shaded rock cover"
+        },
+        {
+          "level": 2,
+          "description": "Scent trail and puzzle mound"
+        },
+        {
+          "level": 3,
+          "description": "Tundra ridge with sheltered viewing hide"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 4,
+      "baby_game_days": 8,
+      "juvenile_game_days": 6,
+      "breeding_cooldown_game_days": 8,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Round fluffy kit with short muzzle and small ears. Tiny pounce and parent-side nap.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 1700,
+      "adult_base_sale_price_coins": 1020,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 12,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "trot",
+        "listen",
+        "pounce",
+        "curl_sleep"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "A cool retreat",
+      "objective": "Place a cooling retreat before expanding the ridge",
+      "reward_coins": 200
+    },
+    "art": {
+      "concept_path": "animals/19-arctic-fox/concept-animal-habitat.png",
+      "baby_reference_path": "animals/19-arctic-fox/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "id": "snow-leopard",
+    "display_name": "Snow leopard",
+    "example_name": "Nimbus",
+    "zone": "Coollands",
+    "unlock_stage": "late",
+    "status": "design_proposal_not_implemented",
+    "biology_notice": "Timings, groups, prices and tile areas are fictional game tuning, not real animal husbandry guidance. Artwork shows visual direction, not required stocking levels.",
+    "appearance": {
+      "adult": "Pale grey spotted coat, thick long tail, broad paws and rounded ears",
+      "baby": "Round cub with oversized paws and long soft tail. Low-ledge play and parent-side tail curl."
+    },
+    "personality": "Quiet ledge watcher",
+    "signature_behaviour": "balances along a broad ledge then wraps its tail around its paws",
+    "habitat_id": "snow-leopard-habitat",
+    "catalogue_path": "animals/20-snow-leopard/items.json",
+    "habitat": {
+      "name": "Cloudpeak",
+      "suggested_footprint_tiles": [
+        24,
+        20
+      ],
+      "tiles_per_resident_slot": 104,
+      "initial_group_range": [
+        1,
+        2
+      ],
+      "hard_group_cap": null,
+      "group_range_is": "initial scenario suggestion, not an expansion limit",
+      "same_species_only": true,
+      "priority_need": "elevation",
+      "action_label": "Add a connected elevated resting ledge",
+      "supports_resize": true,
+      "capacity_inputs": [
+        "reachable_usable_tiles",
+        "shelter_slots",
+        "feed_slots",
+        "water_slots",
+        "reserved_offspring_slots"
+      ],
+      "upgrades": [
+        {
+          "level": 1,
+          "description": "Secure cool den and broad ledge"
+        },
+        {
+          "level": 2,
+          "description": "Linked elevated routes and screened retreat"
+        },
+        {
+          "level": 3,
+          "description": "Cloudpeak ridge with distant viewing hide"
+        }
+      ]
+    },
+    "life_cycle": {
+      "stages": [
+        "baby",
+        "juvenile",
+        "adult"
+      ],
+      "egg_phase": false,
+      "prebirth_game_days": 6,
+      "baby_game_days": 12,
+      "juvenile_game_days": 8,
+      "breeding_cooldown_game_days": 12,
+      "offspring_per_event": 1,
+      "breeding_default": false,
+      "minimum_wellbeing": 80,
+      "requires_nursery": true,
+      "reserve_slots_before_start": 1,
+      "sale_stage": "adult",
+      "baby_daily_upkeep_multiplier": 0.6,
+      "juvenile_daily_upkeep_multiplier": 0.8,
+      "adult_daily_upkeep_multiplier": 1.0,
+      "baby_behaviour": "Round cub with oversized paws and long soft tail. Low-ledge play and parent-side tail curl.",
+      "family_follow": "parent_proximity",
+      "pairing_rule": "Same species, unrelated opposite-sex adults, both available and healthy. No explicit mating animation."
+    },
+    "economy": {
+      "adult_buy_price_coins": 3800,
+      "adult_base_sale_price_coins": 2280,
+      "sale_price_max_multiplier_of_buy": 0.85,
+      "daily_upkeep_coins": 20,
+      "transaction_currency": "coins"
+    },
+    "animations": {
+      "adult": [
+        "walk",
+        "climb",
+        "tail_wrap",
+        "ledge_rest"
+      ],
+      "baby": [
+        "idle",
+        "move",
+        "rest",
+        "signature_baby"
+      ],
+      "directions": [
+        "NE",
+        "SE",
+        "SW",
+        "NW"
+      ],
+      "target_fps": 8,
+      "loops_frames": 8,
+      "sprite_status": "not_created"
+    },
+    "quest": {
+      "title": "Above it all",
+      "objective": "Connect two ledges with a safe wide route",
+      "reward_coins": 250
+    },
+    "art": {
+      "concept_path": "animals/20-snow-leopard/concept-animal-habitat.png",
+      "baby_reference_path": "animals/20-snow-leopard/concept-animal-habitat.png",
+      "baby_reference_region": "lower-left portrait and habitat family",
+      "concept_status": "generated_and_reviewed",
+      "runtime_assets_status": "not_created",
+      "transparent_cutouts": false
+    }
+  }
+]

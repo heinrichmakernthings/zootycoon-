@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0.0",
+  "concepts": [
+    {
+      "id": "capybara",
+      "path": "animals/01-capybara/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-wetland-woodland.png",
+      "baby_region": "top-left"
+    },
+    {
+      "id": "red-panda",
+      "path": "animals/02-red-panda/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-wetland-woodland.png",
+      "baby_region": "top-right"
+    },
+    {
+      "id": "asian-small-clawed-otter",
+      "path": "animals/03-asian-small-clawed-otter/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-wetland-woodland.png",
+      "baby_region": "bottom-left"
+    },
+    {
+      "id": "african-penguin",
+      "path": "animals/04-african-penguin/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-wetland-woodland.png",
+      "baby_region": "bottom-right"
+    },
+    {
+      "id": "meerkat",
+      "path": "animals/05-meerkat/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-meadow-drylands.png",
+      "baby_region": "top-left"
+    },
+    {
+      "id": "fennec-fox",
+      "path": "animals/06-fennec-fox/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-meadow-drylands.png",
+      "baby_region": "top-right"
+    },
+    {
+      "id": "rabbit",
+      "path": "animals/07-rabbit/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-meadow-drylands.png",
+      "baby_region": "bottom-left"
+    },
+    {
+      "id": "pygmy-goat",
+      "path": "animals/08-pygmy-goat/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "shared/nursery-meadow-drylands.png",
+      "baby_region": "bottom-right"
+    },
+    {
+      "id": "alpaca",
+      "path": "animals/09-alpaca/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/09-alpaca/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "aldabra-giant-tortoise",
+      "path": "animals/10-aldabra-giant-tortoise/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/10-aldabra-giant-tortoise/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "chilean-flamingo",
+      "path": "animals/11-chilean-flamingo/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/11-chilean-flamingo/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "indian-peafowl",
+      "path": "animals/12-indian-peafowl/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/12-indian-peafowl/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "ring-tailed-lemur",
+      "path": "animals/13-ring-tailed-lemur/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/13-ring-tailed-lemur/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "two-toed-sloth",
+      "path": "animals/14-two-toed-sloth/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/14-two-toed-sloth/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "malayan-tapir",
+      "path": "animals/15-malayan-tapir/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/15-malayan-tapir/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "african-elephant",
+      "path": "animals/16-african-elephant/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/16-african-elephant/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "giraffe",
+      "path": "animals/17-giraffe/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/17-giraffe/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "plains-zebra",
+      "path": "animals/18-plains-zebra/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/18-plains-zebra/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "arctic-fox",
+      "path": "animals/19-arctic-fox/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/19-arctic-fox/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    },
+    {
+      "id": "snow-leopard",
+      "path": "animals/20-snow-leopard/concept-animal-habitat.png",
+      "kind": "animal_habitat_concept",
+      "status": "available",
+      "baby_reference": "animals/20-snow-leopard/concept-animal-habitat.png",
+      "baby_region": "lower-left portrait and habitat family"
+    }
+  ],
+  "shared": [
+    {
+      "id": "nursery-wetland-woodland",
+      "path": "shared/nursery-wetland-woodland.png"
+    },
+    {
+      "id": "nursery-meadow-drylands",
+      "path": "shared/nursery-meadow-drylands.png"
+    },
+    {
+      "id": "modular-habitat-kit",
+      "path": "shared/modular-habitat-kit.png"
+    },
+    {
+      "id": "park-expansion",
+      "path": "shared/park-expansion.png"
+    }
+  ],
+  "runtime_sprites": []
+}

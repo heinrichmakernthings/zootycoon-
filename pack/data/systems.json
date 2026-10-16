@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0.0",
+  "balance_status": "unplaytested_design_targets",
+  "clock": {
+    "game_day_seconds_at_1x": 300,
+    "pause_freezes_simulation": true,
+    "offline_progression": false
+  },
+  "breeding": {
+    "default_enabled": false,
+    "wellbeing_min": 80,
+    "ready_days": 2,
+    "offspring_per_event": 1,
+    "reserve_adult_slots": true,
+    "auto_repeat": false,
+    "block_related_pair_within_generations": 2,
+    "requires_explicit_pair_selection": true
+  },
+  "trading": {
+    "currency": "coins",
+    "buy_stage": "adult",
+    "sell_stage": "adult",
+    "base_sale_fraction": 0.6,
+    "max_sale_fraction": 0.85,
+    "offers_refresh_game_days": 1,
+    "offer_count": 6,
+    "requires_confirmation": true
+  },
+  "expansion": {
+    "chunk_size_tiles": [
+      32,
+      32
+    ],
+    "starting_chunks": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "maximum_chunk_grid": [
+      6,
+      6
+    ],
+    "adjacent_only": true,
+    "cost_formula": "round(750 * 1.35 ** already_purchased_expansions)",
+    "fence_cost_per_edge": 5,
+    "terrain_cost_per_new_tile": 1,
+    "upkeep_cost_per_owned_chunk_per_day": 5
+  },
+  "scale_targets": {
+    "first_slice_residents": 20,
+    "expanded_park_residents": 150,
+    "benchmark_required": true,
+    "visible_animation_update_hz": 12,
+    "offscreen_needs_update_hz": 1,
+    "navigation": "cached routes, occupancy grid, staggered replans"
+  },
+  "capacity": {
+    "all_life_stages_consume_adult_slot": true,
+    "count_reserved_births": true,
+    "mixed_species": false
+  }
+}

@@ -1,0 +1,8102 @@
+[
+  {
+    "id": "capybara__shelter",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Shelter",
+    "category": "comfort",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__feeder",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Species feeder",
+    "category": "care",
+    "price_coins": 70,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__water",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Drinking station",
+    "category": "care",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__keeper-gate",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Keeper gate",
+    "category": "access",
+    "price_coins": 50,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__privacy",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Privacy planting",
+    "category": "comfort",
+    "price_coins": 55,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__rest",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Resting spot",
+    "category": "comfort",
+    "price_coins": 40,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__nursery",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Nursery nook",
+    "category": "family",
+    "price_coins": 160,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__terrain",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 25,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__viewing",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Viewing window",
+    "category": "viewing",
+    "price_coins": 120,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__sign",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Species sign",
+    "category": "decoration",
+    "price_coins": 35,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__border",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Planted border",
+    "category": "decoration",
+    "price_coins": 25,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__shade",
+    "species_id": "capybara",
+    "name": "Pondside Meadow Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 90,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "capybara__signature-1",
+    "species_id": "capybara",
+    "name": "Reed planter",
+    "category": "species_enrichment",
+    "price_coins": 120,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "swim",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "capybara__signature-2",
+    "species_id": "capybara",
+    "name": "Shaded platform",
+    "category": "species_enrichment",
+    "price_coins": 200,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "soak",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "capybara__signature-3",
+    "species_id": "capybara",
+    "name": "Floating browse",
+    "category": "species_enrichment",
+    "price_coins": 280,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "graze",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "red-panda__shelter",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Shelter",
+    "category": "comfort",
+    "price_coins": 225,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__feeder",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Species feeder",
+    "category": "care",
+    "price_coins": 88,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__water",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Drinking station",
+    "category": "care",
+    "price_coins": 75,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__keeper-gate",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Keeper gate",
+    "category": "access",
+    "price_coins": 62,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__privacy",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Privacy planting",
+    "category": "comfort",
+    "price_coins": 69,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__rest",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Resting spot",
+    "category": "comfort",
+    "price_coins": 50,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__nursery",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Nursery nook",
+    "category": "family",
+    "price_coins": 200,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__terrain",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 31,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__viewing",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Viewing window",
+    "category": "viewing",
+    "price_coins": 150,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__sign",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Species sign",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__border",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Planted border",
+    "category": "decoration",
+    "price_coins": 31,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__shade",
+    "species_id": "red-panda",
+    "name": "Canopy Corner Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 112,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "red-panda__signature-1",
+    "species_id": "red-panda",
+    "name": "Branch bridge",
+    "category": "species_enrichment",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "climb",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "red-panda__signature-2",
+    "species_id": "red-panda",
+    "name": "Leaf pile",
+    "category": "species_enrichment",
+    "price_coins": 260,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "curl_sleep",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "red-panda__signature-3",
+    "species_id": "red-panda",
+    "name": "Hanging feeder",
+    "category": "species_enrichment",
+    "price_coins": 340,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "paw_reach",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "asian-small-clawed-otter__shelter",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Shelter",
+    "category": "comfort",
+    "price_coins": 225,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__feeder",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Species feeder",
+    "category": "care",
+    "price_coins": 88,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__water",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Drinking station",
+    "category": "care",
+    "price_coins": 75,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__keeper-gate",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Keeper gate",
+    "category": "access",
+    "price_coins": 62,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__privacy",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Privacy planting",
+    "category": "comfort",
+    "price_coins": 69,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__rest",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Resting spot",
+    "category": "comfort",
+    "price_coins": 50,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__nursery",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Nursery nook",
+    "category": "family",
+    "price_coins": 200,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__terrain",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 31,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__viewing",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Viewing window",
+    "category": "viewing",
+    "price_coins": 150,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__sign",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Species sign",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__border",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Planted border",
+    "category": "decoration",
+    "price_coins": 31,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__shade",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebblebrook Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 112,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "asian-small-clawed-otter__signature-1",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Pebble tray",
+    "category": "species_enrichment",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "swim",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "asian-small-clawed-otter__signature-2",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Log tunnel",
+    "category": "species_enrichment",
+    "price_coins": 260,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "dive",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "asian-small-clawed-otter__signature-3",
+    "species_id": "asian-small-clawed-otter",
+    "name": "Floating toy",
+    "category": "species_enrichment",
+    "price_coins": 340,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "pebble_play",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "african-penguin__shelter",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Shelter",
+    "category": "comfort",
+    "price_coins": 225,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__feeder",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Species feeder",
+    "category": "care",
+    "price_coins": 88,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__water",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Drinking station",
+    "category": "care",
+    "price_coins": 75,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__keeper-gate",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Keeper gate",
+    "category": "access",
+    "price_coins": 62,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__privacy",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Privacy planting",
+    "category": "comfort",
+    "price_coins": 69,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__rest",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Resting spot",
+    "category": "comfort",
+    "price_coins": 50,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__nursery",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Nursery nook",
+    "category": "family",
+    "price_coins": 200,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__terrain",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 31,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__viewing",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Viewing window",
+    "category": "viewing",
+    "price_coins": 150,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__sign",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Species sign",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__border",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Planted border",
+    "category": "decoration",
+    "price_coins": 31,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__shade",
+    "species_id": "african-penguin",
+    "name": "Pebble Cove Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 112,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-penguin__signature-1",
+    "species_id": "african-penguin",
+    "name": "Nest box",
+    "category": "species_enrichment",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "swim",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "african-penguin__signature-2",
+    "species_id": "african-penguin",
+    "name": "Smooth ramp",
+    "category": "species_enrichment",
+    "price_coins": 260,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "dive",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "african-penguin__signature-3",
+    "species_id": "african-penguin",
+    "name": "Underwater ring",
+    "category": "species_enrichment",
+    "price_coins": 340,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "preen",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "meerkat__shelter",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Shelter",
+    "category": "comfort",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__feeder",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Species feeder",
+    "category": "care",
+    "price_coins": 70,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__water",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Drinking station",
+    "category": "care",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__keeper-gate",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Keeper gate",
+    "category": "access",
+    "price_coins": 50,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__privacy",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Privacy planting",
+    "category": "comfort",
+    "price_coins": 55,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__rest",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Resting spot",
+    "category": "comfort",
+    "price_coins": 40,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__nursery",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Nursery nook",
+    "category": "family",
+    "price_coins": 160,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__terrain",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 25,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__viewing",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Viewing window",
+    "category": "viewing",
+    "price_coins": 120,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__sign",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Species sign",
+    "category": "decoration",
+    "price_coins": 35,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__border",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Planted border",
+    "category": "decoration",
+    "price_coins": 25,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__shade",
+    "species_id": "meerkat",
+    "name": "Lookout Dunes Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 90,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "meerkat__signature-1",
+    "species_id": "meerkat",
+    "name": "Sand mound",
+    "category": "species_enrichment",
+    "price_coins": 120,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "stand_watch",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "meerkat__signature-2",
+    "species_id": "meerkat",
+    "name": "Lookout stump",
+    "category": "species_enrichment",
+    "price_coins": 200,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "dig",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "meerkat__signature-3",
+    "species_id": "meerkat",
+    "name": "Buried puzzle",
+    "category": "species_enrichment",
+    "price_coins": 280,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "huddle",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "fennec-fox__shelter",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Shelter",
+    "category": "comfort",
+    "price_coins": 225,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__feeder",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Species feeder",
+    "category": "care",
+    "price_coins": 88,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__water",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Drinking station",
+    "category": "care",
+    "price_coins": 75,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__keeper-gate",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Keeper gate",
+    "category": "access",
+    "price_coins": 62,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__privacy",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Privacy planting",
+    "category": "comfort",
+    "price_coins": 69,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__rest",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Resting spot",
+    "category": "comfort",
+    "price_coins": 50,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__nursery",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Nursery nook",
+    "category": "family",
+    "price_coins": 200,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__terrain",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 31,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__viewing",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Viewing window",
+    "category": "viewing",
+    "price_coins": 150,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__sign",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Species sign",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__border",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Planted border",
+    "category": "decoration",
+    "price_coins": 31,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__shade",
+    "species_id": "fennec-fox",
+    "name": "Moonlit Dunes Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 112,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "fennec-fox__signature-1",
+    "species_id": "fennec-fox",
+    "name": "Dig box",
+    "category": "species_enrichment",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "ear_twitch",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "fennec-fox__signature-2",
+    "species_id": "fennec-fox",
+    "name": "Scent trail",
+    "category": "species_enrichment",
+    "price_coins": 260,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "pounce",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "fennec-fox__signature-3",
+    "species_id": "fennec-fox",
+    "name": "Forage ball",
+    "category": "species_enrichment",
+    "price_coins": 340,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "den_sleep",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "rabbit__shelter",
+    "species_id": "rabbit",
+    "name": "Clover Patch Shelter",
+    "category": "comfort",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__feeder",
+    "species_id": "rabbit",
+    "name": "Clover Patch Species feeder",
+    "category": "care",
+    "price_coins": 70,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__water",
+    "species_id": "rabbit",
+    "name": "Clover Patch Drinking station",
+    "category": "care",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__keeper-gate",
+    "species_id": "rabbit",
+    "name": "Clover Patch Keeper gate",
+    "category": "access",
+    "price_coins": 50,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__privacy",
+    "species_id": "rabbit",
+    "name": "Clover Patch Privacy planting",
+    "category": "comfort",
+    "price_coins": 55,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__rest",
+    "species_id": "rabbit",
+    "name": "Clover Patch Resting spot",
+    "category": "comfort",
+    "price_coins": 40,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__nursery",
+    "species_id": "rabbit",
+    "name": "Clover Patch Nursery nook",
+    "category": "family",
+    "price_coins": 160,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__terrain",
+    "species_id": "rabbit",
+    "name": "Clover Patch Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 25,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__viewing",
+    "species_id": "rabbit",
+    "name": "Clover Patch Viewing window",
+    "category": "viewing",
+    "price_coins": 120,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__sign",
+    "species_id": "rabbit",
+    "name": "Clover Patch Species sign",
+    "category": "decoration",
+    "price_coins": 35,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__border",
+    "species_id": "rabbit",
+    "name": "Clover Patch Planted border",
+    "category": "decoration",
+    "price_coins": 25,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__shade",
+    "species_id": "rabbit",
+    "name": "Clover Patch Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 90,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "rabbit__signature-1",
+    "species_id": "rabbit",
+    "name": "Willow tunnel",
+    "category": "species_enrichment",
+    "price_coins": 120,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "nibble",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "rabbit__signature-2",
+    "species_id": "rabbit",
+    "name": "Hay rack",
+    "category": "species_enrichment",
+    "price_coins": 200,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "groom",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "rabbit__signature-3",
+    "species_id": "rabbit",
+    "name": "Forage patch",
+    "category": "species_enrichment",
+    "price_coins": 280,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "binky",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "pygmy-goat__shelter",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Shelter",
+    "category": "comfort",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__feeder",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Species feeder",
+    "category": "care",
+    "price_coins": 70,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__water",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Drinking station",
+    "category": "care",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__keeper-gate",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Keeper gate",
+    "category": "access",
+    "price_coins": 50,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__privacy",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Privacy planting",
+    "category": "comfort",
+    "price_coins": 55,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__rest",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Resting spot",
+    "category": "comfort",
+    "price_coins": 40,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__nursery",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Nursery nook",
+    "category": "family",
+    "price_coins": 160,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__terrain",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 25,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__viewing",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Viewing window",
+    "category": "viewing",
+    "price_coins": 120,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__sign",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Species sign",
+    "category": "decoration",
+    "price_coins": 35,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__border",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Planted border",
+    "category": "decoration",
+    "price_coins": 25,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__shade",
+    "species_id": "pygmy-goat",
+    "name": "Tumblehill Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 90,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "pygmy-goat__signature-1",
+    "species_id": "pygmy-goat",
+    "name": "Broad ramp",
+    "category": "species_enrichment",
+    "price_coins": 120,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "step_up",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "pygmy-goat__signature-2",
+    "species_id": "pygmy-goat",
+    "name": "Stump cluster",
+    "category": "species_enrichment",
+    "price_coins": 200,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "browse",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "pygmy-goat__signature-3",
+    "species_id": "pygmy-goat",
+    "name": "Browse rack",
+    "category": "species_enrichment",
+    "price_coins": 280,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "head_tilt",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "alpaca__shelter",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Shelter",
+    "category": "comfort",
+    "price_coins": 225,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__feeder",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Species feeder",
+    "category": "care",
+    "price_coins": 88,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__water",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Drinking station",
+    "category": "care",
+    "price_coins": 75,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__keeper-gate",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Keeper gate",
+    "category": "access",
+    "price_coins": 62,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__privacy",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Privacy planting",
+    "category": "comfort",
+    "price_coins": 69,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__rest",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Resting spot",
+    "category": "comfort",
+    "price_coins": 50,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__nursery",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Nursery nook",
+    "category": "family",
+    "price_coins": 200,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__terrain",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 31,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__viewing",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Viewing window",
+    "category": "viewing",
+    "price_coins": 150,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__sign",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Species sign",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__border",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Planted border",
+    "category": "decoration",
+    "price_coins": 31,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__shade",
+    "species_id": "alpaca",
+    "name": "Cloud Meadow Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 112,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "alpaca__signature-1",
+    "species_id": "alpaca",
+    "name": "Dust patch",
+    "category": "species_enrichment",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "graze",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "alpaca__signature-2",
+    "species_id": "alpaca",
+    "name": "Browse rack",
+    "category": "species_enrichment",
+    "price_coins": 260,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "chew",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "alpaca__signature-3",
+    "species_id": "alpaca",
+    "name": "Shade sail",
+    "category": "species_enrichment",
+    "price_coins": 340,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "dust_roll",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "aldabra-giant-tortoise__shelter",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Shelter",
+    "category": "comfort",
+    "price_coins": 225,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__feeder",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Species feeder",
+    "category": "care",
+    "price_coins": 88,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__water",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Drinking station",
+    "category": "care",
+    "price_coins": 75,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__keeper-gate",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Keeper gate",
+    "category": "access",
+    "price_coins": 62,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__privacy",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Privacy planting",
+    "category": "comfort",
+    "price_coins": 69,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__rest",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Resting spot",
+    "category": "comfort",
+    "price_coins": 50,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__nursery",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Nursery nook",
+    "category": "family",
+    "price_coins": 200,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__terrain",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 31,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__viewing",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Viewing window",
+    "category": "viewing",
+    "price_coins": 150,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__sign",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Species sign",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__border",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Planted border",
+    "category": "decoration",
+    "price_coins": 31,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__shade",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Fern Hollow Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 112,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "aldabra-giant-tortoise__signature-1",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Low browse rack",
+    "category": "species_enrichment",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "browse",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "aldabra-giant-tortoise__signature-2",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Shallow soak",
+    "category": "species_enrichment",
+    "price_coins": 260,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "soak",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "aldabra-giant-tortoise__signature-3",
+    "species_id": "aldabra-giant-tortoise",
+    "name": "Textured trail",
+    "category": "species_enrichment",
+    "price_coins": 340,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "neck_stretch",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "chilean-flamingo__shelter",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Shelter",
+    "category": "comfort",
+    "price_coins": 270,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__feeder",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Species feeder",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__water",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Drinking station",
+    "category": "care",
+    "price_coins": 90,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__keeper-gate",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Keeper gate",
+    "category": "access",
+    "price_coins": 75,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__privacy",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Privacy planting",
+    "category": "comfort",
+    "price_coins": 82,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__rest",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Resting spot",
+    "category": "comfort",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__nursery",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Nursery nook",
+    "category": "family",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__terrain",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 38,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__viewing",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Viewing window",
+    "category": "viewing",
+    "price_coins": 180,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__sign",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Species sign",
+    "category": "decoration",
+    "price_coins": 52,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__border",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Planted border",
+    "category": "decoration",
+    "price_coins": 38,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__shade",
+    "species_id": "chilean-flamingo",
+    "name": "Blush Lagoon Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 135,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "chilean-flamingo__signature-1",
+    "species_id": "chilean-flamingo",
+    "name": "Wading shelf",
+    "category": "species_enrichment",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "wade",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "chilean-flamingo__signature-2",
+    "species_id": "chilean-flamingo",
+    "name": "Mud island",
+    "category": "species_enrichment",
+    "price_coins": 320,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "preen",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "chilean-flamingo__signature-3",
+    "species_id": "chilean-flamingo",
+    "name": "Reed screen",
+    "category": "species_enrichment",
+    "price_coins": 400,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "one_leg_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "indian-peafowl__shelter",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Shelter",
+    "category": "comfort",
+    "price_coins": 225,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__feeder",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Species feeder",
+    "category": "care",
+    "price_coins": 88,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__water",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Drinking station",
+    "category": "care",
+    "price_coins": 75,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__keeper-gate",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Keeper gate",
+    "category": "access",
+    "price_coins": 62,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__privacy",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Privacy planting",
+    "category": "comfort",
+    "price_coins": 69,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__rest",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Resting spot",
+    "category": "comfort",
+    "price_coins": 50,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__nursery",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Nursery nook",
+    "category": "family",
+    "price_coins": 200,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__terrain",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 31,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__viewing",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Viewing window",
+    "category": "viewing",
+    "price_coins": 150,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__sign",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Species sign",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__border",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Planted border",
+    "category": "decoration",
+    "price_coins": 31,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__shade",
+    "species_id": "indian-peafowl",
+    "name": "Jewel Garden Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 112,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "indian-peafowl__signature-1",
+    "species_id": "indian-peafowl",
+    "name": "Roost perch",
+    "category": "species_enrichment",
+    "price_coins": 180,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "forage",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "indian-peafowl__signature-2",
+    "species_id": "indian-peafowl",
+    "name": "Leaf litter",
+    "category": "species_enrichment",
+    "price_coins": 260,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "roost",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "indian-peafowl__signature-3",
+    "species_id": "indian-peafowl",
+    "name": "Display clearing",
+    "category": "species_enrichment",
+    "price_coins": 340,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "fan_display",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "ring-tailed-lemur__shelter",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Shelter",
+    "category": "comfort",
+    "price_coins": 270,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__feeder",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Species feeder",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__water",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Drinking station",
+    "category": "care",
+    "price_coins": 90,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__keeper-gate",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Keeper gate",
+    "category": "access",
+    "price_coins": 75,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__privacy",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Privacy planting",
+    "category": "comfort",
+    "price_coins": 82,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__rest",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Resting spot",
+    "category": "comfort",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__nursery",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Nursery nook",
+    "category": "family",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__terrain",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 38,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__viewing",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Viewing window",
+    "category": "viewing",
+    "price_coins": 180,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__sign",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Species sign",
+    "category": "decoration",
+    "price_coins": 52,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__border",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Planted border",
+    "category": "decoration",
+    "price_coins": 38,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__shade",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunbeam Grove Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 135,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "ring-tailed-lemur__signature-1",
+    "species_id": "ring-tailed-lemur",
+    "name": "Rope bridge",
+    "category": "species_enrichment",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "climb",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "ring-tailed-lemur__signature-2",
+    "species_id": "ring-tailed-lemur",
+    "name": "Sunny terrace",
+    "category": "species_enrichment",
+    "price_coins": 320,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "sunbathe",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "ring-tailed-lemur__signature-3",
+    "species_id": "ring-tailed-lemur",
+    "name": "Forage box",
+    "category": "species_enrichment",
+    "price_coins": 400,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "social_groom",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "two-toed-sloth__shelter",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Shelter",
+    "category": "comfort",
+    "price_coins": 270,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__feeder",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Species feeder",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__water",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Drinking station",
+    "category": "care",
+    "price_coins": 90,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__keeper-gate",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Keeper gate",
+    "category": "access",
+    "price_coins": 75,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__privacy",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Privacy planting",
+    "category": "comfort",
+    "price_coins": 82,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__rest",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Resting spot",
+    "category": "comfort",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__nursery",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Nursery nook",
+    "category": "family",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__terrain",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 38,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__viewing",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Viewing window",
+    "category": "viewing",
+    "price_coins": 180,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__sign",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Species sign",
+    "category": "decoration",
+    "price_coins": 52,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__border",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Planted border",
+    "category": "decoration",
+    "price_coins": 38,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__shade",
+    "species_id": "two-toed-sloth",
+    "name": "Cloudforest Nook Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 135,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "two-toed-sloth__signature-1",
+    "species_id": "two-toed-sloth",
+    "name": "Branch bridge",
+    "category": "species_enrichment",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "climb_slow",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "two-toed-sloth__signature-2",
+    "species_id": "two-toed-sloth",
+    "name": "Elevated feeder",
+    "category": "species_enrichment",
+    "price_coins": 320,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "leaf_reach",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "two-toed-sloth__signature-3",
+    "species_id": "two-toed-sloth",
+    "name": "Leafy nook",
+    "category": "species_enrichment",
+    "price_coins": 400,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "hang_sleep",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "malayan-tapir__shelter",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Shelter",
+    "category": "comfort",
+    "price_coins": 270,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__feeder",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Species feeder",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__water",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Drinking station",
+    "category": "care",
+    "price_coins": 90,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__keeper-gate",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Keeper gate",
+    "category": "access",
+    "price_coins": 75,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__privacy",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Privacy planting",
+    "category": "comfort",
+    "price_coins": 82,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__rest",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Resting spot",
+    "category": "comfort",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__nursery",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Nursery nook",
+    "category": "family",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__terrain",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 38,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__viewing",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Viewing window",
+    "category": "viewing",
+    "price_coins": 180,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__sign",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Species sign",
+    "category": "decoration",
+    "price_coins": 52,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__border",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Planted border",
+    "category": "decoration",
+    "price_coins": 38,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__shade",
+    "species_id": "malayan-tapir",
+    "name": "Moonpool Forest Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 135,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "malayan-tapir__signature-1",
+    "species_id": "malayan-tapir",
+    "name": "Mud wallow",
+    "category": "species_enrichment",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "sniff",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "malayan-tapir__signature-2",
+    "species_id": "malayan-tapir",
+    "name": "Scent trail",
+    "category": "species_enrichment",
+    "price_coins": 320,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "wade",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "malayan-tapir__signature-3",
+    "species_id": "malayan-tapir",
+    "name": "Shaded pool",
+    "category": "species_enrichment",
+    "price_coins": 400,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "wallow",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "african-elephant__shelter",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Shelter",
+    "category": "comfort",
+    "price_coins": 315,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__feeder",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Species feeder",
+    "category": "care",
+    "price_coins": 122,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__water",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Drinking station",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__keeper-gate",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Keeper gate",
+    "category": "access",
+    "price_coins": 88,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__privacy",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Privacy planting",
+    "category": "comfort",
+    "price_coins": 96,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__rest",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Resting spot",
+    "category": "comfort",
+    "price_coins": 70,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__nursery",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Nursery nook",
+    "category": "family",
+    "price_coins": 280,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__terrain",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 44,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__viewing",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Viewing window",
+    "category": "viewing",
+    "price_coins": 210,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__sign",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Species sign",
+    "category": "decoration",
+    "price_coins": 61,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__border",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Planted border",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__shade",
+    "species_id": "african-elephant",
+    "name": "Baobab Basin Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 158,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "african-elephant__signature-1",
+    "species_id": "african-elephant",
+    "name": "Heavy browse log",
+    "category": "species_enrichment",
+    "price_coins": 300,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "trunk_browse",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "african-elephant__signature-2",
+    "species_id": "african-elephant",
+    "name": "Mud wallow",
+    "category": "species_enrichment",
+    "price_coins": 380,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "dust_bathe",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "african-elephant__signature-3",
+    "species_id": "african-elephant",
+    "name": "Water spray",
+    "category": "species_enrichment",
+    "price_coins": 460,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "water_spray",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "giraffe__shelter",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Shelter",
+    "category": "comfort",
+    "price_coins": 315,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__feeder",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Species feeder",
+    "category": "care",
+    "price_coins": 122,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__water",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Drinking station",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__keeper-gate",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Keeper gate",
+    "category": "access",
+    "price_coins": 88,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__privacy",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Privacy planting",
+    "category": "comfort",
+    "price_coins": 96,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__rest",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Resting spot",
+    "category": "comfort",
+    "price_coins": 70,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__nursery",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Nursery nook",
+    "category": "family",
+    "price_coins": 280,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__terrain",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 44,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__viewing",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Viewing window",
+    "category": "viewing",
+    "price_coins": 210,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__sign",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Species sign",
+    "category": "decoration",
+    "price_coins": 61,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__border",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Planted border",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__shade",
+    "species_id": "giraffe",
+    "name": "Acacia Heights Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 158,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "giraffe__signature-1",
+    "species_id": "giraffe",
+    "name": "High browse rack",
+    "category": "species_enrichment",
+    "price_coins": 300,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "high_browse",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "giraffe__signature-2",
+    "species_id": "giraffe",
+    "name": "Shade canopy",
+    "category": "species_enrichment",
+    "price_coins": 380,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "neck_turn",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "giraffe__signature-3",
+    "species_id": "giraffe",
+    "name": "Scent post",
+    "category": "species_enrichment",
+    "price_coins": 460,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "plains-zebra__shelter",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Shelter",
+    "category": "comfort",
+    "price_coins": 270,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__feeder",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Species feeder",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__water",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Drinking station",
+    "category": "care",
+    "price_coins": 90,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__keeper-gate",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Keeper gate",
+    "category": "access",
+    "price_coins": 75,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__privacy",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Privacy planting",
+    "category": "comfort",
+    "price_coins": 82,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__rest",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Resting spot",
+    "category": "comfort",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__nursery",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Nursery nook",
+    "category": "family",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__terrain",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 38,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__viewing",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Viewing window",
+    "category": "viewing",
+    "price_coins": 180,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__sign",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Species sign",
+    "category": "decoration",
+    "price_coins": 52,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__border",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Planted border",
+    "category": "decoration",
+    "price_coins": 38,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__shade",
+    "species_id": "plains-zebra",
+    "name": "Stripe Plains Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 135,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "plains-zebra__signature-1",
+    "species_id": "plains-zebra",
+    "name": "Dust patch",
+    "category": "species_enrichment",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "trot",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "plains-zebra__signature-2",
+    "species_id": "plains-zebra",
+    "name": "Browse pile",
+    "category": "species_enrichment",
+    "price_coins": 320,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "graze",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "plains-zebra__signature-3",
+    "species_id": "plains-zebra",
+    "name": "Shade grove",
+    "category": "species_enrichment",
+    "price_coins": 400,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "dust_roll",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "arctic-fox__shelter",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Shelter",
+    "category": "comfort",
+    "price_coins": 270,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__feeder",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Species feeder",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__water",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Drinking station",
+    "category": "care",
+    "price_coins": 90,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__keeper-gate",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Keeper gate",
+    "category": "access",
+    "price_coins": 75,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__privacy",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Privacy planting",
+    "category": "comfort",
+    "price_coins": 82,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__rest",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Resting spot",
+    "category": "comfort",
+    "price_coins": 60,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__nursery",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Nursery nook",
+    "category": "family",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__terrain",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 38,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__viewing",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Viewing window",
+    "category": "viewing",
+    "price_coins": 180,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__sign",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Species sign",
+    "category": "decoration",
+    "price_coins": 52,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__border",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Planted border",
+    "category": "decoration",
+    "price_coins": 38,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__shade",
+    "species_id": "arctic-fox",
+    "name": "Frostberry Ridge Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 135,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "arctic-fox__signature-1",
+    "species_id": "arctic-fox",
+    "name": "Dig patch",
+    "category": "species_enrichment",
+    "price_coins": 240,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "listen",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "arctic-fox__signature-2",
+    "species_id": "arctic-fox",
+    "name": "Scent log",
+    "category": "species_enrichment",
+    "price_coins": 320,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "pounce",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "arctic-fox__signature-3",
+    "species_id": "arctic-fox",
+    "name": "Puzzle mound",
+    "category": "species_enrichment",
+    "price_coins": 400,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "curl_sleep",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "snow-leopard__shelter",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Shelter",
+    "category": "comfort",
+    "price_coins": 315,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shelter_slots",
+      "value": 4
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shelter",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__feeder",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Species feeder",
+    "category": "care",
+    "price_coins": 122,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "feed_slots",
+      "value": 4
+    },
+    "behaviour": "feed",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "feeder",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__water",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Drinking station",
+    "category": "care",
+    "price_coins": 105,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "water_slots",
+      "value": 4
+    },
+    "behaviour": "drink",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "water",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__keeper-gate",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Keeper gate",
+    "category": "access",
+    "price_coins": 88,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "keeper_access",
+      "value": 1
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "keeper-gate",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__privacy",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Privacy planting",
+    "category": "comfort",
+    "price_coins": 96,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "privacy",
+      "value": 15
+    },
+    "behaviour": "retreat",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "privacy",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__rest",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Resting spot",
+    "category": "comfort",
+    "price_coins": 70,
+    "footprint_tiles": [
+      2,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "rest_slots",
+      "value": 2
+    },
+    "behaviour": "rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "rest",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__nursery",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Nursery nook",
+    "category": "family",
+    "price_coins": 280,
+    "footprint_tiles": [
+      3,
+      2
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "nursery_capacity",
+      "value": 2
+    },
+    "behaviour": "baby_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "nursery",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__terrain",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Habitat terrain patch",
+    "category": "terrain",
+    "price_coins": 44,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "terrain_match",
+      "value": 10
+    },
+    "behaviour": "explore",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "terrain",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__viewing",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Viewing window",
+    "category": "viewing",
+    "price_coins": 210,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "boundary",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "view_quality",
+      "value": 10
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "viewing",
+    "upgrade_level": 2,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__sign",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Species sign",
+    "category": "decoration",
+    "price_coins": 61,
+    "footprint_tiles": [
+      1,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "education",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "sign",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__border",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Planted border",
+    "category": "decoration",
+    "price_coins": 44,
+    "footprint_tiles": [
+      2,
+      1
+    ],
+    "placement": "outside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "appearance",
+      "value": 5
+    },
+    "behaviour": "none",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "border",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__shade",
+    "species_id": "snow-leopard",
+    "name": "Cloudpeak Sheltered canopy",
+    "category": "comfort",
+    "price_coins": 158,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "shade",
+      "value": 15
+    },
+    "behaviour": "shade_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": "shade",
+    "upgrade_level": 1,
+    "capacity_rule": "Do not add animal capacity directly. Recalculate usable area and service capacities."
+  },
+  {
+    "id": "snow-leopard__signature-1",
+    "species_id": "snow-leopard",
+    "name": "Rock ledge",
+    "category": "species_enrichment",
+    "price_coins": 300,
+    "footprint_tiles": [
+      3,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "climb",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 1,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "snow-leopard__signature-2",
+    "species_id": "snow-leopard",
+    "name": "Scent post",
+    "category": "species_enrichment",
+    "price_coins": 380,
+    "footprint_tiles": [
+      4,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "tail_wrap",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 2,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  },
+  {
+    "id": "snow-leopard__signature-3",
+    "species_id": "snow-leopard",
+    "name": "Suspended forage",
+    "category": "species_enrichment",
+    "price_coins": 460,
+    "footprint_tiles": [
+      5,
+      3
+    ],
+    "placement": "inside",
+    "rotations": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "effect": {
+      "type": "enrichment_variety",
+      "value": 1
+    },
+    "behaviour": "ledge_rest",
+    "art_status": "briefed_not_individual_sprite",
+    "source_template": null,
+    "upgrade_level": 3,
+    "capacity_rule": "Enrichment changes activity and variety, never bypasses space or keeper access."
+  }
+]

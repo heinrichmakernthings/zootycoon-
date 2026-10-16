@@ -1,13 +1,15 @@
 {
   "name": "cutise-zoo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "A little zoo. A lot of personality. A cosy isometric zoo tycoon for the browser.",
   "scripts": {
     "dev": "node tools/serve.js",
     "test": "node --test test/*.test.js",
     "format": "prettier --write \"js/**/*.js\" \"tools/**/*.js\" \"test/**/*.js\" \"!js/art.js\"",
-    "zoo-art": "node tools/art.js"
+    "zoo-art": "node tools/art.js",
+    "pack": "node tools/pack.js",
+    "validate-pack": "python3 pack/tools/validate-pack.py"
   },
   "devDependencies": {
     "prettier": "3.3.3"
