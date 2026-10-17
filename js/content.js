@@ -408,10 +408,29 @@
       'chilean-flamingo': 0.8,
     },
     roomy: 50, // tiles per slot at or above which an animal keeps clear of fences when roaming
+    // How each species walks, drawn in code: hop (bounce and squash), waddle (side to side), amble
+    // (slow sway) or trot (the default bob). Everything also breathes gently while it stands still.
+    gait: {
+      rabbit: 'hop',
+      'pygmy-goat': 'hop',
+      meerkat: 'hop',
+      'african-penguin': 'waddle',
+      'aldabra-giant-tortoise': 'waddle',
+      capybara: 'waddle',
+      'african-elephant': 'amble',
+      giraffe: 'amble',
+      'malayan-tapir': 'amble',
+      alpaca: 'amble',
+      'two-toed-sloth': 'amble',
+    },
+    // Pose pictures (batch 3) and the behaviours that show them. A pose that isn't drawn yet falls back
+    // to the standing picture.
+    sleep: ['rest', 'shade_rest', 'curl_sleep', 'den_sleep', 'baby_rest', 'ledge_rest', 'one_leg_rest', 'roost'],
+    eat: ['feed', 'graze', 'nibble', 'chew', 'forage'],
+    swimmers: ['capybara', 'asian-small-clawed-otter', 'african-penguin', 'malayan-tapir'],
+    stride: 220, // ms per step when swapping between the standing and the -walk picture
   };
 
-  // Every picture the game can use, by key (docs/ART-BRIEF.md and docs/ART-BRIEF-BATCH-2.md).
-  // Batch 1 is delivered; batch 2 is briefed. A key draws its emoji or flat colour until its file exists.
   // Visitors: one picture per person, put together on the paths into parties that walk as a group.
   // h is how much of its 256×256 picture the person stands (an adult 0.86, a five-year-old 0.5), so
   // every picture is drawn at one size and a child still comes up to a parent's waist. The emoji
@@ -454,6 +473,8 @@
     { id: 'wheelchair-family', weight: 1, who: [['guest-wheelchair'], ADULT, KID] },
     { id: 'wheelchair-friends', weight: 1, who: [['guest-wheelchair'], [...TEEN, ...ADULT]] },
   ];
+  // Every picture the game can use, by key (docs/ART-BRIEF.md and docs/ART-BRIEF-BATCH-2.md, -3-MOTION.md).
+  // Batch 1 is delivered; batches 2 and 3 are briefed. A key draws its emoji or flat colour until its file exists.
   const ICONS = ['icon-coins', 'icon-visitors', 'icon-care', 'icon-day', 'icon-build', 'icon-animals', 'icon-staff', 'icon-zoo'];
   function artKeys() {
     const batch1 = [],
@@ -482,7 +503,12 @@
     }
     for (const k in BUILDS) batch1.push('build-' + k);
     for (const z in ZONES) batch2.push('ground-' + z.toLowerCase());
-    return { batch1, batch2, all: [...batch1, ...batch2] };
+    // batch 3: poses for gentle animation (docs/ART-BRIEF-BATCH-3-MOTION.md)
+    const batch3 = [];
+    for (const sp in SPECIES) batch3.push(`animal-${sp}-walk`, `animal-${sp}-sleep`, `animal-${sp}-eat`, `animal-${sp}-baby-sleep`);
+    for (const sp of LOCOMOTION.swimmers) batch3.push(`animal-${sp}-swim`);
+    for (const k of [...GUESTS, 'staff-keeper', 'staff-guide']) batch3.push(k + '-walk');
+    return { batch1, batch2, batch3, all: [...batch1, ...batch2, ...batch3] };
   }
 
   const DATA = {

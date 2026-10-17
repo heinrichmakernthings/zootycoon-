@@ -508,15 +508,27 @@ const render = {
         const size = TW * big * (a.stage === 'baby' ? 0.5 : a.stage === 'juvenile' ? 0.75 : 1);
         const calm = prefs.reduceMotion;
         const hang = D.LOCOMOTION.hangers.includes(a.sp) && cr.lift > 0.3;
-        const hop =
-          calm || hang || (D.LOCOMOTION.speed[a.sp] || 1) < 0.5 ? 0 : cr.moving ? Math.abs(Math.sin(now / 130 + a.id)) * TW * 0.06 : 0;
+        const art = animalPoseKey(a, cr, now);
+        // the walk, in code: a hop, a waddle, a slow amble or a trot; standing still, a gentle breath
+        const gait = D.LOCOMOTION.gait[a.sp] || 'trot';
+        let hop = 0,
+          tilt = 0,
+          land = 0,
+          breathe = 1;
+        if (!calm && !hang && cr.moving) {
+          const ph = now / { hop: 170, waddle: 190, amble: 320, trot: 130 }[gait] + a.id;
+          const lift = Math.abs(Math.sin(ph));
+          hop = lift * TW * { hop: 0.13, waddle: 0.02, amble: 0.015, trot: 0.06 }[gait];
+          tilt = gait === 'waddle' ? Math.sin(ph) * 0.09 : gait === 'amble' ? Math.sin(ph) * 0.03 : 0;
+          land = gait === 'hop' ? (1 - lift) * 0.08 : 0; // squash as it lands
+        } else if (!calm && !cr.moving) breathe = 1 + Math.sin(now / (art.endsWith('-sleep') ? 1100 : 700) + a.id) * 0.018;
         const [X, Y] = this.toScreen(cr.wx, cr.wy);
         const up = Math.max(0, cr.lift || 0) * (hang ? size * 1.15 : TW * 0.5);
-        const sink = Math.max(0, -(cr.lift || 0)) * size * 0.35;
+        // a swimming pose is drawn low in the water already, so it only dips a little
+        const sink = Math.max(0, -(cr.lift || 0)) * size * (art.endsWith('-swim') ? 0.08 : 0.35);
         if (sink < size * 0.05) this.shadow(X, Y, size * 0.3 * (1 - Math.min(0.5, up / TW)));
         const since = now - cr.helloNow;
         const squish = !calm && since < 600 ? 1 + Math.sin(since / 60) * 0.08 : 1;
-        const art = animalArtKey(a);
         const c = this.ctx;
         c.save();
         if (sink > 0) {
@@ -531,7 +543,8 @@ const render = {
           c.scale(1, -1);
         } else {
           c.translate(X, Y - hop - up + sink);
-          c.scale(squish, 2 - squish);
+          c.rotate(tilt);
+          c.scale(squish * (1 + land), (2 - squish) * (1 - land) * breathe);
         }
         this.sprite(art, sp.emoji, 0, 0, size, cr.flip);
         c.restore();
@@ -672,7 +685,10 @@ const render = {
             const bob = prefs.reduceMotion ? 0 : Math.abs(Math.sin(now / (m.h < 0.6 ? 110 : 160) + m.phase)) * this.TW * 0.03;
             this.shadow(X, Y, this.TW * 0.07 * Math.max(0.6, m.h));
             const img = this.image(m.key);
-            if (img && img.complete && img.naturalWidth) this.sprite(m.key, '', X, Y - bob, this.TW * 0.5, flip);
+            // two-step walk once the -walk picture is in (batch 3)
+            const step = Math.floor(now / (D.LOCOMOTION.stride * 1.3) + m.phase) % 2 ? this.image(m.key + '-walk') : null;
+            const key = step && step.complete && step.naturalWidth ? m.key + '-walk' : m.key;
+            if (img && img.complete && img.naturalWidth) this.sprite(key, '', X, Y - bob, this.TW * 0.5, flip);
             else this.sprite('', m.face, X, Y - bob, this.TW * 0.4 * m.h);
           },
         ]);
@@ -775,6 +791,22 @@ function animalArtKey(a) {
   if (a.stage !== 'adult' && ZOO_ART_READY[base + '-baby']) return base + '-baby';
   if (a.stage === 'adult' && a.sex === 'f' && ZOO_ART_READY[base + '-female']) return base + '-female';
   return base;
+}
+// The picture for what an animal is doing right now (batch 3 poses): a second stride while walking,
+// and once it has arrived, a swim, sleep or eat pose. A pose that isn't drawn yet stays standing.
+function animalPoseKey(a, cr, now) {
+  const L = D.LOCOMOTION,
+    still = animalArtKey(a),
+    base = 'animal-' + a.sp;
+  const pose = (k) => (ZOO_ART_READY[k] && render.image(k) && render.image(k).complete ? k : still);
+  const act = a.act && !cr.moving ? a.act.type : null;
+  if (still === base + '-baby') return L.sleep.includes(act) ? pose(base + '-baby-sleep') : still;
+  if (still !== base) return still; // juveniles and the peahen have no poses yet
+  if (cr.moving) return Math.floor(now / (L.stride / (L.speed[a.sp] || 1)) + a.id) % 2 ? pose(base + '-walk') : still;
+  if ((cr.lift || 0) < -0.3 && L.swimmers.includes(a.sp)) return pose(base + '-swim');
+  if (L.sleep.includes(act) && !(L.hangers.includes(a.sp) && cr.lift > 0.3)) return pose(base + '-sleep');
+  if (L.eat.includes(act)) return pose(base + '-eat');
+  return still;
 }
 // One party from D.PARTIES, by weight, with nobody in it twice.
 function pickParty() {

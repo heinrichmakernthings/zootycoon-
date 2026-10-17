@@ -1,0 +1,1124 @@
+[
+  {
+    "group": "Second stride",
+    "key": "animal-capybara-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult capybara mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-capybara.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-capybara-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult capybara lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-capybara.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-capybara-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult capybara with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-capybara.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-red-panda-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult red panda mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-red-panda.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-red-panda-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult red panda curled up asleep with its big ringed tail wrapped over its face. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-red-panda.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-red-panda-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult red panda with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-red-panda.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-asian-small-clawed-otter-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Asian small-clawed otter mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-asian-small-clawed-otter.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-asian-small-clawed-otter-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Asian small-clawed otter lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-asian-small-clawed-otter.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-asian-small-clawed-otter-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Asian small-clawed otter with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-asian-small-clawed-otter.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-african-penguin-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult African penguin mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-african-penguin.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-african-penguin-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult African penguin dozing standing up, flippers relaxed, beak tucked down onto its chest, eyes closed. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-african-penguin.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-african-penguin-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult African penguin with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-african-penguin.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-meerkat-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult meerkat mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-meerkat.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-meerkat-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult meerkat curled up in a ball, tail wrapped round its nose. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-meerkat.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-meerkat-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult meerkat with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-meerkat.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-fennec-fox-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult fennec fox mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-fennec-fox.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-fennec-fox-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult fennec fox lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-fennec-fox.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-fennec-fox-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult fennec fox with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-fennec-fox.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-rabbit-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult domestic rabbit mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-rabbit.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-rabbit-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult domestic rabbit lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-rabbit.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-rabbit-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult domestic rabbit with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-rabbit.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-pygmy-goat-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult pygmy goat mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-pygmy-goat.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-pygmy-goat-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult pygmy goat lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-pygmy-goat.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-pygmy-goat-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult pygmy goat with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-pygmy-goat.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-alpaca-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult alpaca mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-alpaca.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-alpaca-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult alpaca lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-alpaca.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-alpaca-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult alpaca with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-alpaca.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-aldabra-giant-tortoise-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Aldabra giant tortoise mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-aldabra-giant-tortoise.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-aldabra-giant-tortoise-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Aldabra giant tortoise resting with legs and head drawn half into the shell, eyes closed. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-aldabra-giant-tortoise.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-aldabra-giant-tortoise-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Aldabra giant tortoise with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-aldabra-giant-tortoise.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-chilean-flamingo-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Chilean flamingo mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-chilean-flamingo.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-chilean-flamingo-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Chilean flamingo asleep standing on one leg, neck curled back and head tucked into its feathers. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-chilean-flamingo.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-chilean-flamingo-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Chilean flamingo with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-chilean-flamingo.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-indian-peafowl-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Indian peafowl mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-indian-peafowl.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-indian-peafowl-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Indian peafowl roosting, sitting down with legs tucked under and the long train folded neatly behind, eyes closed. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-indian-peafowl.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-indian-peafowl-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Indian peafowl with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-indian-peafowl.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-ring-tailed-lemur-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult ring-tailed lemur mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-ring-tailed-lemur.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-ring-tailed-lemur-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult ring-tailed lemur lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-ring-tailed-lemur.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-ring-tailed-lemur-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult ring-tailed lemur with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-ring-tailed-lemur.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-two-toed-sloth-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult two-toed sloth mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-two-toed-sloth.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-two-toed-sloth-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult two-toed sloth curled into a tight furry ball, face tucked in, claws hooked together (it sleeps on the ground in this pose; hanging is done in code). Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-two-toed-sloth.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-two-toed-sloth-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult two-toed sloth with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-two-toed-sloth.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-malayan-tapir-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Malayan tapir mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-malayan-tapir.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-malayan-tapir-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Malayan tapir lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-malayan-tapir.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-malayan-tapir-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Malayan tapir with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-malayan-tapir.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-african-elephant-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult African elephant mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-african-elephant.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-african-elephant-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult African elephant lying on its side asleep, trunk curled loosely in front, ears relaxed. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-african-elephant.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-african-elephant-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult African elephant with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-african-elephant.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-giraffe-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult giraffe mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-giraffe.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-giraffe-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult giraffe lying down with legs folded beneath, neck curved back so the head rests on its rump, eyes closed. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-giraffe.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-giraffe-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult giraffe with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-giraffe.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-plains-zebra-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult plains zebra mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-plains-zebra.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-plains-zebra-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult plains zebra lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-plains-zebra.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-plains-zebra-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult plains zebra with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-plains-zebra.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-arctic-fox-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Arctic fox mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-arctic-fox.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-arctic-fox-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Arctic fox lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-arctic-fox.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-arctic-fox-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Arctic fox with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-arctic-fox.webp"
+  },
+  {
+    "group": "Second stride",
+    "key": "animal-snow-leopard-walk",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult snow leopard mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.",
+    "reference": "assets/animal-snow-leopard.webp"
+  },
+  {
+    "group": "Sleep",
+    "key": "animal-snow-leopard-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult snow leopard lying stretched out, chin on its paws, long thick tail wrapped round its body. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.",
+    "reference": "assets/animal-snow-leopard.webp"
+  },
+  {
+    "group": "Eat",
+    "key": "animal-snow-leopard-eat",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult snow leopard with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.",
+    "reference": "assets/animal-snow-leopard.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-capybara-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby capybara (smaller rounded muzzle and short legs. nestle beside parent and make short follow bursts) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-capybara-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-red-panda-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby red panda (fluffy round head, soft ringed tail. follow a low branch route and curl beside parent) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-red-panda-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-asian-small-clawed-otter-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby Asian small-clawed otter (shorter body and tail, cream chin. stay near dry den, nuzzle and practise paddling) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-asian-small-clawed-otter-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-african-penguin-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby African penguin (fluffy grey chick with dark bill. no adult banding. wobble and nest beside parent) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-african-penguin-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-meerkat-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby meerkat (tiny sandy pup with dark eye patches. peek out of burrow and copy a lookout pose) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-meerkat-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-fennec-fox-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby fennec fox (tiny cream kit with oversized ears. curl near den and make a small playful pounce) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-fennec-fox-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-rabbit-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby domestic rabbit (round fluffy kit, shorter ears. tiny hops and sibling snuggle) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-rabbit-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-pygmy-goat-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby pygmy goat (small kid with short horns or horn buds. springy hop and short parent-follow walk) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-pygmy-goat-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-alpaca-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby alpaca (fluffy cria with long thin legs and larger head. gentle follow and curious ear twitch) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-alpaca-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-aldabra-giant-tortoise-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby Aldabra giant tortoise (tiny hatchling with a domed shell. slow independent exploration near a safe retreat) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-aldabra-giant-tortoise-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-chilean-flamingo-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby Chilean flamingo (grey-white fluffy chick with short bill and legs, not a pink miniature adult. nest wobble) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-chilean-flamingo-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-indian-peafowl-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby Indian peafowl (tan-brown peachick, no display train. short quick follow steps. adult female requires separate brown-plumage art) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-indian-peafowl-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-ring-tailed-lemur-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby ring-tailed lemur (small grey infant with large eyes and ringed tail. cling or stay close to parent) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-ring-tailed-lemur-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-two-toed-sloth-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby two-toed sloth (small fluffy infant with round face. cling to parent and practise tiny leaf reaches) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-two-toed-sloth-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-malayan-tapir-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby Malayan tapir (brown calf with cream stripes and spots. do not use the adult white saddle. follow and sniff) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-malayan-tapir-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-african-elephant-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby African elephant (round calf with short trunk and no long adult tusks. trunk wobble and parent follow) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-african-elephant-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-giraffe-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby giraffe (small calf with long thin legs and shorter neck proportions. careful steps and curious head tilt) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-giraffe-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-plains-zebra-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby plains zebra (small foal with large ears and shorter muzzle. soft juvenile stripe treatment and follow walk) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-plains-zebra-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-arctic-fox-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby Arctic fox (round fluffy kit with short muzzle and small ears. tiny pounce and parent-side nap) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-arctic-fox-baby.webp"
+  },
+  {
+    "group": "Baby sleep",
+    "key": "animal-snow-leopard-baby-sleep",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The baby snow leopard (round cub with oversized paws and long soft tail. low-ledge play and parent-side tail curl) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.",
+    "reference": "assets/animal-snow-leopard-baby.webp"
+  },
+  {
+    "group": "Swim",
+    "key": "animal-capybara-swim",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult capybara swimming, facing LEFT: head, back above the water, the rest hidden. NO water drawn: the picture ends in a soft straight horizontal waterline along the bottom edge (the game adds the pool and ripple).",
+    "reference": "assets/animal-capybara.webp"
+  },
+  {
+    "group": "Swim",
+    "key": "animal-asian-small-clawed-otter-swim",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Asian small-clawed otter swimming, facing LEFT: head, back above the water, the rest hidden. NO water drawn: the picture ends in a soft straight horizontal waterline along the bottom edge (the game adds the pool and ripple).",
+    "reference": "assets/animal-asian-small-clawed-otter.webp"
+  },
+  {
+    "group": "Swim",
+    "key": "animal-african-penguin-swim",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult African penguin swimming, facing LEFT: head, back and a flipper above the water, the rest hidden. NO water drawn: the picture ends in a soft straight horizontal waterline along the bottom edge (the game adds the pool and ripple).",
+    "reference": "assets/animal-african-penguin.webp"
+  },
+  {
+    "group": "Swim",
+    "key": "animal-malayan-tapir-swim",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The adult Malayan tapir swimming, facing LEFT: head, back above the water, the rest hidden. NO water drawn: the picture ends in a soft straight horizontal waterline along the bottom edge (the game adds the pool and ripple).",
+    "reference": "assets/animal-malayan-tapir.webp"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-mum-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-mum.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-dad-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-dad.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-mum-2-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-mum-2.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-dad-2-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-dad-2.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-grandma-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-grandma.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-grandad-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-grandad.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-teen-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-teen.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-teen-2-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-teen-2.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-girl-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-girl.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-boy-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-boy.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-girl-2-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-girl-2.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-boy-2-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-boy-2.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-toddler-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-toddler.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-pram-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas. The pram stays put; only she steps.",
+    "reference": "assets/guest-pram.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-shoulders-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/guest-shoulders.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "guest-wheelchair-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas. Her hands further round the wheel rims, mid-push.",
+    "reference": "assets/guest-wheelchair.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "staff-keeper-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/staff-keeper.webp (from batch 2)"
+  },
+  {
+    "group": "People: second stride",
+    "key": "staff-guide-walk",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.",
+    "reference": "assets/staff-guide.webp (from batch 2)"
+  }
+]

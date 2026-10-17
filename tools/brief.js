@@ -1,6 +1,7 @@
-// Writes the batch 2 art brief from the game's own data, so every key, size and prompt matches:
-//   docs/ART-BRIEF-BATCH-2.md            for a person working in ChatGPT
-//   docs/art-production/batch-2.json     the same list for Codex or a script ({key, size, transparent, prompt})
+// Writes the art briefs for batches 2 and 3 from the game's own data, so every key, size and prompt matches:
+//   docs/ART-BRIEF-BATCH-2.md            missing stills, for a person working in ChatGPT
+//   docs/ART-BRIEF-BATCH-3-MOTION.md     poses for gentle animation
+//   docs/art-production/batch-2.json and batch-3.json   the same lists for Codex or a script
 // Usage: node tools/brief.js
 const fs = require('fs');
 const path = require('path');
@@ -61,6 +62,8 @@ const ICONS = {
   'icon-zoo': 'a folded park map with a path drawn on it',
 };
 
+// "Domestic rabbit" → "domestic rabbit", but "African penguin" keeps its capital.
+const low = (w) => (/^(African|Aldabra|Asian|Chilean|Indian|Malayan|Arctic)$/.test(w) ? w : w.toLowerCase());
 const out = [];
 const add = (group, key, size, transparent, line, extra = {}) =>
   out.push({
@@ -82,7 +85,7 @@ for (const sp of Object.values(D.SPECIES))
     'portrait-' + sp.id,
     [768, 512],
     false,
-    `A close-up portrait of an adult ${sp.name.toLowerCase()} (${sp.adult.toLowerCase()}), relaxed and content in its home "${sp.habitat}" (${sp.zone.toLowerCase()}), shown doing what it loves: ${sp.signature}. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.`,
+    `A close-up portrait of an adult ${sp.name.replace(/^\w+/, low)} (${sp.adult.toLowerCase()}), relaxed and content in its home "${sp.habitat}" (${sp.zone.toLowerCase()}), shown doing what it loves: ${sp.signature}. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.`,
     { reference: 'pack/' + sp.concept }
   );
 for (const sp of Object.values(D.SPECIES))
@@ -91,7 +94,7 @@ for (const sp of Object.values(D.SPECIES))
     `animal-${sp.id}-juvenile`,
     [512, 512],
     true,
-    `A half-grown ${sp.name.toLowerCase()}, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: ${sp.adult.toLowerCase()}). Match the existing adult and baby sprites (assets/animal-${sp.id}.webp and -baby.webp).`,
+    `A half-grown ${sp.name.replace(/^\w+/, low)}, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: ${sp.adult.toLowerCase()}). Match the existing adult and baby sprites (assets/animal-${sp.id}.webp and -baby.webp).`,
     { reference: `assets/animal-${sp.id}.webp` }
   );
 add(
@@ -108,7 +111,7 @@ for (const sp of Object.values(D.SPECIES))
     'item-sign-' + sp.id,
     [384, 384],
     true,
-    `A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a ${sp.name.toLowerCase()} and a small decoration from its home "${sp.habitat}" (${sp.zone.toLowerCase()}). Blank wood where text would go.`,
+    `A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a ${sp.name.replace(/^\w+/, low)} and a small decoration from its home "${sp.habitat}" (${sp.zone.toLowerCase()}). Blank wood where text would go.`,
     { reference: 'assets/item-sign.webp' }
   );
 add(
@@ -265,3 +268,165 @@ fs.writeFileSync(
   ) + '\n'
 );
 console.log(`Batch 2 brief: ${out.length} pictures in ${groups.length} groups.`);
+
+// ---------- batch 3: poses for gentle animation ----------
+// Light movement, mostly animals. Code already does the in-between motion (breathing, hops, waddles,
+// sways, bobbing, squash when greeted); these stills are the few poses code can't fake.
+const L = D.LOCOMOTION;
+const SLEEPS = {
+  'chilean-flamingo': 'asleep standing on one leg, neck curled back and head tucked into its feathers',
+  'african-penguin': 'dozing standing up, flippers relaxed, beak tucked down onto its chest, eyes closed',
+  'indian-peafowl': 'roosting, sitting down with legs tucked under and the long train folded neatly behind, eyes closed',
+  giraffe: 'lying down with legs folded beneath, neck curved back so the head rests on its rump, eyes closed',
+  'african-elephant': 'lying on its side asleep, trunk curled loosely in front, ears relaxed',
+  'aldabra-giant-tortoise': 'resting with legs and head drawn half into the shell, eyes closed',
+  'two-toed-sloth':
+    'curled into a tight furry ball, face tucked in, claws hooked together (it sleeps on the ground in this pose; hanging is done in code)',
+  meerkat: 'curled up in a ball, tail wrapped round its nose',
+  'snow-leopard': 'lying stretched out, chin on its paws, long thick tail wrapped round its body',
+  'red-panda': 'curled up asleep with its big ringed tail wrapped over its face',
+};
+const out3 = [];
+const add3 = (group, key, size, line, reference) =>
+  out3.push({
+    group,
+    key,
+    size,
+    transparent: true,
+    prompt:
+      `${STYLE} ${CUTOUT} SAME character as the reference image: same design, markings, colours, proportions, line quality and light; only the pose changes. ${line}`
+        .replace(/\s+/g, ' ')
+        .trim(),
+    line,
+    reference,
+  });
+for (const sp of Object.values(D.SPECIES)) {
+  const name = sp.name.replace(/^\w+/, low),
+    ref = `assets/animal-${sp.id}.webp`;
+  add3(
+    'Second stride',
+    `animal-${sp.id}-walk`,
+    [512, 512],
+    `The adult ${name} mid-stride, facing LEFT, the OTHER legs forward compared with the reference, so swapping between the two reads as walking. Same size and position in the canvas, feet on the bottom edge.`,
+    ref
+  );
+  add3(
+    'Sleep',
+    `animal-${sp.id}-sleep`,
+    [512, 512],
+    `The adult ${name} ${SLEEPS[sp.id] || 'lying down asleep, curled up the way it naturally rests, eyes closed, relaxed and content'}. Facing LEFT, resting on the bottom edge of the canvas, about the same width as the standing reference.`,
+    ref
+  );
+  add3(
+    'Eat',
+    `animal-${sp.id}-eat`,
+    [512, 512],
+    `The adult ${name} with its head down, eating happily from a small pile of its favourite food at its front feet (food included in the picture, small). Facing LEFT, standing on the bottom edge.`,
+    ref
+  );
+}
+for (const sp of Object.values(D.SPECIES))
+  add3(
+    'Baby sleep',
+    `animal-${sp.id}-baby-sleep`,
+    [512, 512],
+    `The baby ${sp.name.replace(/^\w+/, low)} (${sp.baby.toLowerCase().replace(/\.$/, '')}) curled up fast asleep, eyes closed, extra round and soft. Facing LEFT, resting on the bottom edge.`,
+    `assets/animal-${sp.id}-baby.webp`
+  );
+for (const id of L.swimmers) {
+  const sp = D.SPECIES[id];
+  add3(
+    'Swim',
+    `animal-${id}-swim`,
+    [512, 512],
+    `The adult ${sp.name.replace(/^\w+/, low)} swimming, facing LEFT: head, back${id === 'african-penguin' ? ' and a flipper' : ''} above the water, the rest hidden. NO water drawn: the picture ends in a soft straight horizontal waterline along the bottom edge (the game adds the pool and ripple).`,
+    `assets/animal-${id}.webp`
+  );
+}
+for (const k of [...D.GUESTS, 'staff-keeper', 'staff-guide'])
+  add3(
+    'People: second stride',
+    k + '-walk',
+    [256, 256],
+    `The same person as the reference, the OTHER foot forward and arms swung the other way, so swapping between the two reads as walking. Same size and position in the canvas.${k === 'guest-pram' ? ' The pram stays put; only she steps.' : k === 'guest-wheelchair' ? ' Her hands further round the wheel rims, mid-push.' : ''}`,
+    `assets/${k}.webp (from batch 2)`
+  );
+
+const keys3 = D.artKeys().batch3;
+const miss3 = keys3.filter((k) => !out3.some((o) => o.key === k));
+const extra3 = out3.filter((o) => !keys3.includes(o.key)).map((o) => o.key);
+if (miss3.length || extra3.length) throw new Error(`batch 3 brief and game disagree: missing ${miss3} extra ${extra3}`);
+const groups3 = [...new Set(out3.map((o) => o.group))];
+const md3 = [
+  '# Cutise Zoo: art brief, batch 3 (gentle animation)',
+  '',
+  `Light, cosy movement, mostly for the animals. **${out3.length} pictures**, each a single still in a new pose. Generated by \`node tools/brief.js\` from the game data; the same list with full prompts is in \`docs/art-production/batch-3.json\`.`,
+  '',
+  '## How the movement works',
+  '',
+  'Nothing here is a frame-by-frame sprite sheet. The game already moves everything in code, and swaps to a pose picture when one exists:',
+  '',
+  '| Already done in code (draw nothing for it) | Swaps to a pose picture from this brief |',
+  '| --- | --- |',
+  '| Gentle breathing while standing or asleep | **Second stride** (`-walk`): alternates with the standing picture as it walks, a two-step walk cycle |',
+  `| How each species walks: hops for ${Object.keys(L.gait)
+    .filter((k) => L.gait[k] === 'hop')
+    .map((k) => D.SPECIES[k].name.replace(/^\w+/, low))
+    .join(', ')}; a waddle for ${Object.keys(L.gait)
+    .filter((k) => L.gait[k] === 'waddle')
+    .map((k) => D.SPECIES[k].name.replace(/^\w+/, low))
+    .join(', ')}; a slow sway for ${Object.keys(L.gait)
+    .filter((k) => L.gait[k] === 'amble')
+    .map((k) => D.SPECIES[k].name.replace(/^\w+/, low))
+    .join(', ')}; a trot for the rest | **Sleep** (\`-sleep\`): when it settles on a bed, in a den or in the shade |`,
+  '| Climbing up onto platforms, hanging (the sloth, flipped in code), sinking into pools with a ripple | **Eat** (`-eat`): at a feeder or grazing |',
+  '| A squish when you tap an animal; hearts and thought bubbles | **Swim** (`-swim`): the four swimmers in pools and wallows |',
+  "| Visitors bob as they walk, children a little quicker | **Baby sleep** and the visitors' **second stride** |",
+  '',
+  'Until a pose arrives the game keeps using the standing picture, so these can come in any order, one at a time.',
+  '',
+  '## Making them consistent',
+  '',
+  'Pose swaps only work if the new picture is plainly the same animal. ChatGPT handles "same character, new pose" well when it can see the original:',
+  '',
+  '1. Upload the reference (the existing sprite named in each row), then paste the style prompt and the row\'s line. Say **"same character, same markings and colours, only the pose changes"**.',
+  "2. Keep the canvas, the scale and the facing (LEFT) exactly as the reference. The animal should take up about the same width; for the second stride, the same height and position, so it doesn't jump when it swaps.",
+  '3. Save as `art-source/<key>.png`, then `python3 tools/optimise-art.py` and `npm run zoo-art`. Before accepting one, flick between it and the reference: if the colours, markings or size jump, regenerate.',
+  '',
+  '## Style prompt (paste first, every time)',
+  '',
+  '> ' + STYLE,
+  '',
+  '**Every picture in this batch:** ' + CUTOUT,
+  '',
+  '## Priority',
+  '',
+  '1. **Sleep** for all 20 adults: animals rest a lot, so this changes the look of a park the most.',
+  '2. **Second stride** for the adults: walking comes alive.',
+  '3. **Swim** for the four swimmers, then **eat**.',
+  '4. **Baby sleep**: the cutest pictures in the game.',
+  "5. **Visitors' second stride**, once batch 2's people are in.",
+  '',
+];
+for (const g of groups3) {
+  const rows = out3.filter((o) => o.group === g);
+  md3.push(`## ${g} (${rows.length})`, '', '| Key | Size | Pose | Reference |', '| --- | --- | --- | --- |');
+  for (const o of rows) md3.push(`| \`${o.key}\` | ${o.size[0]}×${o.size[1]} | ${o.line.replace(/\|/g, '/')} | \`${o.reference}\` |`);
+  md3.push('');
+}
+md3.push(
+  '## Later, if we want more',
+  '',
+  "This is deliberately light. If the park wants more life later: a look-around idle pose per adult, a play pose for each signature item, and visitors stopping to point at the animals. Full 8-frame loops in four directions (the pack's original plan) would need a sprite-sheet tool and is not planned.",
+  ''
+);
+fs.writeFileSync(path.join(root, 'docs/ART-BRIEF-BATCH-3-MOTION.md'), md3.join('\n'));
+fs.writeFileSync(
+  path.join(root, 'docs/art-production/batch-3.json'),
+  JSON.stringify(
+    out3.map(({ group, key, size, transparent, prompt, reference }) => ({ group, key, size, transparent, prompt, reference })),
+    null,
+    2
+  ) + '\n'
+);
+console.log(`Batch 3 brief: ${out3.length} poses in ${groups3.length} groups.`);
