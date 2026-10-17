@@ -488,14 +488,7 @@ test('art: every listed picture exists, has a known key, and nothing in assets/ 
   const vm = require('vm');
   const ctx = {};
   vm.runInNewContext(fs.readFileSync(path.join(root, 'js/art.js'), 'utf8') + ';this.READY=ZOO_ART_READY;', ctx);
-  const keys = new Set(['tile-grass', 'tile-path', 'gate', 'poop', 'logo']);
-  for (const sp in D.SPECIES)
-    keys
-      .add('animal-' + sp)
-      .add('animal-' + sp + '-baby')
-      .add('portrait-' + sp);
-  for (const k in D.ITEMS) keys.add(D.ITEMS[k].template ? 'item-' + D.ITEMS[k].template : 'item-' + k);
-  for (const k in D.BUILDS) keys.add('build-' + k);
+  const keys = new Set(D.artKeys().all);
   for (const [k, file] of Object.entries(ctx.READY)) {
     assert.ok(keys.has(k), `unknown art key ${k}`);
     assert.ok(fs.existsSync(path.join(root, file)), `missing ${file}`);

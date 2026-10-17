@@ -389,7 +389,44 @@
   const CATALOGUE = {}; // species id → its 15 item ids, in pack order
   for (const it of PACK.items) (CATALOGUE[it.sp] = CATALOGUE[it.sp] || []).push(it.id);
 
+  // Every picture the game can use, by key (docs/ART-BRIEF.md and docs/ART-BRIEF-BATCH-2.md).
+  // Batch 1 is delivered; batch 2 is briefed. A key draws its emoji or flat colour until its file exists.
+  const GUESTS = ['guest-1', 'guest-2', 'guest-3', 'guest-4', 'guest-5', 'guest-6'];
+  const ICONS = ['icon-coins', 'icon-visitors', 'icon-care', 'icon-day', 'icon-build', 'icon-animals', 'icon-staff', 'icon-zoo'];
+  function artKeys() {
+    const batch1 = [],
+      batch2 = [
+        'gate',
+        'tile-grass',
+        'tile-path',
+        'poop',
+        'logo',
+        ...GUESTS,
+        'staff-keeper',
+        'staff-guide',
+        'fence-post',
+        'fence-rail-a',
+        'fence-rail-b',
+        ...ICONS,
+        'animal-indian-peafowl-female',
+      ];
+    for (const sp in SPECIES) {
+      batch1.push('animal-' + sp, 'animal-' + sp + '-baby');
+      batch2.push('portrait-' + sp, 'animal-' + sp + '-juvenile', 'item-sign-' + sp);
+    }
+    for (const k in ITEMS) {
+      const key = ITEMS[k].template ? 'item-' + ITEMS[k].template : 'item-' + k;
+      if (!batch1.includes(key)) batch1.push(key);
+    }
+    for (const k in BUILDS) batch1.push('build-' + k);
+    for (const z in ZONES) batch2.push('ground-' + z.toLowerCase());
+    return { batch1, batch2, all: [...batch1, ...batch2] };
+  }
+
   const DATA = {
+    artKeys,
+    GUESTS,
+    ICONS,
     BALANCE,
     STAGES,
     ZONES,

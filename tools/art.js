@@ -7,14 +7,7 @@ const zoo = path.join(__dirname, '..');
 require(path.join(zoo, 'js/pack-data.js'));
 require(path.join(zoo, 'js/content.js'));
 const D = globalThis.ZooData;
-const keys = new Set(['tile-grass', 'tile-path', 'gate', 'poop', 'logo']);
-for (const sp in D.SPECIES)
-  keys
-    .add('animal-' + sp)
-    .add('animal-' + sp + '-baby')
-    .add('portrait-' + sp);
-for (const k in D.ITEMS) keys.add(D.ITEMS[k].template ? 'item-' + D.ITEMS[k].template : 'item-' + k);
-for (const k in D.BUILDS) keys.add('build-' + k);
+const keys = new Set(D.artKeys().all);
 
 const dir = path.join(zoo, 'assets');
 const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => /\.(png|webp)$/.test(f)) : [];

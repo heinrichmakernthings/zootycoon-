@@ -1,0 +1,1025 @@
+[
+  {
+    "group": "Portraits",
+    "key": "portrait-capybara",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult capybara (rounded barrel body, blunt muzzle, tiny ears, warm caramel coat), relaxed and content in its home \"Pondside Meadow\" (wetlands), shown doing what it loves: rests beside a companion at the water edge. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/01-capybara/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-red-panda",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult red panda (rust-red fur, cream face markings, black legs, long ringed tail), relaxed and content in its home \"Canopy Corner\" (woodland), shown doing what it loves: tests a new climbing route then curls its tail around its face. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/02-red-panda/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-asian-small-clawed-otter",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult asian small-clawed otter (long flexible brown body, cream chin, short legs and expressive whiskers), relaxed and content in its home \"Pebblebrook\" (wetlands), shown doing what it loves: rolls a pebble between its paws after swimming. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/03-asian-small-clawed-otter/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-african-penguin",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult african penguin (black back, white belly with dark chest band, short flippers and pink eye patches), relaxed and content in its home \"Pebble Cove\" (coastal), shown doing what it loves: waddles to the pool then makes a quick diving loop. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/04-african-penguin/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-meerkat",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult meerkat (small sandy upright body, dark eye patches and a slender tail), relaxed and content in its home \"Lookout Dunes\" (drylands), shown doing what it loves: stands upright on a rock then digs at a marked sand patch. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/05-meerkat/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-fennec-fox",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult fennec fox (very large pointed ears, tiny cream-sand body and dark nose), relaxed and content in its home \"Moonlit Dunes\" (drylands), shown doing what it loves: tilts oversized ears before pouncing on a forage toy. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/06-fennec-fox/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-rabbit",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult domestic rabbit (soft round body, long upright ears, cream and caramel patches, small cotton tail), relaxed and content in its home \"Clover Patch\" (meadow), shown doing what it loves: hops through a tunnel then performs a joyful little binky. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/07-rabbit/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-pygmy-goat",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult pygmy goat (compact stocky goat, short horns, little beard and cream-brown coat), relaxed and content in its home \"Tumblehill\" (meadow), shown doing what it loves: steps onto a low platform and gives a proud head tilt. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/08-pygmy-goat/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-alpaca",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult alpaca (long neck, fluffy cream fleece, small pointed ears and rounded muzzle), relaxed and content in its home \"Cloud Meadow\" (meadow), shown doing what it loves: chews slowly then rolls in a dust patch. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/09-alpaca/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-aldabra-giant-tortoise",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult aldabra giant tortoise (large domed charcoal shell, sturdy scaled legs and gentle wrinkled head), relaxed and content in its home \"Fern Hollow\" (tropical), shown doing what it loves: stretches its neck toward a low browse station. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/10-aldabra-giant-tortoise/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-chilean-flamingo",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult chilean flamingo (pale pink plumage, long slender legs, curved pink neck and black-tipped bill), relaxed and content in its home \"Blush Lagoon\" (wetlands), shown doing what it loves: preens then balances quietly on one leg. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/11-chilean-flamingo/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-indian-peafowl",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult indian peafowl (royal-blue neck, small crown crest and emerald eye-spotted male train), relaxed and content in its home \"Jewel Garden\" (woodland), shown doing what it loves: opens an eye-spotted train in a clear display area. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/12-indian-peafowl/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-ring-tailed-lemur",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult ring-tailed lemur (grey body, white face, black eye mask and long black-and-white ringed tail), relaxed and content in its home \"Sunbeam Grove\" (tropical), shown doing what it loves: sits with arms spread in a sunny patch then joins a companion. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/13-ring-tailed-lemur/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-two-toed-sloth",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult two-toed sloth (shaggy tan body, rounded dark eye mask and two prominent hooked foreclaws), relaxed and content in its home \"Cloudforest Nook\" (tropical), shown doing what it loves: hangs upside down and slowly reaches for a leaf. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/14-two-toed-sloth/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-malayan-tapir",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult malayan tapir (rounded black body with broad white saddle, short flexible snout and small white-rimmed ears), relaxed and content in its home \"Moonpool Forest\" (tropical), shown doing what it loves: sniffs a trail with its little trunk before entering the pool. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/15-malayan-tapir/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-african-elephant",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult african elephant (large grey rounded body, broad ears, long trunk and clear weight-bearing legs), relaxed and content in its home \"Baobab Basin\" (savanna), shown doing what it loves: uses its trunk to lift browse then sprays water over its back. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/16-african-elephant/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-giraffe",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult giraffe (tall tan neck, warm brown patches, small ossicones and long elegant legs), relaxed and content in its home \"Acacia Heights\" (savanna), shown doing what it loves: reaches toward a high browse rack with a slow head turn. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/17-giraffe/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-plains-zebra",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult plains zebra (compact equine body, bold black-and-white stripes and short upright mane), relaxed and content in its home \"Stripe Plains\" (savanna), shown doing what it loves: walks in loose formation and pauses for an ear flick. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/18-plains-zebra/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-arctic-fox",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult arctic fox (compact fox with small rounded ears, plush white winter coat and thick fluffy tail), relaxed and content in its home \"Frostberry Ridge\" (coollands), shown doing what it loves: listens at a snow patch then performs a gentle nose-first pounce. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/19-arctic-fox/concept-animal-habitat.png"
+  },
+  {
+    "group": "Portraits",
+    "key": "portrait-snow-leopard",
+    "size": [
+      768,
+      512
+    ],
+    "transparent": false,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A close-up portrait of an adult snow leopard (pale grey spotted coat, thick long tail, broad paws and rounded ears), relaxed and content in its home \"Cloudpeak\" (coollands), shown doing what it loves: balances along a broad ledge then wraps its tail around its paws. Soft painted background of that habitat, gently out of focus. Landscape 3:2, not transparent, like a framed card in a storybook.",
+    "reference": "pack/animals/20-snow-leopard/concept-animal-habitat.png"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-capybara-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown capybara, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: rounded barrel body, blunt muzzle, tiny ears, warm caramel coat). Match the existing adult and baby sprites (assets/animal-capybara.webp and -baby.webp).",
+    "reference": "assets/animal-capybara.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-red-panda-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown red panda, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: rust-red fur, cream face markings, black legs, long ringed tail). Match the existing adult and baby sprites (assets/animal-red-panda.webp and -baby.webp).",
+    "reference": "assets/animal-red-panda.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-asian-small-clawed-otter-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown asian small-clawed otter, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: long flexible brown body, cream chin, short legs and expressive whiskers). Match the existing adult and baby sprites (assets/animal-asian-small-clawed-otter.webp and -baby.webp).",
+    "reference": "assets/animal-asian-small-clawed-otter.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-african-penguin-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown african penguin, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: black back, white belly with dark chest band, short flippers and pink eye patches). Match the existing adult and baby sprites (assets/animal-african-penguin.webp and -baby.webp).",
+    "reference": "assets/animal-african-penguin.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-meerkat-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown meerkat, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: small sandy upright body, dark eye patches and a slender tail). Match the existing adult and baby sprites (assets/animal-meerkat.webp and -baby.webp).",
+    "reference": "assets/animal-meerkat.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-fennec-fox-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown fennec fox, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: very large pointed ears, tiny cream-sand body and dark nose). Match the existing adult and baby sprites (assets/animal-fennec-fox.webp and -baby.webp).",
+    "reference": "assets/animal-fennec-fox.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-rabbit-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown domestic rabbit, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: soft round body, long upright ears, cream and caramel patches, small cotton tail). Match the existing adult and baby sprites (assets/animal-rabbit.webp and -baby.webp).",
+    "reference": "assets/animal-rabbit.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-pygmy-goat-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown pygmy goat, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: compact stocky goat, short horns, little beard and cream-brown coat). Match the existing adult and baby sprites (assets/animal-pygmy-goat.webp and -baby.webp).",
+    "reference": "assets/animal-pygmy-goat.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-alpaca-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown alpaca, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: long neck, fluffy cream fleece, small pointed ears and rounded muzzle). Match the existing adult and baby sprites (assets/animal-alpaca.webp and -baby.webp).",
+    "reference": "assets/animal-alpaca.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-aldabra-giant-tortoise-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown aldabra giant tortoise, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: large domed charcoal shell, sturdy scaled legs and gentle wrinkled head). Match the existing adult and baby sprites (assets/animal-aldabra-giant-tortoise.webp and -baby.webp).",
+    "reference": "assets/animal-aldabra-giant-tortoise.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-chilean-flamingo-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown chilean flamingo, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: pale pink plumage, long slender legs, curved pink neck and black-tipped bill). Match the existing adult and baby sprites (assets/animal-chilean-flamingo.webp and -baby.webp).",
+    "reference": "assets/animal-chilean-flamingo.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-indian-peafowl-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown indian peafowl, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: royal-blue neck, small crown crest and emerald eye-spotted male train). Match the existing adult and baby sprites (assets/animal-indian-peafowl.webp and -baby.webp).",
+    "reference": "assets/animal-indian-peafowl.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-ring-tailed-lemur-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown ring-tailed lemur, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: grey body, white face, black eye mask and long black-and-white ringed tail). Match the existing adult and baby sprites (assets/animal-ring-tailed-lemur.webp and -baby.webp).",
+    "reference": "assets/animal-ring-tailed-lemur.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-two-toed-sloth-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown two-toed sloth, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: shaggy tan body, rounded dark eye mask and two prominent hooked foreclaws). Match the existing adult and baby sprites (assets/animal-two-toed-sloth.webp and -baby.webp).",
+    "reference": "assets/animal-two-toed-sloth.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-malayan-tapir-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown malayan tapir, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: rounded black body with broad white saddle, short flexible snout and small white-rimmed ears). Match the existing adult and baby sprites (assets/animal-malayan-tapir.webp and -baby.webp).",
+    "reference": "assets/animal-malayan-tapir.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-african-elephant-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown african elephant, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: large grey rounded body, broad ears, long trunk and clear weight-bearing legs). Match the existing adult and baby sprites (assets/animal-african-elephant.webp and -baby.webp).",
+    "reference": "assets/animal-african-elephant.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-giraffe-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown giraffe, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: tall tan neck, warm brown patches, small ossicones and long elegant legs). Match the existing adult and baby sprites (assets/animal-giraffe.webp and -baby.webp).",
+    "reference": "assets/animal-giraffe.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-plains-zebra-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown plains zebra, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: compact equine body, bold black-and-white stripes and short upright mane). Match the existing adult and baby sprites (assets/animal-plains-zebra.webp and -baby.webp).",
+    "reference": "assets/animal-plains-zebra.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-arctic-fox-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown arctic fox, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: compact fox with small rounded ears, plush white winter coat and thick fluffy tail). Match the existing adult and baby sprites (assets/animal-arctic-fox.webp and -baby.webp).",
+    "reference": "assets/animal-arctic-fox.webp"
+  },
+  {
+    "group": "Juveniles",
+    "key": "animal-snow-leopard-juvenile",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A half-grown snow leopard, full body, standing, three-quarter view facing LEFT. Halfway between the existing baby and adult sprites: longer legs and a less round head than the baby, adult markings and shape starting to come through (adult: pale grey spotted coat, thick long tail, broad paws and rounded ears). Match the existing adult and baby sprites (assets/animal-snow-leopard.webp and -baby.webp).",
+    "reference": "assets/animal-snow-leopard.webp"
+  },
+  {
+    "group": "Animals",
+    "key": "animal-indian-peafowl-female",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). An adult peahen (female Indian peafowl), full body, standing, three-quarter view facing LEFT: soft brown-grey body, shimmering green lower neck, small fan-shaped crest, short tail with no display train. Match the existing peacock sprite (assets/animal-indian-peafowl.webp).",
+    "reference": "assets/animal-indian-peafowl.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-capybara",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a capybara and a small decoration from its home \"Pondside Meadow\" (wetlands). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-red-panda",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a red panda and a small decoration from its home \"Canopy Corner\" (woodland). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-asian-small-clawed-otter",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a asian small-clawed otter and a small decoration from its home \"Pebblebrook\" (wetlands). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-african-penguin",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a african penguin and a small decoration from its home \"Pebble Cove\" (coastal). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-meerkat",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a meerkat and a small decoration from its home \"Lookout Dunes\" (drylands). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-fennec-fox",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a fennec fox and a small decoration from its home \"Moonlit Dunes\" (drylands). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-rabbit",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a domestic rabbit and a small decoration from its home \"Clover Patch\" (meadow). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-pygmy-goat",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a pygmy goat and a small decoration from its home \"Tumblehill\" (meadow). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-alpaca",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a alpaca and a small decoration from its home \"Cloud Meadow\" (meadow). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-aldabra-giant-tortoise",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a aldabra giant tortoise and a small decoration from its home \"Fern Hollow\" (tropical). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-chilean-flamingo",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a chilean flamingo and a small decoration from its home \"Blush Lagoon\" (wetlands). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-indian-peafowl",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a indian peafowl and a small decoration from its home \"Jewel Garden\" (woodland). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-ring-tailed-lemur",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a ring-tailed lemur and a small decoration from its home \"Sunbeam Grove\" (tropical). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-two-toed-sloth",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a two-toed sloth and a small decoration from its home \"Cloudforest Nook\" (tropical). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-malayan-tapir",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a malayan tapir and a small decoration from its home \"Moonpool Forest\" (tropical). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-african-elephant",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a african elephant and a small decoration from its home \"Baobab Basin\" (savanna). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-giraffe",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a giraffe and a small decoration from its home \"Acacia Heights\" (savanna). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-plains-zebra",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a plains zebra and a small decoration from its home \"Stripe Plains\" (savanna). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-arctic-fox",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a arctic fox and a small decoration from its home \"Frostberry Ridge\" (coollands). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Species signs",
+    "key": "item-sign-snow-leopard",
+    "size": [
+      384,
+      384
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A wooden species sign on two rope-bound posts, like the shared sign (assets/item-sign.webp), but with a carved silhouette of a snow leopard and a small decoration from its home \"Cloudpeak\" (coollands). Blank wood where text would go.",
+    "reference": "assets/item-sign.webp"
+  },
+  {
+    "group": "Park",
+    "key": "gate",
+    "size": [
+      512,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). The zoo's entrance: two stone-and-timber pillars with little green tiled roofs, a curved wooden arch between them with a blank sign board, bunting, two warm lanterns and pots of flowers. Seen at the game's isometric angle with the opening facing the viewer.",
+    "reference": null
+  },
+  {
+    "group": "Park",
+    "key": "poop",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small, cute (not gross) animal poop: three soft brown blobs with a tiny shine.",
+    "reference": null
+  },
+  {
+    "group": "Park",
+    "key": "logo",
+    "size": [
+      1024,
+      512
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). The words \"Cutise Zoo\" as a warm hand-lettered wordmark in forest ink with an apricot outline, a little capybara peeking over the C and a paw print dotting the i. This is the one picture with text.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "tile-grass",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Soft sage lawn with the odd blade and clover.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "tile-path",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. A warm cream flagstone path, rounded stones with soft moss in the joints.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-wetlands",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Wetlands zone: damp lush grass with moss and the odd tiny puddle.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-woodland",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Woodland zone: mossy forest floor with a scatter of fallen leaves and twigs.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-meadow",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Meadow zone: soft clover-rich grass with a few tiny daisies.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-drylands",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Drylands zone: warm sand with small pebbles and faint ripples.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-tropical",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Tropical zone: rich dark soil with leaf litter and tiny ferns.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-savanna",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Savanna zone: golden dry grass tufts over dusty earth.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-coastal",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Coastal zone: pale shingle and smooth grey pebbles.",
+    "reference": null
+  },
+  {
+    "group": "Ground tiles",
+    "key": "ground-coollands",
+    "size": [
+      256,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. A seamless floor tile: an isometric 2:1 diamond that touches all four edges of the canvas exactly, transparent outside the diamond, flat ground seen from about 30° above, no objects taller than a few pixels, edges that tile seamlessly with copies of itself. Enclosure ground for the Coollands zone: thin snow over rocky ground with a few frosty tufts.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-1",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a little girl in a yellow raincoat holding a red balloon. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-2",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a boy with binoculars round his neck, mid-step. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-3",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a mum pushing a pram. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-4",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a grandad in a flat cap with a walking stick. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-5",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a teenager taking a photo with a phone. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-6",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a dad carrying a toddler on his shoulders. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "staff-keeper",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zookeeper walking, full body, facing LEFT: sage-green overalls and bucket hat, carrying a bucket of chopped vegetables.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "staff-guide",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo guide walking, full body, facing LEFT: apricot polo shirt and cream trousers, holding a clipboard, smiling.",
+    "reference": null
+  },
+  {
+    "group": "Fences",
+    "key": "fence-post",
+    "size": [
+      64,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A single round wooden fence post with a rope wrap near the top, like the posts on the keeper gate sprite (assets/item-keeper-gate.webp).",
+    "reference": null
+  },
+  {
+    "group": "Fences",
+    "key": "fence-rail-a",
+    "size": [
+      256,
+      160
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). One fence section between two posts (posts NOT included), two horizontal wooden rails running from the top-LEFT of the canvas down to the bottom-RIGHT at the isometric angle: the rails drop one pixel for every two across. Ends cut clean at the canvas edges so sections join.",
+    "reference": null
+  },
+  {
+    "group": "Fences",
+    "key": "fence-rail-b",
+    "size": [
+      256,
+      160
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). The same fence section mirrored: two wooden rails running from the bottom-LEFT of the canvas up to the top-RIGHT at the isometric angle (one pixel up for every two across). Ends cut clean at the canvas edges so sections join.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-coins",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: a small stack of golden coins with a paw-print stamp. Centred, no ground.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-visitors",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: two little visitor figures side by side. Centred, no ground.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-care",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: a fresh sage-green leaf with a small heart in its veins. Centred, no ground.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-day",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: a soft round sun with short rays. Centred, no ground.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-build",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: a wooden mallet and a fence post. Centred, no ground.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-animals",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: a round paw print. Centred, no ground.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-staff",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: a keeper's sage-green bucket hat. Centred, no ground.",
+    "reference": null
+  },
+  {
+    "group": "Icons",
+    "key": "icon-zoo",
+    "size": [
+      128,
+      128
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A small flat-ish UI icon, chunky and readable at 24 pixels: a folded park map with a path drawn on it. Centred, no ground.",
+    "reference": null
+  }
+]
