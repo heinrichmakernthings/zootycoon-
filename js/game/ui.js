@@ -202,7 +202,7 @@ function showDayReport(r) {
     <div><span class="big">🎟️</span><b>${r.tickets}</b><small>tickets</small></div>
     <div><span class="big">🍦</span><b>${r.shops}</b><small>shops</small></div>
     <div><span class="big">🍃</span><b>${r.care}%</b><small>care</small></div></div>
-    <p class="muted">Running costs: animals ${r.animals} · wages ${r.wages} · land ${r.land} · buildings ${r.buildings}${r.bought ? ` · bought ${r.bought}` : ''}${r.sold ? ` · sold +${r.sold}` : ''}</p>
+    <p class="muted">Running costs: animals ${r.animals} · wages ${r.wages} · land ${r.land} · enclosures ${r.enclosures || 0} · buildings ${r.buildings}${r.bought ? ` · bought ${r.bought}` : ''}${r.sold ? ` · sold +${r.sold}` : ''}</p>
     <p>That's <b class="${r.net < 0 ? 'bad' : 'good'}">${r.net >= 0 ? '+' : ''}${r.net} 🪙</b> for the day. Tonight's running costs: ${Sim.dailyCosts(S).total} 🪙.</p>
     ${born.length ? `<p>🍼 New arrivals: ${born.map((a) => `${D.SPECIES[a.sp].emoji} <b>${esc(a.name)}</b>`).join(', ')}</p>` : ''}`);
 }

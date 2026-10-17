@@ -673,7 +673,8 @@
     const buildings = s.builds.reduce((n, b) => n + ((D.BUILDS[b.k] && D.BUILDS[b.k].upkeep) || 0), 0);
     const land = s.land.length * B.landUpkeep;
     const animals = Math.round(s.animals.reduce((n, a) => n + D.SPECIES[a.sp].upkeep * D.SPECIES[a.sp].upkeepMult[a.stage], 0));
-    return { wages, buildings, land, animals, total: wages + buildings + land + animals };
+    const enclosures = s.habs.reduce((n, h) => n + Math.ceil((h.w * h.h) / B.enclosureUpkeepTiles), 0);
+    return { wages, buildings, land, animals, enclosures, total: wages + buildings + land + animals + enclosures };
   }
 
   // ---------- the market ----------

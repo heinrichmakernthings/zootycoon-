@@ -55,9 +55,10 @@
     txMemory: 300, // completed transaction IDs kept so a repeat click or reload never double-charges
 
     // guests
-    guestStay: 45,
-    fairPriceBase: 4,
-    fairPriceCare: 8,
+    guestStay: 90, // seconds a visitor stays: the crowd you see is the same, but fewer come through the gate each day
+    fairPriceBase: 3,
+    fairPriceCare: 5,
+    enclosureUpkeepTiles: 10, // each enclosure costs a coin a day per this many tiles (fence and ground care)
     shopEveryGuest: 0.1,
     guestsPerPath: 3,
     tierAppeal: [0.8, 1, 1.3, 1.7],
@@ -76,8 +77,8 @@
   const STAGES = [
     { id: 'starter', rep: 0, name: 'Opening day', text: 'One small park, a few animals, your first paying visitors.' },
     { id: 'early', rep: 150, name: 'A friendly little zoo', text: 'Red pandas, otters, penguins and more are looking for homes.' },
-    { id: 'mid', rep: 700, name: 'A local favourite', text: 'Flamingos, lemurs, sloths, zebras and arctic foxes.' },
-    { id: 'late', rep: 2000, name: 'Your dream zoo', text: 'Elephants, giraffes and snow leopards.' },
+    { id: 'mid', rep: 1500, name: 'A local favourite', text: 'Flamingos, lemurs, sloths, zebras and arctic foxes.' },
+    { id: 'late', rep: 8000, name: 'Your dream zoo', text: 'Elephants, giraffes and snow leopards.' },
   ];
 
   // Ground colour per pack zone (enclosure floors until terrain art exists).
@@ -324,9 +325,9 @@
       need: { tier: 3 },
       reward: 500,
     },
-    { id: 'favourite', title: 'A local favourite', text: 'Reach 700 care reputation', need: { rep: 700 }, reward: 600 },
+    { id: 'favourite', title: 'A local favourite', text: 'Reach 1,500 care reputation', need: { rep: 1500 }, reward: 600 },
     { id: 'animals', title: 'Growing family', text: 'Look after 20 animals at once', need: { animals: 20 }, reward: 800 },
-    { id: 'dream', title: 'Your dream zoo', text: 'Reach 2,000 care reputation', need: { rep: 2000 }, reward: 2000 },
+    { id: 'dream', title: 'Your dream zoo', text: 'Reach 8,000 care reputation', need: { rep: 8000 }, reward: 2000 },
   ];
 
   const NAMES = [

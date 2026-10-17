@@ -9,7 +9,9 @@
     "format": "prettier --write \"js/**/*.js\" \"tools/**/*.js\" \"test/**/*.js\" \"!js/art.js\"",
     "zoo-art": "node tools/art.js",
     "pack": "node tools/pack.js",
-    "validate-pack": "python3 pack/tools/validate-pack.py"
+    "validate-pack": "python3 pack/tools/validate-pack.py",
+    "balance": "node tools/balance.js",
+    "brief": "node tools/brief.js"
   },
   "devDependencies": {
     "prettier": "3.3.3"

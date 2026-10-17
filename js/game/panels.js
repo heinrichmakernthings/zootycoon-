@@ -264,7 +264,7 @@ const PANELS = {
       ${S.opened ? '' : `<div class="need">🎟️ The gates are closed. ${coinBtn({ type: 'open' }, 'Open the gates', 0, 'small')}</div>`}
       <h3>Money</h3>
       <p>${r ? `Yesterday: <b class="${r.net < 0 ? 'bad' : 'good'}">${r.net >= 0 ? '+' : ''}${r.net} 🪙</b>. ` : ''}Tonight's running costs: <b>${c.total} 🪙</b></p>
-      <p class="muted small">Animals ${c.animals} · wages ${c.wages} · land ${c.land} (${S.land.length} plots) · buildings ${c.buildings}</p>
+      <p class="muted small">Animals ${c.animals} · wages ${c.wages} · land ${c.land} (${S.land.length} plots) · enclosures ${c.enclosures} · buildings ${c.buildings}</p>
       <h3>🎟️ Ticket price: <span id="pricev">${S.price}</span> 🪙</h3>
       <input type="range" min="0" max="40" value="${S.price}" id="price">
       <p class="muted small">Guests think about ${S.fair} 🪙 is fair right now. At this price you draw ${Math.round(Sim.priceMult(S) * 100)}% of the crowd you could. Paths hold ${S.capacity} visitors.</p>

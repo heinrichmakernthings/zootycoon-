@@ -37,10 +37,14 @@ Numbers the game adds live in `js/content.js`; the rules are in `js/sim.js`.
 | Clock: 300 s game day at 1×, pause freezes, no offline progress | As specified. The old catch-up while away was removed, so returning never fills the park with surprise births. |
 | Scale targets 20 / 75 / 150 residents | `node tools/bench.js`: 0.07 / 0.19 / 0.42 ms of rules per game second, saves 15 / 43 / 79 KB. Drawing speed still needs measuring on real devices. |
 
+## Balance (`node tools/balance.js [days] [seed]`)
+
+A careful bot plays the goal chain's path and reports the economy. Current results (seeds 1 and 7): "A friendly little zoo" after about 26–28 minutes at normal speed, "A local favourite" after about 95, "Your dream zoo" after about 3½ hours. Cash is tight for the first 20 game days (lowest about 210–260 coins on day 5) while the zoo is built, then grows once a zoo is established. Tuning in this round: visitors stay 90 s (half as many through the gate per day), fair ticket price 3 + 5 × care, enclosures cost a coin a day per 10 tiles, stage thresholds 150 / 1,500 / 8,000.
+
 ## What the game adds
 
 - **Visitors and money.** Tickets (against a fair price that rises with care), amenities, crowding on paths, daily running costs (animals by life stage, wages, land, buildings) and a day report.
-- **Care reputation.** Never spent. It rises while animals are well, and unlocks the pack's stages: starter (0), early (150), mid (700), late (2,000).
+- **Care reputation.** Never spent. It rises while animals are well, and unlocks the pack's stages: starter (0), early (150), mid (1,500), late (8,000).
 - **Traits.** Sociable, shy, playful, sleepy, foodie and curious each nudge one need.
 - **Goals.** The deck's first 15 minutes, then the pack's build order (see `GOALS` in `content.js`).
 
