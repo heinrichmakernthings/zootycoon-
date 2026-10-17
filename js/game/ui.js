@@ -190,7 +190,7 @@ function showReveal(id) {
   const parents = a.parents.map((p) => Sim.animalById(S, p)).filter(Boolean);
   ui.revealing = id;
   modal(
-    `<div class="reveal"><span class="hero">${sp.egg ? '🐣' : sp.emoji}</span><h2>${sp.egg ? 'A chick has hatched!' : 'A baby has arrived!'}</h2>
+    `<div class="reveal"><span class="hero">${ZOO_ART_READY[`animal-${a.sp}-baby`] ? `<img src="${ZOO_ART_READY[`animal-${a.sp}-baby`]}" alt="">` : sp.egg ? '🐣' : sp.emoji}</span><h2>${sp.egg ? 'A chick has hatched!' : 'A baby has arrived!'}</h2>
     <p>A little ${sp.name.toLowerCase()} ${a.sex === 'f' ? 'girl' : 'boy'}${parents.length ? `, the ${a.sex === 'f' ? 'daughter' : 'son'} of ${parents.map((p) => esc(p.name)).join(' and ')}` : ''}.</p>
     <p class="muted">${esc(sp.baby)}</p>
     <label class="field">Their name<input id="reveal-name" maxlength="16" value="${esc(a.name)}"></label></div>`,

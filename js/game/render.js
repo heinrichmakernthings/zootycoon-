@@ -3,6 +3,8 @@
 // smoothly, draws everything back to front, and only draws what's on screen (the map can be
 // 192×192 tiles). Pictures from ZOO_ART_READY are drawn when loaded; otherwise emoji stand-ins.
 const GUEST_FACES = ['🧒', '👧', '👦', '🧑', '👩', '👨', '👵', '👴', '👩‍🦰', '🧑‍🦱'];
+// Park buildings stand on one tile but read better a little larger than it (a tea room bigger than a bench).
+const BUILD_SCALE = { cafe: 1.9, gifts: 1.8, snacks: 1.7, toilet: 1.6, icecream: 1.5, tree: 1.5, fountain: 1.6, statue: 1.5, lamp: 1.2 };
 const ACTION_ICONS = {
   rest: '💤',
   shade_rest: '💤',
@@ -31,11 +33,6 @@ const render = {
   init() {
     this.canvas = $('#zoo');
     this.ctx = this.canvas.getContext('2d');
-    for (const [key, url] of Object.entries(ZOO_ART_READY)) {
-      const img = new Image();
-      img.src = url;
-      this.images[key] = img;
-    }
     addEventListener('resize', () => this.resize());
     this.resize();
     this.home();
@@ -133,7 +130,7 @@ const render = {
   },
   sprite(key, emoji, X, Y, size, flip) {
     const c = this.ctx,
-      img = this.images[key];
+      img = this.image(key);
     c.save();
     c.translate(X, Y);
     if (flip) c.scale(-1, 1);
@@ -148,6 +145,33 @@ const render = {
       c.fillText(emoji, 0, size * 0.08);
     }
     c.restore();
+  },
+  // Pictures load the first time they're needed, so a player only downloads what they see.
+  image(key) {
+    if (!key || !ZOO_ART_READY[key]) return null;
+    let img = this.images[key];
+    if (!img) {
+      img = this.images[key] = new Image();
+      img.src = ZOO_ART_READY[key];
+    }
+    return img;
+  },
+  // Draws something that stands on a w×h footprint: a picture is scaled to the footprint's width
+  // and stands on its front corner; an emoji stand-in keeps its old, smaller size.
+  footSprite(key, emoji, x, y, w, h, scale = 1) {
+    const TW = this.TW;
+    const X = this.toScreen(x + w / 2, y + h / 2)[0];
+    const img = this.image(key);
+    if (img && img.complete && img.naturalWidth) {
+      const size = ((w + h) / 2) * TW * 0.98 * scale;
+      const Y = this.toScreen(x + w, y + h)[1] - TW * 0.04;
+      this.sprite(key, emoji, X, Y, size);
+      return { X, Y: Y - (size * img.naturalHeight) / img.naturalWidth / 2, r: size * 0.4 };
+    }
+    const [, Yc] = this.toScreen(x + w / 2, y + h / 2);
+    const size = TW * Math.min(2.4, 0.55 + Math.sqrt(w * h) * 0.35) * Math.min(1, scale + 0.2);
+    this.sprite(key, emoji, X, Yc + TW * 0.15, size);
+    return { X, Y: Yc - size * 0.3, r: size * 0.45 };
   },
   shadow(X, Y, r) {
     const c = this.ctx;
@@ -283,10 +307,8 @@ const render = {
       things.push([
         it.x + w + it.y + h - 1,
         () => {
-          const [X, Y] = this.toScreen(it.x + w / 2, it.y + h / 2);
-          const size = TW * Math.min(2.4, 0.55 + Math.sqrt(w * h) * 0.35);
-          this.sprite(artKey(def), def.emoji, X, Y + TW * 0.15, size);
-          this.hits.push({ kind: 'item', hab: hab.id, id: it.id, x: X, y: Y - size * 0.3, r: size * 0.45 });
+          const at = this.footSprite(artKey(def), def.emoji, it.x, it.y, w, h, def.template === 'terrain' ? 1 : 0.92);
+          this.hits.push({ kind: 'item', hab: hab.id, id: it.id, x: at.X, y: at.Y, r: at.r });
         },
       ]);
     }
@@ -379,8 +401,11 @@ const render = {
     const TW = this.TW,
       sp = D.SPECIES[a.sp];
     const cr = this.walk(a, dt);
+    // On a platform, in a pool or under a canopy: draw on top of that item, not behind it.
+    const on = a.act && a.act.item && !cr.moving && hab.items.find((i) => i.id === a.act.item && !D.ITEMS[i.k].solid);
+    const onDepth = on ? on.x + Sim.footprint(D.ITEMS[on.k], on.r)[0] + on.y + Sim.footprint(D.ITEMS[on.k], on.r)[1] - 0.99 : 0;
     things.push([
-      cr.wx + cr.wy,
+      on ? Math.max(cr.wx + cr.wy, onDepth) : cr.wx + cr.wy,
       () => {
         const big = Math.min(2.2, 0.75 + Math.sqrt(sp.tilesPerSlot) * 0.09);
         const size = TW * big * (a.stage === 'baby' ? 0.5 : a.stage === 'juvenile' ? 0.75 : 1);
@@ -390,7 +415,7 @@ const render = {
         this.shadow(X, Y, size * 0.3);
         const since = now - cr.helloNow;
         const squish = !calm && since < 600 ? 1 + Math.sin(since / 60) * 0.08 : 1;
-        const art = a.stage !== 'adult' && this.images[`animal-${a.sp}-baby`] ? `animal-${a.sp}-baby` : `animal-${a.sp}`;
+        const art = a.stage !== 'adult' && ZOO_ART_READY[`animal-${a.sp}-baby`] ? `animal-${a.sp}-baby` : `animal-${a.sp}`;
         const c = this.ctx;
         c.save();
         c.translate(X, Y - hop);
@@ -428,16 +453,10 @@ const render = {
       b.x + w + b.y + h - 1,
       () => {
         const [X, Y] = this.toScreen(b.x + w / 2, b.y + h / 2);
-        this.shadow(X, Y, this.TW * 0.22);
-        const bob = def && def.kind === 'shop' && !prefs.reduceMotion ? Math.sin(now / 600 + b.id) * 1.2 : 0;
         const emoji = item ? item.emoji : def.emoji;
-        this.sprite(
-          item ? artKey(item) : 'build-' + b.k,
-          emoji,
-          X,
-          Y + this.TW * 0.12 + bob,
-          this.TW * (def && def.kind === 'shop' ? 0.85 : 0.65)
-        );
+        const scale = item ? 0.92 : BUILD_SCALE[b.k] || 1;
+        if (!this.image(item ? artKey(item) : 'build-' + b.k)) this.shadow(X, Y, this.TW * 0.22);
+        this.footSprite(item ? artKey(item) : 'build-' + b.k, emoji, b.x, b.y, w, h, scale);
         if (def && def.kind === 'shop' && !Sim.besidePath(S, b.x, b.y, 1, 1)) this.bubble(X, Y - this.TW * 0.5, '🚧', this.TW * 0.28);
         this.hits.push({ kind: 'build', id: b.id, x: X, y: Y - this.TW * 0.25, r: this.TW * 0.35 });
       },
@@ -539,7 +558,7 @@ const render = {
       const why = Sim.buildProblem(S, ui.buildKey, h.x, h.y);
       this.diamond(h.x, h.y, 1, 1, why ? 'rgba(224,122,95,.35)' : 'rgba(127,174,106,.45)', why ? '#e07a5f' : '#4f7f5a', 2);
       this.ctx.globalAlpha = 0.75;
-      this.sprite('build-' + ui.buildKey, def.emoji, ...this.toScreen(h.x + 0.5, h.y + 0.5), this.TW * 0.6);
+      if (ui.buildKey !== 'path') this.footSprite('build-' + ui.buildKey, def.emoji, h.x, h.y, 1, 1, BUILD_SCALE[ui.buildKey] || 1);
       this.ctx.globalAlpha = 1;
       return setTip(why);
     }
@@ -554,12 +573,7 @@ const render = {
       this.diamond(hab.x, hab.y, hab.w, hab.h, null, 'rgba(36,70,56,.45)', 2);
       this.diamond(x, y, w, hh, why ? 'rgba(224,122,95,.35)' : 'rgba(127,174,106,.45)', why ? '#e07a5f' : '#4f7f5a', 2);
       this.ctx.globalAlpha = 0.8;
-      this.sprite(
-        artKey(def),
-        def.emoji,
-        ...this.toScreen(x + w / 2, y + hh / 2),
-        this.TW * Math.min(2.4, 0.55 + Math.sqrt(w * hh) * 0.35)
-      );
+      this.footSprite(artKey(def), def.emoji, x, y, w, hh, 0.92);
       this.ctx.globalAlpha = 1;
       return setTip(why);
     }

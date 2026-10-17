@@ -1,6 +1,7 @@
 // Prepare generated originals for the runtime. Requires ImageMagick 6 (convert).
 // Usage: node tools/prepare-art.cjs /absolute/path/to/source-map.json
 // source-map.json is [{key, source}], with one immutable original per art key.
+// Originals go to art-source/; tools/optimise-art.py then makes the WebP the game loads.
 const fs = require('node:fs');
 const path = require('node:path');
 const { execFileSync } = require('node:child_process');
@@ -17,14 +18,15 @@ for (const entry of sources) {
   const bounds = execFileSync('convert', [entry.source, '-alpha', 'extract',
     '-threshold', '0.6%', '-format', '%@', 'info:'], {encoding:'utf8'}).trim();
   if (!/^\d+x\d+\+\d+\+\d+$/.test(bounds)) throw new Error('Bad bounds: ' + bounds);
-  const dest = path.join(root, 'assets', asset.key + '.png');
+  const dest = path.join(root, 'art-source', asset.key + '.png');
   execFileSync('convert', [entry.source, '-crop', bounds, '+repage',
     '-resize', `${w - 16}x${h - 8}`, '-background', 'none', '-gravity', 'south',
     '-extent', `${w}x${h}`, '-strip', 'PNG32:' + dest]);
   asset.status = 'prepared';
-  asset.path = 'assets/' + asset.key + '.png';
+  asset.path = 'art-source/' + asset.key + '.png';
+  asset.runtime = 'assets/' + asset.key + '.webp';
   asset.generator = 'built-in image_gen';
   asset.sourceReference = 'docs/refs/deck-concept-art.jpg';
 }
 fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n');
-console.log(`Prepared ${sources.length} PNG files with exact dimensions and bottom alignment.`);
+console.log(`Prepared ${sources.length} PNG originals in art-source/. Next: python3 tools/optimise-art.py && npm run zoo-art`);

@@ -2,6 +2,14 @@
 // (or null to close it). Pack rule: one simple contextual panel per thing, important actions
 // visible, and a disabled action always says why in plain words (not only in a tooltip).
 
+// A picture when its art is ready, else the emoji stand-in.
+const pic = (key, emoji, cls = '') => (ZOO_ART_READY[key] ? `<img class="pic ${cls}" src="${ZOO_ART_READY[key]}" alt="">` : emoji);
+const animalPic = (a, cls) =>
+  pic(
+    a.stage && a.stage !== 'adult' && ZOO_ART_READY[`animal-${a.sp}-baby`] ? `animal-${a.sp}-baby` : `animal-${a.sp}`,
+    D.SPECIES[a.sp].emoji,
+    cls
+  );
 const meter = (label, icon, v) =>
   `<div class="meter"><span>${icon} ${label}</span><span class="bar ${v < 35 ? 'low' : ''}"><i style="width:${Math.max(0, Math.min(100, v))}%"></i></span></div>`;
 const attr = (o) => esc(JSON.stringify(o));
@@ -12,7 +20,7 @@ const confirmBtn = (c, label, cls = '', disabled) =>
 const why = (text) => (text ? `<p class="why">${esc(text)}</p>` : '');
 const moodWord = { love: 'Over the moon', happy: 'Happy', meh: 'So-so', sad: 'Unhappy' };
 const face = (a, extra = '') =>
-  `<button class="face" data-open="animal" data-id="${a.id}">${D.SPECIES[a.sp].emoji}<small>${esc(a.name)} ${sexIcon(a.sex)}</small>${extra}<i class="${Sim.mood(a.wb)}"></i></button>`;
+  `<button class="face" data-open="animal" data-id="${a.id}">${animalPic(a)}<small>${esc(a.name)} ${sexIcon(a.sex)}</small>${extra}<i class="${Sim.mood(a.wb)}"></i></button>`;
 const tabs = (p, list) =>
   `<div class="tabs">${Object.entries(list)
     .map(([k, v]) => `<button class="tab ${k === (p.tab || Object.keys(list)[0]) ? 'on' : ''}" data-tab="${k}">${v}</button>`)
@@ -40,7 +48,7 @@ const PANELS = {
       const rows = Object.values(D.SPECIES).map((sp) => {
         const open = Sim.unlocked(S, sp.stage);
         const homes = S.habs.filter((h) => h.sp === sp.id).length;
-        return `<div class="animal-row ${open ? '' : 'locked'}"><span class="big">${sp.emoji}</span>
+        return `<div class="animal-row ${open ? '' : 'locked'}"><span class="big">${pic('animal-' + sp.id, sp.emoji)}</span>
           <div><b>${esc(sp.habitat)}</b> ${homes ? `<span class="chip">×${homes}</span>` : ''}<small>${esc(sp.name)} · ${esc(sp.zone)} · suggested ${sp.footprint[0]}×${sp.footprint[1]}</small></div>
           ${open ? `<button class="btn small" data-enclose="${sp.id}">Fence it</button>` : `<span class="muted small">🔒 ${esc(Sim.stageOf(sp.stage).name)}</span>`}</div>`;
       });
@@ -63,7 +71,7 @@ const PANELS = {
       Object.entries(D.BUILDS)
         .map(([k, b]) => {
           const open = Sim.unlocked(S, b.stage);
-          return `<button class="card ${open ? '' : 'locked'}" ${open ? `data-build="${k}"` : 'disabled'}><span class="big">${b.emoji}</span><b>${esc(b.name)}</b><small>${esc(b.desc)}</small>
+          return `<button class="card ${open ? '' : 'locked'}" ${open ? `data-build="${k}"` : 'disabled'}><span class="big">${pic('build-' + k, b.emoji, 'card-pic')}</span><b>${esc(b.name)}</b><small>${esc(b.desc)}</small>
           <span class="price ${S.coins < b.cost ? 'bad' : ''}">${open ? `${b.cost} 🪙${b.upkeep ? ` <i>+${b.upkeep}/day</i>` : ''}` : `🔒 ${esc(Sim.stageOf(b.stage).name)}`}</span></button>`;
         })
         .join('') +
@@ -100,7 +108,7 @@ const PANELS = {
           S.coins < o.price
         );
       }
-      return `<div class="animal-row"><span class="big">${sp.emoji}</span><div><b>${esc(sp.name)} ${sexIcon(o.sex)}</b><small>${esc(D.TRAITS[o.trait].emoji)} ${esc(D.TRAITS[o.trait].name)} · adult · ${sp.upkeep} 🪙/day</small><small class="blurb">${esc(sp.personality)}</small></div><div class="col">${action}</div></div>`;
+      return `<div class="animal-row"><span class="big">${pic('animal-' + o.sp, sp.emoji)}</span><div><b>${esc(sp.name)} ${sexIcon(o.sex)}</b><small>${esc(D.TRAITS[o.trait].emoji)} ${esc(D.TRAITS[o.trait].name)} · adult · ${sp.upkeep} 🪙/day</small><small class="blurb">${esc(sp.personality)}</small></div><div class="col">${action}</div></div>`;
     });
     const mine = S.habs
       .map((h) => {
@@ -183,7 +191,7 @@ const PANELS = {
     const moveWhy = others.length ? null : `No other ${sp.name.toLowerCase()} enclosure to move to.`;
     return (
       head +
-      `<div class="portrait"><span>${sp.emoji}</span></div>` +
+      `<div class="portrait">${ZOO_ART_READY['portrait-' + a.sp] ? pic('portrait-' + a.sp, '') : `<span>${animalPic(a, 'portrait-pic')}</span>`}</div>` +
       problemBlock(Sim.problem(S, a), hab) +
       meter('Food', '🥕', n.food) +
       meter('Water', '💧', n.water) +
@@ -253,7 +261,7 @@ const PANELS = {
       .slice(0, 12)
       .map(
         (pg) =>
-          `<button class="face" ${Sim.animalById(S, pg.id) ? `data-open="animal" data-id="${pg.id}"` : 'disabled'}>${D.SPECIES[pg.sp].emoji}<small>${esc(pg.name)}</small><em>day ${pg.day}</em></button>`
+          `<button class="face" ${Sim.animalById(S, pg.id) ? `data-open="animal" data-id="${pg.id}"` : 'disabled'}>${pic('animal-' + pg.sp + '-baby', D.SPECIES[pg.sp].emoji)}<small>${esc(pg.name)}</small><em>day ${pg.day}</em></button>`
       )
       .join('');
     return `<h2>🏛️ ${esc(S.name || 'Your zoo')}</h2>
@@ -292,7 +300,7 @@ function habBuild(hab, st) {
           const locked = it.level > st.tier + 1;
           const count = hab.items.filter((i) => i.k === k).length + S.builds.filter((b) => b.hab === hab.id && b.k === k).length;
           return `<button class="itm ${k === need && !st.prioMet ? 'want' : ''}" ${locked ? 'disabled' : `data-place="${k}" data-hab="${hab.id}"`} title="${esc(it.name)}">
-          <span>${it.emoji}</span><small>${esc(it.name.replace(D.SPECIES[hab.sp].habitat + ' ', ''))}</small><i>${locked ? '🔒 ' + esc(Sim.TIER_NAMES[it.level - 1]) : it.price + ' 🪙'}</i>${count ? `<b class="count">${count}</b>` : ''}</button>`;
+          <span>${pic(artKey(it), it.emoji)}</span><small>${esc(it.name.replace(D.SPECIES[hab.sp].habitat + ' ', ''))}</small><i>${locked ? '🔒 ' + esc(Sim.TIER_NAMES[it.level - 1]) : it.price + ' 🪙'}</i>${count ? `<b class="count">${count}</b>` : ''}</button>`;
         })
         .join('');
       return `<h3>${esc(D.CATEGORIES[cat] || cat)}</h3><div class="items">${cards}</div>`;
@@ -347,7 +355,7 @@ function animalFamily(a) {
   const link = (x) =>
     Sim.animalById(S, x.id)
       ? face(x)
-      : `<span class="face gone">${D.SPECIES[x.sp].emoji}<small>${esc(x.name)}</small><em>rehomed</em></span>`;
+      : `<span class="face gone">${pic('animal-' + x.sp, D.SPECIES[x.sp].emoji)}<small>${esc(x.name)}</small><em>rehomed</em></span>`;
   const parents = a.parents.map(find).filter(Boolean);
   const kids = [...S.animals, ...S.departed].filter((x) => (x.parents || []).includes(a.id));
   const sibs = S.animals.filter((x) => x.id !== a.id && a.parents.length && (x.parents || []).some((p) => a.parents.includes(p)));

@@ -12,6 +12,8 @@ Plain browser JavaScript, no build step.
 | `js/content.js` | numbers and names the game adds: park, visitors, staff, goals, tuning |
 | `js/sim.js` | the rules: pure and seeded, the same in the browser and in tests |
 | `js/game/*.js` | the front end: `core` (state, save, clock), `render` (isometric canvas), `ui` (HUD, modes, pop-ups), `panels` (side panel), `input`, `boot` (last) |
+| `art-source/` | the original PNG sprites (kept off the public site) |
+| `assets/` | the WebP pictures the game loads, made by `python3 tools/optimise-art.py` |
 | `js/art.js` | which pictures are ready (written by `npm run zoo-art`) |
 | `docs/DESIGN.md` | how the deck and the pack map onto the game, and what's next |
 | `docs/ART-BRIEF.md` | every picture's key, size and ChatGPT prompt |

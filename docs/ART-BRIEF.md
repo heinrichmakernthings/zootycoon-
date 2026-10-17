@@ -2,7 +2,9 @@
 
 Every picture in the game has a **key**. Until its file exists, the game draws an emoji stand-in, so art can arrive one piece at a time and nothing breaks.
 
-**To add a picture:** save it as `assets/<key>.png` (or `.webp`), run `npm run zoo-art`, and reload. The tool lists what's ready and warns about any file whose name isn't a known key. There are 149 keys; this file lists them all.
+**Status (17 Oct 2026):** 124 of 149 delivered by Codex and integrated (all adults, babies, fittings, signature items and park buildings; see `docs/art-production/`). Still to come: the 20 portraits, `gate`, `tile-grass`, `tile-path`, `poop` and `logo`, and species-specific signs.
+
+**To add a picture:** save the original as `art-source/<key>.png`, run `python3 tools/optimise-art.py` (makes the WebP the game loads) and `npm run zoo-art`, then reload. The tool lists what's ready and warns about any file whose name isn't a known key. There are 149 keys; this file lists them all.
 
 **Concept art is not game art.** The pack's concept sheets (`pack/animals/…`, `pack/shared/…`) are flattened scenes with backgrounds: use them as **references** for ChatGPT, never as sprites (pack: ART-DIRECTION-AND-ASSET-STATUS). Each runtime picture below is one object, cut out, on a transparent background.
 

@@ -954,3 +954,42 @@ select {
 .reveal .field {
   text-align: left;
 }
+
+/* ---------- pictures in panels ---------- */
+img.pic {
+  width: 1.6em;
+  height: 1.6em;
+  object-fit: contain;
+  object-position: bottom;
+  vertical-align: bottom;
+}
+.big img.pic {
+  width: 52px;
+  height: 52px;
+}
+.card .big img.card-pic {
+  width: 72px;
+  height: 72px;
+}
+.face img.pic {
+  width: 44px;
+  height: 44px;
+}
+.itm img.pic {
+  width: 52px;
+  height: 40px;
+}
+.portrait img.pic {
+  width: auto;
+  height: 92%;
+  object-fit: contain;
+}
+.portrait img.portrait-pic {
+  height: 130px;
+  width: 130px;
+}
+.reveal .hero img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}

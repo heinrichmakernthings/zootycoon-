@@ -59,7 +59,7 @@ Numbers the game adds live in `js/content.js`; the rules are in `js/sim.js`.
 ## Next
 
 1. A new-player playtest of the pack's script: create a habitat, spot a care issue, place the fix, start breeding, find the newborn, expand.
-2. Runtime sprites (see `ART-BRIEF.md`). After that, idle, walk and sleep loops.
+2. The last 25 pictures (portraits, gate, ground tiles, logo), then idle, walk and sleep loops for the animals.
 3. Locomotion (milestone 6): connected climbing anchors, separate land and swim routes.
 4. Move and rotate placed items; free-form fence outlines.
 5. Seasonal scenery, conservation projects, a fuller photo album.

@@ -575,8 +575,20 @@
       y = clamp(carer.y + (rand(s) - 0.5) * 1.2, hab.y + 0.3, hab.y + hab.h - 0.3);
     } else if (pickd.item) {
       const [w, h] = footprint(D.ITEMS[pickd.item.k], pickd.item.r);
-      x = pickd.item.x + 0.2 + rand(s) * (w - 0.4);
-      y = pickd.item.y + 0.2 + rand(s) * (h - 0.4);
+      const it = pickd.item;
+      if (D.ITEMS[it.k].solid) {
+        // stand at the front of a shelter, feeder or trough (or behind it if it's against the fence)
+        const front = rand(s) < 0.5;
+        const fy = it.y + h + 0.45 <= hab.y + hab.h ? it.y + h + 0.45 : it.y - 0.45;
+        const fx = it.x + w + 0.45 <= hab.x + hab.w ? it.x + w + 0.45 : it.x - 0.45;
+        x = front ? it.x + 0.3 + rand(s) * (w - 0.6) : fx;
+        y = front ? fy : it.y + 0.3 + rand(s) * (h - 0.6);
+        x = clamp(x, hab.x + 0.3, hab.x + hab.w - 0.3);
+        y = clamp(y, hab.y + 0.3, hab.y + hab.h - 0.3);
+      } else {
+        x = it.x + 0.2 + rand(s) * (w - 0.4);
+        y = it.y + 0.2 + rand(s) * (h - 0.4);
+      }
     } else {
       x = hab.x + 0.4 + rand(s) * (hab.w - 0.8);
       y = hab.y + 0.4 + rand(s) * (hab.h - 0.8);

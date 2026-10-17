@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.2.0 — the animal pack (branch `pack-v2`)
+## 0.2.0 — the animal pack
+
+- **Real art.** 124 sprites from Codex: all 20 animals as adults and babies, the 12 shared fittings, 60 signature items and 12 park buildings, replacing the emoji. Each was checked (size, transparency, standing on the ground, facing left, baby proportions). Items now scale to their footprint; animals stand in front of feeders and shelters and on top of platforms and pools; shops are drawn a little larger; the market, catalogue, faces and birth reveal show the pictures. The game ships WebP copies (4.7 MB instead of 28.5 MB) and loads each picture only when it's first needed. Originals are kept in `art-source/`.
 
 - **20 species from the animal design pack**: capybara, red panda, otter, penguin, meerkat, fennec fox, rabbit, pygmy goat, alpaca, giant tortoise, flamingo, peafowl, lemur, sloth, tapir, elephant, giraffe, zebra, arctic fox and snow leopard. They unlock in four stages as your care reputation grows. The first of each gets the pack's example name (Mochi, Maple, Pebble…).
 - **Enclosures you size yourself.** Drag out a fence for one species, then fill it from that species' 15-item catalogue (300 items in all): shelters, feeders, water, keeper gates, shade, privacy planting, nursery nooks, viewing windows, signs, borders and three signature items each. Items have real footprints and rotate. Gates and windows go in the fence; signs and borders just outside.

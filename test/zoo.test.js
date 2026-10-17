@@ -482,3 +482,28 @@ test('every goal can be checked, and every species has a habitat zone and a prio
     if (how !== 'space' && how !== 'group') assert.ok(Sim.priorityItem({ sp: sp.id }), sp.id);
   }
 });
+
+test('art: every listed picture exists, has a known key, and nothing in assets/ is unlisted', () => {
+  const fs = require('fs');
+  const vm = require('vm');
+  const ctx = {};
+  vm.runInNewContext(fs.readFileSync(path.join(root, 'js/art.js'), 'utf8') + ';this.READY=ZOO_ART_READY;', ctx);
+  const keys = new Set(['tile-grass', 'tile-path', 'gate', 'poop', 'logo']);
+  for (const sp in D.SPECIES)
+    keys
+      .add('animal-' + sp)
+      .add('animal-' + sp + '-baby')
+      .add('portrait-' + sp);
+  for (const k in D.ITEMS) keys.add(D.ITEMS[k].template ? 'item-' + D.ITEMS[k].template : 'item-' + k);
+  for (const k in D.BUILDS) keys.add('build-' + k);
+  for (const [k, file] of Object.entries(ctx.READY)) {
+    assert.ok(keys.has(k), `unknown art key ${k}`);
+    assert.ok(fs.existsSync(path.join(root, file)), `missing ${file}`);
+  }
+  const listed = new Set(Object.values(ctx.READY));
+  for (const f of fs.readdirSync(path.join(root, 'assets')).filter((f) => /\.(png|webp)$/.test(f)))
+    assert.ok(listed.has('assets/' + f), `assets/${f} isn't in js/art.js (run npm run zoo-art)`);
+  // every runtime picture has its original kept in art-source/
+  for (const file of listed)
+    assert.ok(fs.existsSync(path.join(root, 'art-source', path.basename(file).replace(/\.webp$/, '.png'))), `no original for ${file}`);
+});

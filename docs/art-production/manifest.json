@@ -8,11 +8,12 @@
     "subject": "Capybara adult",
     "description": "Rounded barrel body, blunt muzzle, tiny ears, warm caramel coat",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-capybara.png",
+    "status": "integrated",
+    "path": "art-source/animal-capybara.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "62c1319f14985613220a494cc798f8282c2309b695216ca4b051e155ecc6b508"
+    "sha256": "62c1319f14985613220a494cc798f8282c2309b695216ca4b051e155ecc6b508",
+    "runtime": "assets/animal-capybara.webp"
   },
   {
     "key": "animal-capybara-baby",
@@ -23,11 +24,12 @@
     "subject": "Capybara baby",
     "description": "Smaller rounded muzzle and short legs. Nestle beside parent and make short follow bursts.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-capybara-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-capybara-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "2b6fbc67d16b47989f4b52881e8b68bb59b72609d9793134d425b65066f5f372"
+    "sha256": "2b6fbc67d16b47989f4b52881e8b68bb59b72609d9793134d425b65066f5f372",
+    "runtime": "assets/animal-capybara-baby.webp"
   },
   {
     "key": "animal-red-panda",
@@ -38,11 +40,12 @@
     "subject": "Red panda adult",
     "description": "Rust-red fur, cream face markings, black legs, long ringed tail",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-red-panda.png",
+    "status": "integrated",
+    "path": "art-source/animal-red-panda.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ac997f1d5b8afe45e610c1e372443d221671c92887515b9ebc77873fc6159fff"
+    "sha256": "ac997f1d5b8afe45e610c1e372443d221671c92887515b9ebc77873fc6159fff",
+    "runtime": "assets/animal-red-panda.webp"
   },
   {
     "key": "animal-red-panda-baby",
@@ -53,11 +56,12 @@
     "subject": "Red panda baby",
     "description": "Fluffy round head, soft ringed tail. Follow a low branch route and curl beside parent.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-red-panda-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-red-panda-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "41d514b4391c23281eec27a0b5f19f767cfd8524ed480272b87748f19dd5da22"
+    "sha256": "41d514b4391c23281eec27a0b5f19f767cfd8524ed480272b87748f19dd5da22",
+    "runtime": "assets/animal-red-panda-baby.webp"
   },
   {
     "key": "animal-asian-small-clawed-otter",
@@ -68,11 +72,12 @@
     "subject": "Asian small-clawed otter adult",
     "description": "Long flexible brown body, cream chin, short legs and expressive whiskers",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-asian-small-clawed-otter.png",
+    "status": "integrated",
+    "path": "art-source/animal-asian-small-clawed-otter.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ce5f6b3418be5dc59ba3d2f375e71674f667ac0304f3b6e5180d0d26c1fa9ea9"
+    "sha256": "ce5f6b3418be5dc59ba3d2f375e71674f667ac0304f3b6e5180d0d26c1fa9ea9",
+    "runtime": "assets/animal-asian-small-clawed-otter.webp"
   },
   {
     "key": "animal-asian-small-clawed-otter-baby",
@@ -83,11 +88,12 @@
     "subject": "Asian small-clawed otter baby",
     "description": "Shorter body and tail, cream chin. Stay near dry den, nuzzle and practise paddling.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-asian-small-clawed-otter-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-asian-small-clawed-otter-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "3f732907c6fa215a360d7c8ce9251699b5381f71f95fb50d149d5252a556a9dc"
+    "sha256": "3f732907c6fa215a360d7c8ce9251699b5381f71f95fb50d149d5252a556a9dc",
+    "runtime": "assets/animal-asian-small-clawed-otter-baby.webp"
   },
   {
     "key": "animal-african-penguin",
@@ -98,11 +104,12 @@
     "subject": "African penguin adult",
     "description": "Black back, white belly with dark chest band, short flippers and pink eye patches",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-african-penguin.png",
+    "status": "integrated",
+    "path": "art-source/animal-african-penguin.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "9504cdddbf509bfaa0db138c34dc8562be047a8c17fe4bb50e2418743dad5d8e"
+    "sha256": "9504cdddbf509bfaa0db138c34dc8562be047a8c17fe4bb50e2418743dad5d8e",
+    "runtime": "assets/animal-african-penguin.webp"
   },
   {
     "key": "animal-african-penguin-baby",
@@ -113,11 +120,12 @@
     "subject": "African penguin baby",
     "description": "Fluffy grey chick with dark bill. No adult banding. Wobble and nest beside parent.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-african-penguin-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-african-penguin-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "be6f91a9fd4781bd2de6975e4d9373c80ebf7bacf4666a2907d3317200d087eb"
+    "sha256": "be6f91a9fd4781bd2de6975e4d9373c80ebf7bacf4666a2907d3317200d087eb",
+    "runtime": "assets/animal-african-penguin-baby.webp"
   },
   {
     "key": "animal-meerkat",
@@ -128,11 +136,12 @@
     "subject": "Meerkat adult",
     "description": "Small sandy upright body, dark eye patches and a slender tail",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-meerkat.png",
+    "status": "integrated",
+    "path": "art-source/animal-meerkat.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "7c9a6a09401deb2c42c55bb4b2754298c32858e13b3f29b4c0cd19f4409e8dc4"
+    "sha256": "7c9a6a09401deb2c42c55bb4b2754298c32858e13b3f29b4c0cd19f4409e8dc4",
+    "runtime": "assets/animal-meerkat.webp"
   },
   {
     "key": "animal-meerkat-baby",
@@ -143,11 +152,12 @@
     "subject": "Meerkat baby",
     "description": "Tiny sandy pup with dark eye patches. Peek out of burrow and copy a lookout pose.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-meerkat-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-meerkat-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "9c1e55576680233c533bdacbafd2fb91d4f525c0ba831e16b275eb2ae89946d1"
+    "sha256": "9c1e55576680233c533bdacbafd2fb91d4f525c0ba831e16b275eb2ae89946d1",
+    "runtime": "assets/animal-meerkat-baby.webp"
   },
   {
     "key": "animal-fennec-fox",
@@ -158,11 +168,12 @@
     "subject": "Fennec fox adult",
     "description": "Very large pointed ears, tiny cream-sand body and dark nose",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-fennec-fox.png",
+    "status": "integrated",
+    "path": "art-source/animal-fennec-fox.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "fc421d2defec5bbd3a32fc6e8800d2e64da5daedcdc9793d02a94f7d910f84cc"
+    "sha256": "fc421d2defec5bbd3a32fc6e8800d2e64da5daedcdc9793d02a94f7d910f84cc",
+    "runtime": "assets/animal-fennec-fox.webp"
   },
   {
     "key": "animal-fennec-fox-baby",
@@ -173,11 +184,12 @@
     "subject": "Fennec fox baby",
     "description": "Tiny cream kit with oversized ears. Curl near den and make a small playful pounce.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-fennec-fox-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-fennec-fox-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "8e668f5e68940e8f0213e59930802945d5054bfe24e95cdc4443b451fb35a1d6"
+    "sha256": "8e668f5e68940e8f0213e59930802945d5054bfe24e95cdc4443b451fb35a1d6",
+    "runtime": "assets/animal-fennec-fox-baby.webp"
   },
   {
     "key": "animal-rabbit",
@@ -188,11 +200,12 @@
     "subject": "Domestic rabbit adult",
     "description": "Soft round body, long upright ears, cream and caramel patches, small cotton tail",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-rabbit.png",
+    "status": "integrated",
+    "path": "art-source/animal-rabbit.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "225a0e4fc2796f15e4b37dd467019e0fdfef4f5b2b50eab1390ebd10fd0f79ce"
+    "sha256": "225a0e4fc2796f15e4b37dd467019e0fdfef4f5b2b50eab1390ebd10fd0f79ce",
+    "runtime": "assets/animal-rabbit.webp"
   },
   {
     "key": "animal-rabbit-baby",
@@ -203,11 +216,12 @@
     "subject": "Domestic rabbit baby",
     "description": "Round fluffy kit, shorter ears. Tiny hops and sibling snuggle.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-rabbit-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-rabbit-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "3990de68504a196cdac8604ac7f191bb0da63f9f76549cfa982ebb0467c1b792"
+    "sha256": "3990de68504a196cdac8604ac7f191bb0da63f9f76549cfa982ebb0467c1b792",
+    "runtime": "assets/animal-rabbit-baby.webp"
   },
   {
     "key": "animal-pygmy-goat",
@@ -218,11 +232,12 @@
     "subject": "Pygmy goat adult",
     "description": "Compact stocky goat, short horns, little beard and cream-brown coat",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-pygmy-goat.png",
+    "status": "integrated",
+    "path": "art-source/animal-pygmy-goat.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "8636b11cd9d65f158344c830d83a4d14ef42ecbd5f21438adb32abdf8f22e855"
+    "sha256": "8636b11cd9d65f158344c830d83a4d14ef42ecbd5f21438adb32abdf8f22e855",
+    "runtime": "assets/animal-pygmy-goat.webp"
   },
   {
     "key": "animal-pygmy-goat-baby",
@@ -233,11 +248,12 @@
     "subject": "Pygmy goat baby",
     "description": "Small kid with short horns or horn buds. Springy hop and short parent-follow walk.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-pygmy-goat-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-pygmy-goat-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "75e19548deb340e06ca3add2fa138c1ba5c94991f761e9fd7d60eaa2b2b2482b"
+    "sha256": "75e19548deb340e06ca3add2fa138c1ba5c94991f761e9fd7d60eaa2b2b2482b",
+    "runtime": "assets/animal-pygmy-goat-baby.webp"
   },
   {
     "key": "animal-alpaca",
@@ -248,11 +264,12 @@
     "subject": "Alpaca adult",
     "description": "Long neck, fluffy cream fleece, small pointed ears and rounded muzzle",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-alpaca.png",
+    "status": "integrated",
+    "path": "art-source/animal-alpaca.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "894ee35ab277629db7231fccdead425753f350bc85594ed71528664a05bb6935"
+    "sha256": "894ee35ab277629db7231fccdead425753f350bc85594ed71528664a05bb6935",
+    "runtime": "assets/animal-alpaca.webp"
   },
   {
     "key": "animal-alpaca-baby",
@@ -263,11 +280,12 @@
     "subject": "Alpaca baby",
     "description": "Fluffy cria with long thin legs and larger head. Gentle follow and curious ear twitch.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-alpaca-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-alpaca-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "8bf22716aabbff12f25023e4a5ad9dc64671c3de2490be1fd8903959a6cabfa6"
+    "sha256": "8bf22716aabbff12f25023e4a5ad9dc64671c3de2490be1fd8903959a6cabfa6",
+    "runtime": "assets/animal-alpaca-baby.webp"
   },
   {
     "key": "animal-aldabra-giant-tortoise",
@@ -278,11 +296,12 @@
     "subject": "Aldabra giant tortoise adult",
     "description": "Large domed charcoal shell, sturdy scaled legs and gentle wrinkled head",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-aldabra-giant-tortoise.png",
+    "status": "integrated",
+    "path": "art-source/animal-aldabra-giant-tortoise.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "434d89d7df67f2cefb60f521eb56f9bbb9c9c13700e913a1cd735ca3ce471a1b"
+    "sha256": "434d89d7df67f2cefb60f521eb56f9bbb9c9c13700e913a1cd735ca3ce471a1b",
+    "runtime": "assets/animal-aldabra-giant-tortoise.webp"
   },
   {
     "key": "animal-aldabra-giant-tortoise-baby",
@@ -293,11 +312,12 @@
     "subject": "Aldabra giant tortoise baby",
     "description": "Tiny hatchling with a domed shell. Slow independent exploration near a safe retreat.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-aldabra-giant-tortoise-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-aldabra-giant-tortoise-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "135368fa0617c5bc56f612d3b9515b86702cb89b5f1988ade77975191e7a15b4"
+    "sha256": "135368fa0617c5bc56f612d3b9515b86702cb89b5f1988ade77975191e7a15b4",
+    "runtime": "assets/animal-aldabra-giant-tortoise-baby.webp"
   },
   {
     "key": "animal-chilean-flamingo",
@@ -308,11 +328,12 @@
     "subject": "Chilean flamingo adult",
     "description": "Pale pink plumage, long slender legs, curved pink neck and black-tipped bill",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-chilean-flamingo.png",
+    "status": "integrated",
+    "path": "art-source/animal-chilean-flamingo.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "e926e716a7e220e87caaad27fa4812baacfd0effe63db0b83687c7909988d99d"
+    "sha256": "e926e716a7e220e87caaad27fa4812baacfd0effe63db0b83687c7909988d99d",
+    "runtime": "assets/animal-chilean-flamingo.webp"
   },
   {
     "key": "animal-chilean-flamingo-baby",
@@ -323,11 +344,12 @@
     "subject": "Chilean flamingo baby",
     "description": "Grey-white fluffy chick with short bill and legs, not a pink miniature adult. Nest wobble.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-chilean-flamingo-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-chilean-flamingo-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "9d403cc5eb7d664df6bf2843de29aefb7dd104c7b9f6fc92a9aa80ccfb29bac1"
+    "sha256": "9d403cc5eb7d664df6bf2843de29aefb7dd104c7b9f6fc92a9aa80ccfb29bac1",
+    "runtime": "assets/animal-chilean-flamingo-baby.webp"
   },
   {
     "key": "animal-indian-peafowl",
@@ -338,11 +360,12 @@
     "subject": "Indian peafowl adult",
     "description": "Royal-blue neck, small crown crest and emerald eye-spotted male train",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-indian-peafowl.png",
+    "status": "integrated",
+    "path": "art-source/animal-indian-peafowl.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "5d0ad22c138b3ebd76f2c8c198c30317bdf4776d0a45f461253b61947892bba0"
+    "sha256": "5d0ad22c138b3ebd76f2c8c198c30317bdf4776d0a45f461253b61947892bba0",
+    "runtime": "assets/animal-indian-peafowl.webp"
   },
   {
     "key": "animal-indian-peafowl-baby",
@@ -353,11 +376,12 @@
     "subject": "Indian peafowl baby",
     "description": "Tan-brown peachick, no display train. Short quick follow steps. Adult female requires separate brown-plumage art.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-indian-peafowl-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-indian-peafowl-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "b1d9003bf380b3f6cfdb90d8bf978a4aa990cdeaf037836d677e1562460443e2"
+    "sha256": "b1d9003bf380b3f6cfdb90d8bf978a4aa990cdeaf037836d677e1562460443e2",
+    "runtime": "assets/animal-indian-peafowl-baby.webp"
   },
   {
     "key": "animal-ring-tailed-lemur",
@@ -368,11 +392,12 @@
     "subject": "Ring-tailed lemur adult",
     "description": "Grey body, white face, black eye mask and long black-and-white ringed tail",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-ring-tailed-lemur.png",
+    "status": "integrated",
+    "path": "art-source/animal-ring-tailed-lemur.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "78cb07d1032dd838201f81e2f4304df99f588fbca2771a8188dbaa28d053f2c2"
+    "sha256": "78cb07d1032dd838201f81e2f4304df99f588fbca2771a8188dbaa28d053f2c2",
+    "runtime": "assets/animal-ring-tailed-lemur.webp"
   },
   {
     "key": "animal-ring-tailed-lemur-baby",
@@ -383,11 +408,12 @@
     "subject": "Ring-tailed lemur baby",
     "description": "Small grey infant with large eyes and ringed tail. Cling or stay close to parent.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-ring-tailed-lemur-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-ring-tailed-lemur-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "61e15a22238630e131474dc0eeb3cdedc0128e25702c45ff15e2d146a6e7cfe0"
+    "sha256": "61e15a22238630e131474dc0eeb3cdedc0128e25702c45ff15e2d146a6e7cfe0",
+    "runtime": "assets/animal-ring-tailed-lemur-baby.webp"
   },
   {
     "key": "animal-two-toed-sloth",
@@ -398,11 +424,12 @@
     "subject": "Two-toed sloth adult",
     "description": "Shaggy tan body, rounded dark eye mask and two prominent hooked foreclaws",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-two-toed-sloth.png",
+    "status": "integrated",
+    "path": "art-source/animal-two-toed-sloth.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "d4df653b47c77c3e7c6dd78a96794ee2c5fbbf077f49da777dec118b603268fb"
+    "sha256": "d4df653b47c77c3e7c6dd78a96794ee2c5fbbf077f49da777dec118b603268fb",
+    "runtime": "assets/animal-two-toed-sloth.webp"
   },
   {
     "key": "animal-two-toed-sloth-baby",
@@ -413,11 +440,12 @@
     "subject": "Two-toed sloth baby",
     "description": "Small fluffy infant with round face. Cling to parent and practise tiny leaf reaches.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-two-toed-sloth-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-two-toed-sloth-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "722dcda3d2bc52ff26077e7180d95a2f7717361c0aa46c9e8467c9114ec7288c"
+    "sha256": "722dcda3d2bc52ff26077e7180d95a2f7717361c0aa46c9e8467c9114ec7288c",
+    "runtime": "assets/animal-two-toed-sloth-baby.webp"
   },
   {
     "key": "animal-malayan-tapir",
@@ -428,11 +456,12 @@
     "subject": "Malayan tapir adult",
     "description": "Rounded black body with broad white saddle, short flexible snout and small white-rimmed ears",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-malayan-tapir.png",
+    "status": "integrated",
+    "path": "art-source/animal-malayan-tapir.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "779e243e8dee342aad513ab27da20ea961da5c05e7befa647d569484108b9502"
+    "sha256": "779e243e8dee342aad513ab27da20ea961da5c05e7befa647d569484108b9502",
+    "runtime": "assets/animal-malayan-tapir.webp"
   },
   {
     "key": "animal-malayan-tapir-baby",
@@ -443,11 +472,12 @@
     "subject": "Malayan tapir baby",
     "description": "Brown calf with cream stripes and spots. Do not use the adult white saddle. Follow and sniff.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-malayan-tapir-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-malayan-tapir-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "877940c9e930f6f2cf2a888ebd651dff90b07dc0422a3cf498f516943b731013"
+    "sha256": "877940c9e930f6f2cf2a888ebd651dff90b07dc0422a3cf498f516943b731013",
+    "runtime": "assets/animal-malayan-tapir-baby.webp"
   },
   {
     "key": "animal-african-elephant",
@@ -458,11 +488,12 @@
     "subject": "African elephant adult",
     "description": "Large grey rounded body, broad ears, long trunk and clear weight-bearing legs",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-african-elephant.png",
+    "status": "integrated",
+    "path": "art-source/animal-african-elephant.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "db6b54ee59fd59c96d709db2c59b6b317cea2518aef314c81aa38e741e099450"
+    "sha256": "db6b54ee59fd59c96d709db2c59b6b317cea2518aef314c81aa38e741e099450",
+    "runtime": "assets/animal-african-elephant.webp"
   },
   {
     "key": "animal-african-elephant-baby",
@@ -473,11 +504,12 @@
     "subject": "African elephant baby",
     "description": "Round calf with short trunk and no long adult tusks. Trunk wobble and parent follow.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-african-elephant-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-african-elephant-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "92012521bf6c4d7735f85a99c0dff7533a735db9b99676a12e2abc1b502c9034"
+    "sha256": "92012521bf6c4d7735f85a99c0dff7533a735db9b99676a12e2abc1b502c9034",
+    "runtime": "assets/animal-african-elephant-baby.webp"
   },
   {
     "key": "animal-giraffe",
@@ -488,11 +520,12 @@
     "subject": "Giraffe adult",
     "description": "Tall tan neck, warm brown patches, small ossicones and long elegant legs",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-giraffe.png",
+    "status": "integrated",
+    "path": "art-source/animal-giraffe.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "9315effbaf6ff924683074a23c0fccf53c052d53c1c5b513052dcb7a7ea54067"
+    "sha256": "9315effbaf6ff924683074a23c0fccf53c052d53c1c5b513052dcb7a7ea54067",
+    "runtime": "assets/animal-giraffe.webp"
   },
   {
     "key": "animal-giraffe-baby",
@@ -503,11 +536,12 @@
     "subject": "Giraffe baby",
     "description": "Small calf with long thin legs and shorter neck proportions. Careful steps and curious head tilt.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-giraffe-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-giraffe-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "7cf2d67d662f21f8d4f9de9ae31d9ccc9242b5aabe514931fb2aee7b002be7e0"
+    "sha256": "7cf2d67d662f21f8d4f9de9ae31d9ccc9242b5aabe514931fb2aee7b002be7e0",
+    "runtime": "assets/animal-giraffe-baby.webp"
   },
   {
     "key": "animal-plains-zebra",
@@ -518,11 +552,12 @@
     "subject": "Plains zebra adult",
     "description": "Compact equine body, bold black-and-white stripes and short upright mane",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-plains-zebra.png",
+    "status": "integrated",
+    "path": "art-source/animal-plains-zebra.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "a724e8ac2217a2fd08555cd25564b1a58c1a9ba775ca9b2071bd299bdd87629f"
+    "sha256": "a724e8ac2217a2fd08555cd25564b1a58c1a9ba775ca9b2071bd299bdd87629f",
+    "runtime": "assets/animal-plains-zebra.webp"
   },
   {
     "key": "animal-plains-zebra-baby",
@@ -533,11 +568,12 @@
     "subject": "Plains zebra baby",
     "description": "Small foal with large ears and shorter muzzle. Soft juvenile stripe treatment and follow walk.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-plains-zebra-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-plains-zebra-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "8120b7fe3a8b3e76e5f3dcc609cb59d89513a56a6ecd62bb81442d1c5b80d7ad"
+    "sha256": "8120b7fe3a8b3e76e5f3dcc609cb59d89513a56a6ecd62bb81442d1c5b80d7ad",
+    "runtime": "assets/animal-plains-zebra-baby.webp"
   },
   {
     "key": "animal-arctic-fox",
@@ -548,11 +584,12 @@
     "subject": "Arctic fox adult",
     "description": "Compact fox with small rounded ears, plush white winter coat and thick fluffy tail",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-arctic-fox.png",
+    "status": "integrated",
+    "path": "art-source/animal-arctic-fox.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "27dde12903b44570e857c37ac8273ad7cbce5153c65f445eb5318ee06004ba6a"
+    "sha256": "27dde12903b44570e857c37ac8273ad7cbce5153c65f445eb5318ee06004ba6a",
+    "runtime": "assets/animal-arctic-fox.webp"
   },
   {
     "key": "animal-arctic-fox-baby",
@@ -563,11 +600,12 @@
     "subject": "Arctic fox baby",
     "description": "Round fluffy kit with short muzzle and small ears. Tiny pounce and parent-side nap.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-arctic-fox-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-arctic-fox-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "50817df3dbe806e5fd9f5985f8ca624bdba38a4c9367c563130617fb7e74ed84"
+    "sha256": "50817df3dbe806e5fd9f5985f8ca624bdba38a4c9367c563130617fb7e74ed84",
+    "runtime": "assets/animal-arctic-fox-baby.webp"
   },
   {
     "key": "animal-snow-leopard",
@@ -578,11 +616,12 @@
     "subject": "Snow leopard adult",
     "description": "Pale grey spotted coat, thick long tail, broad paws and rounded ears",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-snow-leopard.png",
+    "status": "integrated",
+    "path": "art-source/animal-snow-leopard.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "0f25ea710b9447268e7d41d9e423ee0eac49a0338b2555cca9b2282b8187a028"
+    "sha256": "0f25ea710b9447268e7d41d9e423ee0eac49a0338b2555cca9b2282b8187a028",
+    "runtime": "assets/animal-snow-leopard.webp"
   },
   {
     "key": "animal-snow-leopard-baby",
@@ -593,11 +632,12 @@
     "subject": "Snow leopard baby",
     "description": "Round cub with oversized paws and long soft tail. Low-ledge play and parent-side tail curl.",
     "kind": "animal",
-    "status": "prepared",
-    "path": "assets/animal-snow-leopard-baby.png",
+    "status": "integrated",
+    "path": "art-source/animal-snow-leopard-baby.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "b94da64303fb8777263f3562802461e49babe7629f06ffa83eab0ab28e4db782"
+    "sha256": "b94da64303fb8777263f3562802461e49babe7629f06ffa83eab0ab28e4db782",
+    "runtime": "assets/animal-snow-leopard-baby.webp"
   },
   {
     "key": "item-shelter",
@@ -608,11 +648,12 @@
     "subject": "a wooden animal shelter with straw",
     "description": "a wooden animal shelter with straw",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-shelter.png",
+    "status": "integrated",
+    "path": "art-source/item-shelter.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "c609223fc7213c782065ed27526ce80312bd0db65ed457fbb79d26664e22538b"
+    "sha256": "c609223fc7213c782065ed27526ce80312bd0db65ed457fbb79d26664e22538b",
+    "runtime": "assets/item-shelter.webp"
   },
   {
     "key": "item-feeder",
@@ -623,11 +664,12 @@
     "subject": "a log hay feeder",
     "description": "a log hay feeder",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-feeder.png",
+    "status": "integrated",
+    "path": "art-source/item-feeder.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ba4eb4f4793efb5452f8e49dadba79c0f59973066e0b9e3bf99974c6841998ba"
+    "sha256": "ba4eb4f4793efb5452f8e49dadba79c0f59973066e0b9e3bf99974c6841998ba",
+    "runtime": "assets/item-feeder.webp"
   },
   {
     "key": "item-water",
@@ -638,11 +680,12 @@
     "subject": "a small drinking trough",
     "description": "a small drinking trough",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-water.png",
+    "status": "integrated",
+    "path": "art-source/item-water.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "83e454725ced5a61ef831b74d86a818f88f072b7c773ac78be3191cf8688c72f"
+    "sha256": "83e454725ced5a61ef831b74d86a818f88f072b7c773ac78be3191cf8688c72f",
+    "runtime": "assets/item-water.webp"
   },
   {
     "key": "item-keeper-gate",
@@ -653,11 +696,12 @@
     "subject": "a wooden keeper gate with mesh",
     "description": "a wooden keeper gate with mesh",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-keeper-gate.png",
+    "status": "integrated",
+    "path": "art-source/item-keeper-gate.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "166987e8e66053dd956c8438d31d4e1db54698525b81e98e76c20d94fbb2cb92"
+    "sha256": "166987e8e66053dd956c8438d31d4e1db54698525b81e98e76c20d94fbb2cb92",
+    "runtime": "assets/item-keeper-gate.webp"
   },
   {
     "key": "item-privacy",
@@ -668,11 +712,12 @@
     "subject": "dense leafy planting",
     "description": "dense leafy planting",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-privacy.png",
+    "status": "integrated",
+    "path": "art-source/item-privacy.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "2c8a1c144fd673da139e76f01516ff1babd267cc6d701c1271912bc1200d60a1"
+    "sha256": "2c8a1c144fd673da139e76f01516ff1babd267cc6d701c1271912bc1200d60a1",
+    "runtime": "assets/item-privacy.webp"
   },
   {
     "key": "item-rest",
@@ -683,11 +728,12 @@
     "subject": "a low wooden resting platform with a ramp",
     "description": "a low wooden resting platform with a ramp",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-rest.png",
+    "status": "integrated",
+    "path": "art-source/item-rest.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "db7651710a6a874099864a2ef4521cb32166c66954e34603bb4a4d2346413b6c"
+    "sha256": "db7651710a6a874099864a2ef4521cb32166c66954e34603bb4a4d2346413b6c",
+    "runtime": "assets/item-rest.webp"
   },
   {
     "key": "item-nursery",
@@ -698,11 +744,12 @@
     "subject": "a cosy nest box with soft straw",
     "description": "a cosy nest box with soft straw",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-nursery.png",
+    "status": "integrated",
+    "path": "art-source/item-nursery.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "fb238472e860682c50e067113eaf305d80d6fdeebfe4776b3bd6a125204751bd"
+    "sha256": "fb238472e860682c50e067113eaf305d80d6fdeebfe4776b3bd6a125204751bd",
+    "runtime": "assets/item-nursery.webp"
   },
   {
     "key": "item-terrain",
@@ -713,11 +760,12 @@
     "subject": "a patch of species ground (sand, mud or moss)",
     "description": "a patch of species ground (sand, mud or moss)",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-terrain.png",
+    "status": "integrated",
+    "path": "art-source/item-terrain.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "0c092cda65ab49b85487023b072572b020437072da7b4bcd209f03109fd48ac0"
+    "sha256": "0c092cda65ab49b85487023b072572b020437072da7b4bcd209f03109fd48ac0",
+    "runtime": "assets/item-terrain.webp"
   },
   {
     "key": "item-viewing",
@@ -728,11 +776,12 @@
     "subject": "a wooden viewing window with mesh",
     "description": "a wooden viewing window with mesh",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-viewing.png",
+    "status": "integrated",
+    "path": "art-source/item-viewing.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "9168567319bbc76c90fd611e66dcc5cb672d8d7d939fa55fb4c5484ce1e3515c"
+    "sha256": "9168567319bbc76c90fd611e66dcc5cb672d8d7d939fa55fb4c5484ce1e3515c",
+    "runtime": "assets/item-viewing.webp"
   },
   {
     "key": "item-sign",
@@ -743,11 +792,12 @@
     "subject": "a wooden species sign with an animal silhouette",
     "description": "a wooden species sign with an animal silhouette",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-sign.png",
+    "status": "integrated",
+    "path": "art-source/item-sign.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "1121fd333773b6ace69b33d3d0ffe1336f2a4d09412621167e8fec21b1660580"
+    "sha256": "1121fd333773b6ace69b33d3d0ffe1336f2a4d09412621167e8fec21b1660580",
+    "runtime": "assets/item-sign.webp"
   },
   {
     "key": "item-border",
@@ -758,11 +808,12 @@
     "subject": "a planted flower border",
     "description": "a planted flower border",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-border.png",
+    "status": "integrated",
+    "path": "art-source/item-border.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "d785b65a23a7e4b8df1a3fee146ba9f8168c2b38abd7f4b923d157819b32dd66"
+    "sha256": "d785b65a23a7e4b8df1a3fee146ba9f8168c2b38abd7f4b923d157819b32dd66",
+    "runtime": "assets/item-border.webp"
   },
   {
     "key": "item-shade",
@@ -773,11 +824,12 @@
     "subject": "a leafy canopy with a sun sail",
     "description": "a leafy canopy with a sun sail",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-shade.png",
+    "status": "integrated",
+    "path": "art-source/item-shade.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "48298ea7cb6d6c4eaba804244a9cb95131987f70f073e6524f5bf85efdb7b20d"
+    "sha256": "48298ea7cb6d6c4eaba804244a9cb95131987f70f073e6524f5bf85efdb7b20d",
+    "runtime": "assets/item-shade.webp"
   },
   {
     "key": "item-capybara__signature-1",
@@ -788,11 +840,12 @@
     "subject": "Reed planter",
     "description": "Designed for capybara",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-capybara__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-capybara__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "354f01bc508c73f1b908ee0fcd4e926f0c68976d93b2ea0951df0391e4ada2ea"
+    "sha256": "354f01bc508c73f1b908ee0fcd4e926f0c68976d93b2ea0951df0391e4ada2ea",
+    "runtime": "assets/item-capybara__signature-1.webp"
   },
   {
     "key": "item-capybara__signature-2",
@@ -803,11 +856,12 @@
     "subject": "Shaded platform",
     "description": "Designed for capybara",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-capybara__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-capybara__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "7359b31cc5818fa3cde79d665375a055e2b452c7b8e43eead8e01a54061056f5"
+    "sha256": "7359b31cc5818fa3cde79d665375a055e2b452c7b8e43eead8e01a54061056f5",
+    "runtime": "assets/item-capybara__signature-2.webp"
   },
   {
     "key": "item-capybara__signature-3",
@@ -818,11 +872,12 @@
     "subject": "Floating browse",
     "description": "Designed for capybara",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-capybara__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-capybara__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "d45f882bba592253f0bf1b1bbbf9af891302ecbd428b104a4ece16d360a3f1d8"
+    "sha256": "d45f882bba592253f0bf1b1bbbf9af891302ecbd428b104a4ece16d360a3f1d8",
+    "runtime": "assets/item-capybara__signature-3.webp"
   },
   {
     "key": "item-red-panda__signature-1",
@@ -833,11 +888,12 @@
     "subject": "Branch bridge",
     "description": "Designed for red-panda",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-red-panda__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-red-panda__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ad40cf9d2cc7c0188a1ac93a23212c8690109c9aa6a378da97e77b1c0bf149e3"
+    "sha256": "ad40cf9d2cc7c0188a1ac93a23212c8690109c9aa6a378da97e77b1c0bf149e3",
+    "runtime": "assets/item-red-panda__signature-1.webp"
   },
   {
     "key": "item-red-panda__signature-2",
@@ -848,11 +904,12 @@
     "subject": "Leaf pile",
     "description": "Designed for red-panda",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-red-panda__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-red-panda__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "133aff790c7730dd7e8d5a1b9590bfdbca54f20ea4606be88b6de63650d098ac"
+    "sha256": "133aff790c7730dd7e8d5a1b9590bfdbca54f20ea4606be88b6de63650d098ac",
+    "runtime": "assets/item-red-panda__signature-2.webp"
   },
   {
     "key": "item-red-panda__signature-3",
@@ -863,11 +920,12 @@
     "subject": "Hanging feeder",
     "description": "Designed for red-panda",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-red-panda__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-red-panda__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "32d401bd540645901dbd10bec779d2a3427a75ba59467911636e32464af0d9d0"
+    "sha256": "32d401bd540645901dbd10bec779d2a3427a75ba59467911636e32464af0d9d0",
+    "runtime": "assets/item-red-panda__signature-3.webp"
   },
   {
     "key": "item-asian-small-clawed-otter__signature-1",
@@ -878,11 +936,12 @@
     "subject": "Pebble tray",
     "description": "Designed for asian-small-clawed-otter",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-asian-small-clawed-otter__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-asian-small-clawed-otter__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "3b6f68f943cff8a7dd59a2e55d32c755645db8b1f9df8bcb7a36edd319e63dfb"
+    "sha256": "3b6f68f943cff8a7dd59a2e55d32c755645db8b1f9df8bcb7a36edd319e63dfb",
+    "runtime": "assets/item-asian-small-clawed-otter__signature-1.webp"
   },
   {
     "key": "item-asian-small-clawed-otter__signature-2",
@@ -893,11 +952,12 @@
     "subject": "Log tunnel",
     "description": "Designed for asian-small-clawed-otter",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-asian-small-clawed-otter__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-asian-small-clawed-otter__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "2c658e75245bb5b015d898c3dddce1ef731c0115e0e282b3cf5fa9b1d5c76f9b"
+    "sha256": "2c658e75245bb5b015d898c3dddce1ef731c0115e0e282b3cf5fa9b1d5c76f9b",
+    "runtime": "assets/item-asian-small-clawed-otter__signature-2.webp"
   },
   {
     "key": "item-asian-small-clawed-otter__signature-3",
@@ -908,11 +968,12 @@
     "subject": "Floating toy",
     "description": "Designed for asian-small-clawed-otter",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-asian-small-clawed-otter__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-asian-small-clawed-otter__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "d4cbd15f91f08017be6107104c6f66f5fe83ca1c384808b81e2fe6a5f2517eca"
+    "sha256": "d4cbd15f91f08017be6107104c6f66f5fe83ca1c384808b81e2fe6a5f2517eca",
+    "runtime": "assets/item-asian-small-clawed-otter__signature-3.webp"
   },
   {
     "key": "item-african-penguin__signature-1",
@@ -923,11 +984,12 @@
     "subject": "Nest box",
     "description": "Designed for african-penguin",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-african-penguin__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-african-penguin__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "3c29116665f4bb6cec962f3146e95ecac84efc66602c62d782f9593774d34699"
+    "sha256": "3c29116665f4bb6cec962f3146e95ecac84efc66602c62d782f9593774d34699",
+    "runtime": "assets/item-african-penguin__signature-1.webp"
   },
   {
     "key": "item-african-penguin__signature-2",
@@ -938,11 +1000,12 @@
     "subject": "Smooth ramp",
     "description": "Designed for african-penguin",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-african-penguin__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-african-penguin__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "5968fc80621a41e3a0097339d89ef5bef9c676b5efd3ae1be3d401c66b45b4ff"
+    "sha256": "5968fc80621a41e3a0097339d89ef5bef9c676b5efd3ae1be3d401c66b45b4ff",
+    "runtime": "assets/item-african-penguin__signature-2.webp"
   },
   {
     "key": "item-african-penguin__signature-3",
@@ -953,11 +1016,12 @@
     "subject": "Underwater ring",
     "description": "Designed for african-penguin",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-african-penguin__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-african-penguin__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "64f5056f77bd07f8b448a05ba7bf115d8b4d7a9b833dfa20247a8fe60acd6119"
+    "sha256": "64f5056f77bd07f8b448a05ba7bf115d8b4d7a9b833dfa20247a8fe60acd6119",
+    "runtime": "assets/item-african-penguin__signature-3.webp"
   },
   {
     "key": "item-meerkat__signature-1",
@@ -968,11 +1032,12 @@
     "subject": "Sand mound",
     "description": "Designed for meerkat",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-meerkat__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-meerkat__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "b90c1ab16a0b40a4af71d2cf7f2d6d2cb811d9dc4d841f7f763f58ee363e228d"
+    "sha256": "b90c1ab16a0b40a4af71d2cf7f2d6d2cb811d9dc4d841f7f763f58ee363e228d",
+    "runtime": "assets/item-meerkat__signature-1.webp"
   },
   {
     "key": "item-meerkat__signature-2",
@@ -983,11 +1048,12 @@
     "subject": "Lookout stump",
     "description": "Designed for meerkat",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-meerkat__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-meerkat__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "1c6509a64bf49cd08a7e00e3b8f71152f889159cb1d074e90905a48db441e8a3"
+    "sha256": "1c6509a64bf49cd08a7e00e3b8f71152f889159cb1d074e90905a48db441e8a3",
+    "runtime": "assets/item-meerkat__signature-2.webp"
   },
   {
     "key": "item-meerkat__signature-3",
@@ -998,11 +1064,12 @@
     "subject": "Buried puzzle",
     "description": "Designed for meerkat",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-meerkat__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-meerkat__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "44f1325c101ec1e7c5bbb9dc1c1f5406b44b99c886cebed58439f80f56e0bf28"
+    "sha256": "44f1325c101ec1e7c5bbb9dc1c1f5406b44b99c886cebed58439f80f56e0bf28",
+    "runtime": "assets/item-meerkat__signature-3.webp"
   },
   {
     "key": "item-fennec-fox__signature-1",
@@ -1013,11 +1080,12 @@
     "subject": "Dig box",
     "description": "Designed for fennec-fox",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-fennec-fox__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-fennec-fox__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "59f11db5e7e91a1bd3faf55843c659285e991dd2161f9aa2560fa31119e727e2"
+    "sha256": "59f11db5e7e91a1bd3faf55843c659285e991dd2161f9aa2560fa31119e727e2",
+    "runtime": "assets/item-fennec-fox__signature-1.webp"
   },
   {
     "key": "item-fennec-fox__signature-2",
@@ -1028,11 +1096,12 @@
     "subject": "Scent trail",
     "description": "Designed for fennec-fox",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-fennec-fox__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-fennec-fox__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "aa83214b064772c4efb0f368469fcd7ef84bf55bd18f6d953be648958478107c"
+    "sha256": "aa83214b064772c4efb0f368469fcd7ef84bf55bd18f6d953be648958478107c",
+    "runtime": "assets/item-fennec-fox__signature-2.webp"
   },
   {
     "key": "item-fennec-fox__signature-3",
@@ -1043,11 +1112,12 @@
     "subject": "Forage ball",
     "description": "Designed for fennec-fox",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-fennec-fox__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-fennec-fox__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "bd600c07bf46ba8720b1d5d6294a840d68b0758dfaa881b4153eb625385bbd0b"
+    "sha256": "bd600c07bf46ba8720b1d5d6294a840d68b0758dfaa881b4153eb625385bbd0b",
+    "runtime": "assets/item-fennec-fox__signature-3.webp"
   },
   {
     "key": "item-rabbit__signature-1",
@@ -1058,11 +1128,12 @@
     "subject": "Willow tunnel",
     "description": "Designed for rabbit",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-rabbit__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-rabbit__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "f10c0c46220658bf046b82ce5b2a27c91e4178cd1998aae1a699cc5928f0b79e"
+    "sha256": "f10c0c46220658bf046b82ce5b2a27c91e4178cd1998aae1a699cc5928f0b79e",
+    "runtime": "assets/item-rabbit__signature-1.webp"
   },
   {
     "key": "item-rabbit__signature-2",
@@ -1073,11 +1144,12 @@
     "subject": "Hay rack",
     "description": "Designed for rabbit",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-rabbit__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-rabbit__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "1b91c9e6ca8535bd0f4e5487c7f6efc2c7ae7b5e0120e9ec0edcd41421686fa6"
+    "sha256": "1b91c9e6ca8535bd0f4e5487c7f6efc2c7ae7b5e0120e9ec0edcd41421686fa6",
+    "runtime": "assets/item-rabbit__signature-2.webp"
   },
   {
     "key": "item-rabbit__signature-3",
@@ -1088,11 +1160,12 @@
     "subject": "Forage patch",
     "description": "Designed for rabbit",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-rabbit__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-rabbit__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "befb24b256532edd3717d58f0d7659d691db94bf78cd149b2d69b5659a7d2258"
+    "sha256": "befb24b256532edd3717d58f0d7659d691db94bf78cd149b2d69b5659a7d2258",
+    "runtime": "assets/item-rabbit__signature-3.webp"
   },
   {
     "key": "item-pygmy-goat__signature-1",
@@ -1103,11 +1176,12 @@
     "subject": "Broad ramp",
     "description": "Designed for pygmy-goat",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-pygmy-goat__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-pygmy-goat__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "e62da6a977a4663d2d58022cea70c8223263d7fab487cd62990359a144941710"
+    "sha256": "e62da6a977a4663d2d58022cea70c8223263d7fab487cd62990359a144941710",
+    "runtime": "assets/item-pygmy-goat__signature-1.webp"
   },
   {
     "key": "item-pygmy-goat__signature-2",
@@ -1118,11 +1192,12 @@
     "subject": "Stump cluster",
     "description": "Designed for pygmy-goat",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-pygmy-goat__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-pygmy-goat__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "726862d69d744ee2c8be8c073c245e641179305dc15bc5fa292c5c0724f9e801"
+    "sha256": "726862d69d744ee2c8be8c073c245e641179305dc15bc5fa292c5c0724f9e801",
+    "runtime": "assets/item-pygmy-goat__signature-2.webp"
   },
   {
     "key": "item-pygmy-goat__signature-3",
@@ -1133,11 +1208,12 @@
     "subject": "Browse rack",
     "description": "Designed for pygmy-goat",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-pygmy-goat__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-pygmy-goat__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "87226a8c962e81384f8c4c0117b663bdc705bca04e7551e9db9d37432d179783"
+    "sha256": "87226a8c962e81384f8c4c0117b663bdc705bca04e7551e9db9d37432d179783",
+    "runtime": "assets/item-pygmy-goat__signature-3.webp"
   },
   {
     "key": "item-alpaca__signature-1",
@@ -1148,11 +1224,12 @@
     "subject": "Dust patch",
     "description": "Designed for alpaca",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-alpaca__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-alpaca__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "bfd7d7da70cd0410548e2dbeba9397e4f89e27d7834a8bcfea3e181c7fecbd43"
+    "sha256": "bfd7d7da70cd0410548e2dbeba9397e4f89e27d7834a8bcfea3e181c7fecbd43",
+    "runtime": "assets/item-alpaca__signature-1.webp"
   },
   {
     "key": "item-alpaca__signature-2",
@@ -1163,11 +1240,12 @@
     "subject": "Browse rack",
     "description": "Designed for alpaca",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-alpaca__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-alpaca__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "269dc5f70a3a7b24ac7cd937d7c56a92c25ff3ba02845d828169bfc76b9e8d8c"
+    "sha256": "269dc5f70a3a7b24ac7cd937d7c56a92c25ff3ba02845d828169bfc76b9e8d8c",
+    "runtime": "assets/item-alpaca__signature-2.webp"
   },
   {
     "key": "item-alpaca__signature-3",
@@ -1178,11 +1256,12 @@
     "subject": "Shade sail",
     "description": "Designed for alpaca",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-alpaca__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-alpaca__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "8b4daa3b596116e99119f0e682ad5a31b61243f2d2107c5bfc379ba38c6f263e"
+    "sha256": "8b4daa3b596116e99119f0e682ad5a31b61243f2d2107c5bfc379ba38c6f263e",
+    "runtime": "assets/item-alpaca__signature-3.webp"
   },
   {
     "key": "item-aldabra-giant-tortoise__signature-1",
@@ -1193,11 +1272,12 @@
     "subject": "Low browse rack",
     "description": "Designed for aldabra-giant-tortoise",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-aldabra-giant-tortoise__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-aldabra-giant-tortoise__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "d781159fe847069ae296373995959f8aa83a838d5cbb5178c2e2226a5dfb96fc"
+    "sha256": "d781159fe847069ae296373995959f8aa83a838d5cbb5178c2e2226a5dfb96fc",
+    "runtime": "assets/item-aldabra-giant-tortoise__signature-1.webp"
   },
   {
     "key": "item-aldabra-giant-tortoise__signature-2",
@@ -1208,11 +1288,12 @@
     "subject": "Shallow soak",
     "description": "Designed for aldabra-giant-tortoise",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-aldabra-giant-tortoise__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-aldabra-giant-tortoise__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "5dd880e7183833b0f7358b88aeb8c0c245f46c6b622c2dc903fb17f7dd4c72f6"
+    "sha256": "5dd880e7183833b0f7358b88aeb8c0c245f46c6b622c2dc903fb17f7dd4c72f6",
+    "runtime": "assets/item-aldabra-giant-tortoise__signature-2.webp"
   },
   {
     "key": "item-aldabra-giant-tortoise__signature-3",
@@ -1223,11 +1304,12 @@
     "subject": "Textured trail",
     "description": "Designed for aldabra-giant-tortoise",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-aldabra-giant-tortoise__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-aldabra-giant-tortoise__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "82c4a4503fcf571db749451423018cb86a36fa343cdbbb0e8b2ebe62bba2bed3"
+    "sha256": "82c4a4503fcf571db749451423018cb86a36fa343cdbbb0e8b2ebe62bba2bed3",
+    "runtime": "assets/item-aldabra-giant-tortoise__signature-3.webp"
   },
   {
     "key": "item-chilean-flamingo__signature-1",
@@ -1238,11 +1320,12 @@
     "subject": "Wading shelf",
     "description": "Designed for chilean-flamingo",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-chilean-flamingo__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-chilean-flamingo__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "a52b89496211f3cdbef77640e6b6c1601efb1d99b91fcdd1edfed743d79eeb3b"
+    "sha256": "a52b89496211f3cdbef77640e6b6c1601efb1d99b91fcdd1edfed743d79eeb3b",
+    "runtime": "assets/item-chilean-flamingo__signature-1.webp"
   },
   {
     "key": "item-chilean-flamingo__signature-2",
@@ -1253,11 +1336,12 @@
     "subject": "Mud island",
     "description": "Designed for chilean-flamingo",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-chilean-flamingo__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-chilean-flamingo__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "19e2e71c483a2c68e86930fa16c0a2e50f54f70c157328464aee391c8fa5e11a"
+    "sha256": "19e2e71c483a2c68e86930fa16c0a2e50f54f70c157328464aee391c8fa5e11a",
+    "runtime": "assets/item-chilean-flamingo__signature-2.webp"
   },
   {
     "key": "item-chilean-flamingo__signature-3",
@@ -1268,11 +1352,12 @@
     "subject": "Reed screen",
     "description": "Designed for chilean-flamingo",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-chilean-flamingo__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-chilean-flamingo__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "83660dfd92eccae56a9765777e8833ea13fafb477ef73408cb87dccbd5a8d041"
+    "sha256": "83660dfd92eccae56a9765777e8833ea13fafb477ef73408cb87dccbd5a8d041",
+    "runtime": "assets/item-chilean-flamingo__signature-3.webp"
   },
   {
     "key": "item-indian-peafowl__signature-1",
@@ -1283,11 +1368,12 @@
     "subject": "Roost perch",
     "description": "Designed for indian-peafowl",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-indian-peafowl__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-indian-peafowl__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ec52de8086351f4168d6c5bbc0cbd2b15eb19093347d8c18ee13413fee3a179c"
+    "sha256": "ec52de8086351f4168d6c5bbc0cbd2b15eb19093347d8c18ee13413fee3a179c",
+    "runtime": "assets/item-indian-peafowl__signature-1.webp"
   },
   {
     "key": "item-indian-peafowl__signature-2",
@@ -1298,11 +1384,12 @@
     "subject": "Leaf litter",
     "description": "Designed for indian-peafowl",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-indian-peafowl__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-indian-peafowl__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "20a6525ea7e796783ce18f4d53a34f4ae4eb49de100bc0a2178e6fb7626dd263"
+    "sha256": "20a6525ea7e796783ce18f4d53a34f4ae4eb49de100bc0a2178e6fb7626dd263",
+    "runtime": "assets/item-indian-peafowl__signature-2.webp"
   },
   {
     "key": "item-indian-peafowl__signature-3",
@@ -1313,11 +1400,12 @@
     "subject": "Display clearing",
     "description": "Designed for indian-peafowl",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-indian-peafowl__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-indian-peafowl__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "efaff9811c270377482fcbc51dd88c516d5094c645bfca659804b7a4138d113b"
+    "sha256": "efaff9811c270377482fcbc51dd88c516d5094c645bfca659804b7a4138d113b",
+    "runtime": "assets/item-indian-peafowl__signature-3.webp"
   },
   {
     "key": "item-ring-tailed-lemur__signature-1",
@@ -1328,11 +1416,12 @@
     "subject": "Rope bridge",
     "description": "Designed for ring-tailed-lemur",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-ring-tailed-lemur__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-ring-tailed-lemur__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "86477baa456b18a1e750dced4ec9d2b04a5524fcbb5ffb99d5d6eabe56824482"
+    "sha256": "86477baa456b18a1e750dced4ec9d2b04a5524fcbb5ffb99d5d6eabe56824482",
+    "runtime": "assets/item-ring-tailed-lemur__signature-1.webp"
   },
   {
     "key": "item-ring-tailed-lemur__signature-2",
@@ -1343,11 +1432,12 @@
     "subject": "Sunny terrace",
     "description": "Designed for ring-tailed-lemur",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-ring-tailed-lemur__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-ring-tailed-lemur__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "e00fc7c015a0f538076b66ec649370393c3e1617daf10516fa4859e47a91ea9f"
+    "sha256": "e00fc7c015a0f538076b66ec649370393c3e1617daf10516fa4859e47a91ea9f",
+    "runtime": "assets/item-ring-tailed-lemur__signature-2.webp"
   },
   {
     "key": "item-ring-tailed-lemur__signature-3",
@@ -1358,11 +1448,12 @@
     "subject": "Forage box",
     "description": "Designed for ring-tailed-lemur",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-ring-tailed-lemur__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-ring-tailed-lemur__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ac7d6925a740cdfc7f2e98d8f271074aa8eb1f1f9899a96734e00cadd1636b69"
+    "sha256": "ac7d6925a740cdfc7f2e98d8f271074aa8eb1f1f9899a96734e00cadd1636b69",
+    "runtime": "assets/item-ring-tailed-lemur__signature-3.webp"
   },
   {
     "key": "item-two-toed-sloth__signature-1",
@@ -1373,11 +1464,12 @@
     "subject": "Branch bridge",
     "description": "Designed for two-toed-sloth",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-two-toed-sloth__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-two-toed-sloth__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "c4467efbe6decc5cd9e9f97750e16240a4ed3eb0b4ec7a52359d3e97ca95285a"
+    "sha256": "c4467efbe6decc5cd9e9f97750e16240a4ed3eb0b4ec7a52359d3e97ca95285a",
+    "runtime": "assets/item-two-toed-sloth__signature-1.webp"
   },
   {
     "key": "item-two-toed-sloth__signature-2",
@@ -1388,11 +1480,12 @@
     "subject": "Elevated feeder",
     "description": "Designed for two-toed-sloth",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-two-toed-sloth__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-two-toed-sloth__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "95958eb91110b27ec3e588c114e509516334a608efe57ac1e22d58cf2b1b2877"
+    "sha256": "95958eb91110b27ec3e588c114e509516334a608efe57ac1e22d58cf2b1b2877",
+    "runtime": "assets/item-two-toed-sloth__signature-2.webp"
   },
   {
     "key": "item-two-toed-sloth__signature-3",
@@ -1403,11 +1496,12 @@
     "subject": "Leafy nook",
     "description": "Designed for two-toed-sloth",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-two-toed-sloth__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-two-toed-sloth__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "216a08ebcd3e5b7e8d5ae38bd40880c3f53362c97c96068c973245c3eedfac7c"
+    "sha256": "216a08ebcd3e5b7e8d5ae38bd40880c3f53362c97c96068c973245c3eedfac7c",
+    "runtime": "assets/item-two-toed-sloth__signature-3.webp"
   },
   {
     "key": "item-malayan-tapir__signature-1",
@@ -1418,11 +1512,12 @@
     "subject": "Mud wallow",
     "description": "Designed for malayan-tapir",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-malayan-tapir__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-malayan-tapir__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "13f56f68b75edf76d561afad2bc8e986b27d7aa5a7f5eb2398b009e32d307344"
+    "sha256": "13f56f68b75edf76d561afad2bc8e986b27d7aa5a7f5eb2398b009e32d307344",
+    "runtime": "assets/item-malayan-tapir__signature-1.webp"
   },
   {
     "key": "item-malayan-tapir__signature-2",
@@ -1433,11 +1528,12 @@
     "subject": "Scent trail",
     "description": "Designed for malayan-tapir",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-malayan-tapir__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-malayan-tapir__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ab7a72a93db2c367c4c1a3ca33b3d055ed63534cc66dc813754659f5d367f061"
+    "sha256": "ab7a72a93db2c367c4c1a3ca33b3d055ed63534cc66dc813754659f5d367f061",
+    "runtime": "assets/item-malayan-tapir__signature-2.webp"
   },
   {
     "key": "item-malayan-tapir__signature-3",
@@ -1448,11 +1544,12 @@
     "subject": "Shaded pool",
     "description": "Designed for malayan-tapir",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-malayan-tapir__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-malayan-tapir__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "b2dfa0d2f964568219783d0ac4550aad813b4ee67aa8f39167e394f6a755e533"
+    "sha256": "b2dfa0d2f964568219783d0ac4550aad813b4ee67aa8f39167e394f6a755e533",
+    "runtime": "assets/item-malayan-tapir__signature-3.webp"
   },
   {
     "key": "item-african-elephant__signature-1",
@@ -1463,11 +1560,12 @@
     "subject": "Heavy browse log",
     "description": "Designed for african-elephant",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-african-elephant__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-african-elephant__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "229cdf25d5263ebed7b5acc753eaa63ac01435a7f20c534fb409d7da601f7484"
+    "sha256": "229cdf25d5263ebed7b5acc753eaa63ac01435a7f20c534fb409d7da601f7484",
+    "runtime": "assets/item-african-elephant__signature-1.webp"
   },
   {
     "key": "item-african-elephant__signature-2",
@@ -1478,11 +1576,12 @@
     "subject": "Mud wallow",
     "description": "Designed for african-elephant",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-african-elephant__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-african-elephant__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "c87b1e6a799f450cdf1268bb9cfab730fd4b0e783cdb6faf6573d1fdbea65a3f"
+    "sha256": "c87b1e6a799f450cdf1268bb9cfab730fd4b0e783cdb6faf6573d1fdbea65a3f",
+    "runtime": "assets/item-african-elephant__signature-2.webp"
   },
   {
     "key": "item-african-elephant__signature-3",
@@ -1493,11 +1592,12 @@
     "subject": "Water spray",
     "description": "Designed for african-elephant",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-african-elephant__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-african-elephant__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "9279ab882a539a889d3ca7b4d1ecd08f8750028b0ce5bc6cd2697e5ff053facd"
+    "sha256": "9279ab882a539a889d3ca7b4d1ecd08f8750028b0ce5bc6cd2697e5ff053facd",
+    "runtime": "assets/item-african-elephant__signature-3.webp"
   },
   {
     "key": "item-giraffe__signature-1",
@@ -1508,11 +1608,12 @@
     "subject": "High browse rack",
     "description": "Designed for giraffe",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-giraffe__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-giraffe__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "09047e057162fd48437493eaeabafda428deb341b709b598bdda36038e069f41"
+    "sha256": "09047e057162fd48437493eaeabafda428deb341b709b598bdda36038e069f41",
+    "runtime": "assets/item-giraffe__signature-1.webp"
   },
   {
     "key": "item-giraffe__signature-2",
@@ -1523,11 +1624,12 @@
     "subject": "Shade canopy",
     "description": "Designed for giraffe",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-giraffe__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-giraffe__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "1edefbfde708e8a5bd3095b5e6063e8b6c1764afeb1bf6186fcb9061de039a4b"
+    "sha256": "1edefbfde708e8a5bd3095b5e6063e8b6c1764afeb1bf6186fcb9061de039a4b",
+    "runtime": "assets/item-giraffe__signature-2.webp"
   },
   {
     "key": "item-giraffe__signature-3",
@@ -1538,11 +1640,12 @@
     "subject": "Scent post",
     "description": "Designed for giraffe",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-giraffe__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-giraffe__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "17df87c54e834ed891864b00740a5cf1e25126533388521124bcab3e04997d6f"
+    "sha256": "17df87c54e834ed891864b00740a5cf1e25126533388521124bcab3e04997d6f",
+    "runtime": "assets/item-giraffe__signature-3.webp"
   },
   {
     "key": "item-plains-zebra__signature-1",
@@ -1553,11 +1656,12 @@
     "subject": "Dust patch",
     "description": "Designed for plains-zebra",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-plains-zebra__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-plains-zebra__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "245ca121f72967d1833bd8701917f344d81729d78ebed0f32d4084bfca89759d"
+    "sha256": "245ca121f72967d1833bd8701917f344d81729d78ebed0f32d4084bfca89759d",
+    "runtime": "assets/item-plains-zebra__signature-1.webp"
   },
   {
     "key": "item-plains-zebra__signature-2",
@@ -1568,11 +1672,12 @@
     "subject": "Browse pile",
     "description": "Designed for plains-zebra",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-plains-zebra__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-plains-zebra__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "4e9b3e045a9108231dc197171ff127e41356a7b8cbf79d4b1be2dca9781b234a"
+    "sha256": "4e9b3e045a9108231dc197171ff127e41356a7b8cbf79d4b1be2dca9781b234a",
+    "runtime": "assets/item-plains-zebra__signature-2.webp"
   },
   {
     "key": "item-plains-zebra__signature-3",
@@ -1583,11 +1688,12 @@
     "subject": "Shade grove",
     "description": "Designed for plains-zebra",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-plains-zebra__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-plains-zebra__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "5dbd68be35f2808a795c48ac02decea1bcfe255438a898aef225ad2e80d14f59"
+    "sha256": "5dbd68be35f2808a795c48ac02decea1bcfe255438a898aef225ad2e80d14f59",
+    "runtime": "assets/item-plains-zebra__signature-3.webp"
   },
   {
     "key": "item-arctic-fox__signature-1",
@@ -1598,11 +1704,12 @@
     "subject": "Dig patch",
     "description": "Designed for arctic-fox",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-arctic-fox__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-arctic-fox__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "bd5b989c73048685ce17a9a775c85509d19af6a9c8dda4365e042dd22276fec1"
+    "sha256": "bd5b989c73048685ce17a9a775c85509d19af6a9c8dda4365e042dd22276fec1",
+    "runtime": "assets/item-arctic-fox__signature-1.webp"
   },
   {
     "key": "item-arctic-fox__signature-2",
@@ -1613,11 +1720,12 @@
     "subject": "Scent log",
     "description": "Designed for arctic-fox",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-arctic-fox__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-arctic-fox__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "f117a350610c74885a1b22edcfa626b3c52ddc7b1beb39614c85e09de4df04af"
+    "sha256": "f117a350610c74885a1b22edcfa626b3c52ddc7b1beb39614c85e09de4df04af",
+    "runtime": "assets/item-arctic-fox__signature-2.webp"
   },
   {
     "key": "item-arctic-fox__signature-3",
@@ -1628,11 +1736,12 @@
     "subject": "Puzzle mound",
     "description": "Designed for arctic-fox",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-arctic-fox__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-arctic-fox__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "d41a5a473123468703c2317242c853c8f620d3cb7979254684fd1270dfdf4360"
+    "sha256": "d41a5a473123468703c2317242c853c8f620d3cb7979254684fd1270dfdf4360",
+    "runtime": "assets/item-arctic-fox__signature-3.webp"
   },
   {
     "key": "item-snow-leopard__signature-1",
@@ -1643,11 +1752,12 @@
     "subject": "Rock ledge",
     "description": "Designed for snow-leopard",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-snow-leopard__signature-1.png",
+    "status": "integrated",
+    "path": "art-source/item-snow-leopard__signature-1.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "958607b106982d181714053a95ce5b7633210b31d08bdd184ced2923b74f997d"
+    "sha256": "958607b106982d181714053a95ce5b7633210b31d08bdd184ced2923b74f997d",
+    "runtime": "assets/item-snow-leopard__signature-1.webp"
   },
   {
     "key": "item-snow-leopard__signature-2",
@@ -1658,11 +1768,12 @@
     "subject": "Scent post",
     "description": "Designed for snow-leopard",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-snow-leopard__signature-2.png",
+    "status": "integrated",
+    "path": "art-source/item-snow-leopard__signature-2.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ecbf61f8e5da87ec7edc0bc434e8aaa253b54aa83844ce999cb4d7d2c8715c15"
+    "sha256": "ecbf61f8e5da87ec7edc0bc434e8aaa253b54aa83844ce999cb4d7d2c8715c15",
+    "runtime": "assets/item-snow-leopard__signature-2.webp"
   },
   {
     "key": "item-snow-leopard__signature-3",
@@ -1673,11 +1784,12 @@
     "subject": "Suspended forage",
     "description": "Designed for snow-leopard",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/item-snow-leopard__signature-3.png",
+    "status": "integrated",
+    "path": "art-source/item-snow-leopard__signature-3.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "d3daf7c2ec5b301b81ffcc5962d2aa4fbcaf931149aa00dbdcb194b4c4880b0a"
+    "sha256": "d3daf7c2ec5b301b81ffcc5962d2aa4fbcaf931149aa00dbdcb194b4c4880b0a",
+    "runtime": "assets/item-snow-leopard__signature-3.webp"
   },
   {
     "key": "build-path",
@@ -1688,11 +1800,12 @@
     "subject": "Path: Guests and keepers can only reach what a path reaches.",
     "description": "Path: Guests and keepers can only reach what a path reaches.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-path.png",
+    "status": "integrated",
+    "path": "art-source/build-path.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "0b92e04754d1886c5770ba88dc41f868c29e687a57790531161a043774e2d8f2"
+    "sha256": "0b92e04754d1886c5770ba88dc41f868c29e687a57790531161a043774e2d8f2",
+    "runtime": "assets/build-path.webp"
   },
   {
     "key": "build-icecream",
@@ -1703,11 +1816,12 @@
     "subject": "Ice Cream Cart: Everyone needs a cone.",
     "description": "Ice Cream Cart: Everyone needs a cone.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-icecream.png",
+    "status": "integrated",
+    "path": "art-source/build-icecream.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "cf4dd43f02a280c7b9aa45d9009299a4e6b8dae65c8970229215e766291ad27c"
+    "sha256": "cf4dd43f02a280c7b9aa45d9009299a4e6b8dae65c8970229215e766291ad27c",
+    "runtime": "assets/build-icecream.webp"
   },
   {
     "key": "build-toilet",
@@ -1718,11 +1832,12 @@
     "subject": "Loos: Earns nothing. Guests stay longer and enjoy it more.",
     "description": "Loos: Earns nothing. Guests stay longer and enjoy it more.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-toilet.png",
+    "status": "integrated",
+    "path": "art-source/build-toilet.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "788ee59cb60b78fe591d465c0d3fad4dd0d8375505bff6107350c109a0192e66"
+    "sha256": "788ee59cb60b78fe591d465c0d3fad4dd0d8375505bff6107350c109a0192e66",
+    "runtime": "assets/build-toilet.webp"
   },
   {
     "key": "build-snacks",
@@ -1733,11 +1848,12 @@
     "subject": "Snack Kiosk: Pretzels, crisps and carrot sticks (for the humans).",
     "description": "Snack Kiosk: Pretzels, crisps and carrot sticks (for the humans).",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-snacks.png",
+    "status": "integrated",
+    "path": "art-source/build-snacks.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "ab827722a11f9409df87aa381c9b245c355021166f52ad369faad8e3900a6743"
+    "sha256": "ab827722a11f9409df87aa381c9b245c355021166f52ad369faad8e3900a6743",
+    "runtime": "assets/build-snacks.webp"
   },
   {
     "key": "build-gifts",
@@ -1748,11 +1864,12 @@
     "subject": "Gift Shop: Plushies of your animals. Sells better with more species.",
     "description": "Gift Shop: Plushies of your animals. Sells better with more species.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-gifts.png",
+    "status": "integrated",
+    "path": "art-source/build-gifts.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "7fc500ed7e02c749a2d0093d290da856a818f56e1e55824db68d72b83089efab"
+    "sha256": "7fc500ed7e02c749a2d0093d290da856a818f56e1e55824db68d72b83089efab",
+    "runtime": "assets/build-gifts.webp"
   },
   {
     "key": "build-cafe",
@@ -1763,11 +1880,12 @@
     "subject": "Tea Room: Tea and cake. Very British.",
     "description": "Tea Room: Tea and cake. Very British.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-cafe.png",
+    "status": "integrated",
+    "path": "art-source/build-cafe.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "8897d6bff520ad0556c23e84dbd8437cae54e408efa1ac9ba04ea899ddc09bf0"
+    "sha256": "8897d6bff520ad0556c23e84dbd8437cae54e408efa1ac9ba04ea899ddc09bf0",
+    "runtime": "assets/build-cafe.webp"
   },
   {
     "key": "build-flowers",
@@ -1778,11 +1896,12 @@
     "subject": "Flower bed: A splash of colour.",
     "description": "Flower bed: A splash of colour.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-flowers.png",
+    "status": "integrated",
+    "path": "art-source/build-flowers.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "41574940805815eae8e0068f4f7a07535852da3ecd613a53cd63af19e915b898"
+    "sha256": "41574940805815eae8e0068f4f7a07535852da3ecd613a53cd63af19e915b898",
+    "runtime": "assets/build-flowers.webp"
   },
   {
     "key": "build-tree",
@@ -1793,11 +1912,12 @@
     "subject": "Tree: Shade for tired legs.",
     "description": "Tree: Shade for tired legs.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-tree.png",
+    "status": "integrated",
+    "path": "art-source/build-tree.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "4b47c010e1427038d72972e71ae3a2ea81f314d093d27104116b4797883016c9"
+    "sha256": "4b47c010e1427038d72972e71ae3a2ea81f314d093d27104116b4797883016c9",
+    "runtime": "assets/build-tree.webp"
   },
   {
     "key": "build-bench",
@@ -1808,11 +1928,12 @@
     "subject": "Bench: Guests stay a bit longer.",
     "description": "Bench: Guests stay a bit longer.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-bench.png",
+    "status": "integrated",
+    "path": "art-source/build-bench.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "523372a7c247df58340ae0f47ea6ada677fb8c289370657013822178722e820f"
+    "sha256": "523372a7c247df58340ae0f47ea6ada677fb8c289370657013822178722e820f",
+    "runtime": "assets/build-bench.webp"
   },
   {
     "key": "build-lamp",
@@ -1823,11 +1944,12 @@
     "subject": "Lamp post: A warm glow at closing time.",
     "description": "Lamp post: A warm glow at closing time.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-lamp.png",
+    "status": "integrated",
+    "path": "art-source/build-lamp.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "e72f70c09d51f98c16f48170b9f0fa91c8209728771c91a10f60cf1f11c7fd2d"
+    "sha256": "e72f70c09d51f98c16f48170b9f0fa91c8209728771c91a10f60cf1f11c7fd2d",
+    "runtime": "assets/build-lamp.webp"
   },
   {
     "key": "build-fountain",
@@ -1838,11 +1960,12 @@
     "subject": "Fountain: Coins in, wishes out.",
     "description": "Fountain: Coins in, wishes out.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-fountain.png",
+    "status": "integrated",
+    "path": "art-source/build-fountain.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "a52b4dc8a3c7389d381ea9d2aa645ccf4618cbc07789d9c65326288eacf90e9e"
+    "sha256": "a52b4dc8a3c7389d381ea9d2aa645ccf4618cbc07789d9c65326288eacf90e9e",
+    "runtime": "assets/build-fountain.webp"
   },
   {
     "key": "build-statue",
@@ -1853,10 +1976,11 @@
     "subject": "Golden Paw: For the best zoo in town.",
     "description": "Golden Paw: For the best zoo in town.",
     "kind": "object",
-    "status": "prepared",
-    "path": "assets/build-statue.png",
+    "status": "integrated",
+    "path": "art-source/build-statue.png",
     "generator": "built-in image_gen",
     "sourceReference": "docs/refs/deck-concept-art.jpg",
-    "sha256": "c379b996e940acbe6b252c892d4fdb459578f0ae84c24f3905787738c92cf26c"
+    "sha256": "c379b996e940acbe6b252c892d4fdb459578f0ae84c24f3905787738c92cf26c",
+    "runtime": "assets/build-statue.webp"
   }
 ]
