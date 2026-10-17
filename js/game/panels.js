@@ -4,12 +4,7 @@
 
 // A picture when its art is ready, else the emoji stand-in.
 const pic = (key, emoji, cls = '') => (ZOO_ART_READY[key] ? `<img class="pic ${cls}" src="${ZOO_ART_READY[key]}" alt="">` : emoji);
-const animalPic = (a, cls) =>
-  pic(
-    a.stage && a.stage !== 'adult' && ZOO_ART_READY[`animal-${a.sp}-baby`] ? `animal-${a.sp}-baby` : `animal-${a.sp}`,
-    D.SPECIES[a.sp].emoji,
-    cls
-  );
+const animalPic = (a, cls) => pic(a.stage ? animalArtKey(a) : 'animal-' + a.sp, D.SPECIES[a.sp].emoji, cls);
 const meter = (label, icon, v) =>
   `<div class="meter"><span>${icon} ${label}</span><span class="bar ${v < 35 ? 'low' : ''}"><i style="width:${Math.max(0, Math.min(100, v))}%"></i></span></div>`;
 const attr = (o) => esc(JSON.stringify(o));

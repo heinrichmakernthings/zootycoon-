@@ -173,6 +173,36 @@ const render = {
     this.sprite(key, emoji, X, Yc + TW * 0.15, size);
     return { X, Y: Yc - size * 0.3, r: size * 0.45 };
   },
+  // A ground tile (a 2:1 diamond) as a repeating pattern, so a whole plot or enclosure floor is
+  // one fill instead of thousands of tiles. Null until the picture has loaded.
+  patterns: {},
+  pattern(key) {
+    if (this.patterns[key]) return this.patterns[key];
+    const img = this.image(key);
+    if (!img || !img.complete || !img.naturalWidth) return null;
+    const cv = document.createElement('canvas');
+    cv.width = 256;
+    cv.height = 128;
+    const c = cv.getContext('2d');
+    for (const [dx, dy] of [
+      [0, 0],
+      [-128, -64],
+      [128, -64],
+      [-128, 64],
+      [128, 64],
+    ])
+      c.drawImage(img, dx, dy, 256, 128);
+    return (this.patterns[key] = this.ctx.createPattern(cv, 'repeat'));
+  },
+  // Fills a w×h block of tiles with a ground picture (lined up with the grid), or a flat colour.
+  groundFill(key, x, y, w, h, color) {
+    const pat = this.pattern(key);
+    if (!pat) return this.diamond(x, y, w, h, color);
+    const [X0, Y0] = this.toScreen(0, 0);
+    const k = this.TW / 256;
+    pat.setTransform(new DOMMatrix([k, 0, 0, k, X0 - this.TW / 2, Y0]));
+    this.diamond(x, y, w, h, pat);
+  },
   shadow(X, Y, r) {
     const c = this.ctx;
     c.fillStyle = 'rgba(36,70,56,.16)';
@@ -233,7 +263,13 @@ const render = {
         this.walk(a, dt); // keep off-screen animals moving too
     for (const b of S.builds) if (this.visible(b.x, b.y)) this.build(b, things, now);
     const g = D.BALANCE.gate;
-    things.push([g.x + g.y + 1.9, () => this.sprite('gate', '🎪', ...this.toScreen(g.x + 0.95, g.y + 0.95), this.TW * 0.95)]);
+    things.push([
+      g.x + g.y + 1.9,
+      () =>
+        this.image('gate')
+          ? this.footSprite('gate', '🎪', g.x, g.y, 1, 1, 2.4)
+          : this.sprite('gate', '🎪', ...this.toScreen(g.x + 0.95, g.y + 0.95), this.TW * 0.95),
+    ]);
     this.people(now, reached, things);
     things.sort((a, b) => a[0] - b[0]);
     for (const [, draw] of things) draw();
@@ -258,7 +294,8 @@ const render = {
         if (!this.visible(x, y, B.chunk, B.chunk)) continue;
         const own = S.land.includes(cx + ',' + cy);
         const sale = forSale.find((f) => f.cx === cx && f.cy === cy);
-        this.diamond(x, y, B.chunk, B.chunk, own ? '#b6c79b' : sale ? '#cdd3b5' : '#c9c2a5', own ? null : 'rgba(36,70,56,.12)', 1);
+        if (own) this.groundFill('tile-grass', x, y, B.chunk, B.chunk, '#b6c79b');
+        else this.diamond(x, y, B.chunk, B.chunk, sale ? '#cdd3b5' : '#c9c2a5', 'rgba(36,70,56,.12)', 1);
         if (sale) {
           const hov = ui.hover && Math.floor(ui.hover.x / B.chunk) === cx && Math.floor(ui.hover.y / B.chunk) === cy;
           this.diamond(x + 0.5, y + 0.5, B.chunk - 1, B.chunk - 1, hov ? 'rgba(127,174,106,.35)' : null, '#4f7f5a', 2);
@@ -284,6 +321,14 @@ const render = {
       const x = p % Sim.SIZE,
         y = Math.floor(p / Sim.SIZE);
       if (!this.visible(x, y)) continue;
+      const img = this.image('tile-path');
+      if (img && img.complete && img.naturalWidth) {
+        const [X, Y] = this.toScreen(x, y);
+        if (!reached.has(p)) this.ctx.globalAlpha = 0.6;
+        this.ctx.drawImage(img, X - this.TW / 2, Y, this.TW, this.TW / 2);
+        this.ctx.globalAlpha = 1;
+        continue;
+      }
       this.diamond(x, y, 1, 1, '#ead6b3');
       this.diamond(x + 0.1, y + 0.1, 0.8, 0.8, reached.has(p) ? '#f3e4c6' : '#e0d2bb');
     }
@@ -297,7 +342,7 @@ const render = {
       TW = this.TW;
     const st = Sim.habStats(S, hab);
     this.diamond(hab.x, hab.y, hab.w, hab.h, zone.edge);
-    this.diamond(hab.x + 0.1, hab.y + 0.1, hab.w - 0.2, hab.h - 0.2, zone.color);
+    this.groundFill('ground-' + sp.zone.toLowerCase(), hab.x + 0.1, hab.y + 0.1, hab.w - 0.2, hab.h - 0.2, zone.color);
     if (zone.pond) this.diamond(hab.x + hab.w * 0.35, hab.y + hab.h * 0.35, hab.w * 0.3, hab.h * 0.3, 'rgba(120,175,190,.55)');
     // item footprints on the ground, then the item standing on it
     for (const it of hab.items) {
@@ -322,6 +367,25 @@ const render = {
           const [x1, y1] = this.toScreen(ax, ay),
             [x2, y2] = this.toScreen(bx, by);
           const n = Math.max(1, Math.round(Math.hypot(bx - ax, by - ay)));
+          const railImg = this.image(ay === by ? 'fence-rail-a' : 'fence-rail-b'),
+            postImg = this.image('fence-post');
+          if (railImg && railImg.complete && railImg.naturalWidth && postImg && postImg.complete && postImg.naturalWidth) {
+            // one rail picture per tile edge (it already slopes with the grid), a post at every corner
+            const w = TW / 2,
+              h = (w * railImg.naturalHeight) / railImg.naturalWidth;
+            const pw = TW * 0.14,
+              ph = (pw * postImg.naturalHeight) / postImg.naturalWidth;
+            for (let i = 0; i < n; i++) {
+              const [sx1, sy1] = this.toScreen(ax + ((bx - ax) * i) / n, ay + ((by - ay) * i) / n),
+                [sx2, sy2] = this.toScreen(ax + ((bx - ax) * (i + 1)) / n, ay + ((by - ay) * (i + 1)) / n);
+              c.drawImage(railImg, Math.min(sx1, sx2), Math.max(sy1, sy2) - h, w, h);
+            }
+            for (let i = 0; i <= n; i++) {
+              const [px, py] = this.toScreen(ax + ((bx - ax) * i) / n, ay + ((by - ay) * i) / n);
+              c.drawImage(postImg, px - pw / 2, py - ph, pw, ph);
+            }
+            return;
+          }
           c.strokeStyle = '#8a5a3b';
           c.lineWidth = Math.max(1.5, TW * 0.04);
           c.lineCap = 'round';
@@ -415,7 +479,7 @@ const render = {
         this.shadow(X, Y, size * 0.3);
         const since = now - cr.helloNow;
         const squish = !calm && since < 600 ? 1 + Math.sin(since / 60) * 0.08 : 1;
-        const art = a.stage !== 'adult' && ZOO_ART_READY[`animal-${a.sp}-baby`] ? `animal-${a.sp}-baby` : `animal-${a.sp}`;
+        const art = animalArtKey(a);
         const c = this.ctx;
         c.save();
         c.translate(X, Y - hop);
@@ -469,8 +533,9 @@ const render = {
     const want = Math.min(Math.round(S.guests), 60, (tiles - 1) * 4);
     const staffWant = S.staff.keeper + S.staff.guide;
     const g = D.BALANCE.gate;
-    const add = (face, staff) =>
+    const add = (face, staff, key) =>
       this.walkers.push({
+        key,
         x: g.x,
         y: g.y,
         fx: g.x,
@@ -484,10 +549,16 @@ const render = {
         p: Math.random(),
       });
     const guests = this.walkers.filter((w) => !w.staff);
-    if (guests.length < want) add(GUEST_FACES[Math.floor(Math.random() * GUEST_FACES.length)], false);
+    if (guests.length < want)
+      add(GUEST_FACES[Math.floor(Math.random() * GUEST_FACES.length)], false, D.GUESTS[Math.floor(Math.random() * D.GUESTS.length)]);
     if (guests.length > want) this.walkers.splice(this.walkers.indexOf(guests[guests.length - 1]), 1);
     const staff = this.walkers.filter((w) => w.staff);
-    if (staff.length < staffWant) add(staff.length < S.staff.keeper ? D.STAFF.keeper.emoji : D.STAFF.guide.emoji, true);
+    if (staff.length < staffWant)
+      add(
+        staff.length < S.staff.keeper ? D.STAFF.keeper.emoji : D.STAFF.guide.emoji,
+        true,
+        staff.length < S.staff.keeper ? 'staff-keeper' : 'staff-guide'
+      );
     if (staff.length > staffWant) this.walkers.splice(this.walkers.indexOf(staff[staff.length - 1]), 1);
     for (const w of this.walkers) {
       if (w.p >= 1 || !reached.has(w.ty * W + w.tx)) {
@@ -522,7 +593,9 @@ const render = {
           const [X, Y] = this.toScreen(wx, wy);
           const bob = prefs.reduceMotion ? 0 : Math.abs(Math.sin(now / 160 + w.off * 10)) * this.TW * 0.03;
           this.shadow(X, Y, this.TW * 0.07);
-          this.sprite('', w.face, X, Y - bob, this.TW * 0.34);
+          const img = this.image(w.key);
+          if (img && img.complete && img.naturalWidth) this.sprite(w.key, '', X, Y - bob, this.TW * 0.5, w.tx - w.fx - (w.ty - w.fy) > 0);
+          else this.sprite('', w.face, X, Y - bob, this.TW * 0.34);
         },
       ]);
     }
@@ -609,4 +682,18 @@ function dragRect() {
 }
 // Art key for a catalogue item: shared templates share a picture (item-shelter), signature items
 // have their own (item-capybara__signature-1). See docs/ART-BRIEF.md.
-const artKey = (def) => (def.template ? 'item-' + def.template : 'item-' + def.id);
+const artKey = (def) =>
+  def.template === 'sign' && ZOO_ART_READY['item-sign-' + def.sp]
+    ? 'item-sign-' + def.sp
+    : def.template
+      ? 'item-' + def.template
+      : 'item-' + def.id;
+// The picture for an animal: its life stage (juvenile falls back to baby, then adult) and, for
+// peafowl, the peahen for females.
+function animalArtKey(a) {
+  const base = 'animal-' + a.sp;
+  if (a.stage === 'juvenile' && ZOO_ART_READY[base + '-juvenile']) return base + '-juvenile';
+  if (a.stage !== 'adult' && ZOO_ART_READY[base + '-baby']) return base + '-baby';
+  if (a.stage === 'adult' && a.sex === 'f' && ZOO_ART_READY[base + '-female']) return base + '-female';
+  return base;
+}

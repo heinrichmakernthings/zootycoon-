@@ -993,3 +993,18 @@ img.pic {
   height: 150px;
   object-fit: contain;
 }
+img.icon {
+  width: 1.35em;
+  height: 1.35em;
+  object-fit: contain;
+  vertical-align: middle;
+}
+#toolbar img.icon {
+  width: 28px;
+  height: 28px;
+}
+#modal img.logo {
+  display: block;
+  width: min(320px, 80%);
+  margin: -8px auto 6px;
+}

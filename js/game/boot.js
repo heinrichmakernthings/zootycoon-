@@ -13,6 +13,10 @@
   });
   addEventListener('visibilitychange', () => document.hidden && save());
   addEventListener('pagehide', save);
+  // HUD and toolbar icons: pictures where they exist (batch 2), emoji otherwise.
+  for (const el of document.querySelectorAll('[data-icon]'))
+    if (ZOO_ART_READY['icon-' + el.dataset.icon])
+      el.innerHTML = `<img class="icon" src="${ZOO_ART_READY['icon-' + el.dataset.icon]}" alt="">`;
   updateHud();
   if (start.upgraded) showUpgraded();
   else if (start.fresh || !S.name) showWelcome();

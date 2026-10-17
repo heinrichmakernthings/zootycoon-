@@ -12,7 +12,9 @@ function updateHud() {
   $('#zooname').textContent = S.name || 'Your new zoo';
   $('#zoostage').textContent = Sim.stage(S).name;
   $('#day').textContent = 'Day ' + S.day;
-  $('#event').textContent = ev.emoji;
+  if (ZOO_ART_READY['icon-day'] && (ev.id === 'normal' || ev.id === 'sunny'))
+    $('#event').innerHTML = `<img class="icon" src="${ZOO_ART_READY['icon-day']}" alt="">`;
+  else $('#event').textContent = ev.emoji;
   $('#event').title = ev.name;
   $('#dayfill').style.width = ((S.t % D.BALANCE.dayLength) / D.BALANCE.dayLength) * 100 + '%';
   $('#coins').textContent = fmt(S.coins);
@@ -220,7 +222,7 @@ function showReveal(id) {
 }
 function showWelcome() {
   modal(
-    `<h2>🐾 A little zoo. A lot of personality.</h2>
+    `${ZOO_ART_READY.logo ? `<img class="logo" src="${ZOO_ART_READY.logo}" alt="Cutise Zoo">` : ''}<h2>🐾 A little zoo. A lot of personality.</h2>
     <p>You've taken over an empty patch of land at the edge of town. Fence homes, fill them with what animals need, then welcome your first residents. Happy animals bring happy visitors, and maybe a baby or two.</p>
     <label class="field">What's your zoo called?<input id="zooname-input" maxlength="28" placeholder="Little Paws Zoo"></label>`,
     `<button class="btn" data-ui="closemodal">Let's go!</button>`
