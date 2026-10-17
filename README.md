@@ -1,34 +1,36 @@
 # Cutise Zoo
 
-*A little zoo. A lot of personality.* A cosy isometric zoo tycoon that runs in the browser: build habitats, welcome animals with names, traits and favourite things, fix their needs, and grow a tiny park into your dream zoo.
+*A little zoo. A lot of personality.* A cosy isometric zoo tycoon that runs in the browser. Fence homes for 20 species, fill them with what each animal needs, buy and sell at the market, raise babies, and grow a patch of empty land into your dream zoo.
 
 Plain browser JavaScript, no build step.
 
 | | |
 | --- | --- |
 | `index.html`, `css/zoo.css` | the page |
-| `js/content.js` | every number and name (balance goes here) |
+| `pack/` | the animal design pack: species, the 300-item catalogue, systems docs and (once uploaded) concept art. The source of truth for animals. |
+| `js/pack-data.js` | generated from `pack/data/*.json` by `npm run pack` (don't edit it) |
+| `js/content.js` | numbers and names the game adds: park, visitors, staff, goals, tuning |
 | `js/sim.js` | the rules: pure and seeded, the same in the browser and in tests |
-| `js/game/*.js` | the front end: `core` (state, save, clock), `render` (isometric canvas), `ui` (HUD and panels), `input`, `boot` (last) |
+| `js/game/*.js` | the front end: `core` (state, save, clock), `render` (isometric canvas), `ui` (HUD, modes, pop-ups), `panels` (side panel), `input`, `boot` (last) |
 | `js/art.js` | which pictures are ready (written by `npm run zoo-art`) |
-| `assets/` | art, named by key |
-| `docs/DESIGN.md` | the design deck mapped to the game, status and next steps |
+| `docs/DESIGN.md` | how the deck and the pack map onto the game, and what's next |
 | `docs/ART-BRIEF.md` | every picture's key, size and ChatGPT prompt |
 
 ## Play it
 
 - Locally: `npm run dev`, then open <http://localhost:8000>.
-- Tests: `npm install && npm test`.
+- Tests: `npm install && npm test` (they follow the pack's acceptance checks).
+- `npm run pack` after editing `pack/data/*.json`. `npm run validate-pack` checks the pack's own files (needs its PNGs). `node tools/bench.js` times the rules with 20, 75 and 150 animals.
 
 ## Put it on Cloudflare
 
-It's a static site, so either:
+It's a static site:
 
-1. **From GitHub (easiest):** push this folder to a new GitHub repo. In the Cloudflare dashboard go to **Workers & Pages → Create → Import a repository**, pick the repo, leave the build command empty and the deploy command as `npx wrangler deploy`. Every push redeploys.
-2. **From your computer:** `npx wrangler login`, then `npx wrangler deploy` in this folder.
+1. **From GitHub (easiest):** in the Cloudflare dashboard go to **Workers & Pages → Create → Import a repository**, pick this repo, leave the build command empty and the deploy command as `npx wrangler deploy`. Every push to `main` redeploys.
+2. **From your computer:** `npx wrangler login`, then `npx wrangler deploy`.
 
-`wrangler.jsonc` names the Worker `cutise-zoo` and serves this folder; `.assetsignore` keeps docs, tools and tests off the internet. Saves live in each player's browser (localStorage), so no server is needed.
+`.assetsignore` keeps the pack, docs, tools and tests off the public site. Saves live in each player's browser, so no server is needed.
 
 ## Rules of the road
 
-Every change to the zoo goes through `act()` → `ZooSim.apply()`. The rules use no DOM, no clock and no `Math.random`. New state needs a default in `createState()`, a check in `load()` and a test in `test/zoo.test.js`. Text from state is escaped with `esc()`.
+Every change to the zoo goes through `act()` → `ZooSim.apply()`. The rules use no DOM, no clock and no `Math.random`. Anything that moves money takes a transaction id, so a double click can't charge twice. New state needs a default in `createState()`, a check in `load()` and a test. Old saves are upgraded, never reset; the front end keeps a backup copy first. Text from state is escaped with `esc()`.

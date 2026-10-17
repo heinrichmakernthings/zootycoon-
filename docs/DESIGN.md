@@ -2,93 +2,64 @@
 
 > **A little zoo. A lot of personality.** A cosy, single-player isometric zoo tycoon for the desktop browser, with touch-friendly controls.
 
-The source is the design deck *Cutise Zoo Tycoon — Game design & visual direction, Concept 01, October 2026*. Its key images are in `refs/`: `deck-concept-art.jpg` (cast, habitats, style) and `deck-game-screen.jpg` (screen layout). This page records how each part of the deck maps onto the code, what is built and what comes next. Numbers live in `js/content.js`, rules in `js/sim.js`.
+There are two sources:
 
-## The pillars (from the deck)
+- **The design deck** (*Cutise Zoo Tycoon — Game design & visual direction, Concept 01*). It sets the look, the screen layout, the first 15 minutes and the UX rules. Key images are in `refs/`.
+- **The animal design pack** (`pack/`, version 1.0). It sets the 20 species, the 300-entry build catalogue, and how breeding, trading, enclosure resizing and park land work. Its JSON drives the game: `npm run pack` turns it into `js/pack-data.js`.
 
-| Deck | In the game |
+Numbers the game adds live in `js/content.js`; the rules are in `js/sim.js`.
+
+## The loop (pack: GAME-SYSTEMS)
+
+1. **Fence an enclosure** for one species: drag out a rectangle on land you own.
+2. **Fill it** from that species' 15-item catalogue. A keeper gate goes in the fence beside a path. Then come a shelter, a feeder, water, shade and their signature items.
+3. **Buy animals** at the market: six adult listings a day.
+4. **Watch and fix:** animals walk between feeding, resting and play spots. When something's wrong, the panel says what and offers the fix.
+5. **Raise a family:** switch breeding on, pick a pair, meet the checklist, then confirm.
+6. **Grow:** resize enclosures, buy neighbouring land, unlock new species with care reputation.
+
+## How the pack maps onto the game
+
+| Pack | In the game |
 | --- | --- |
-| **Player fantasy:** turn a tiny local park into a thriving, personal zoo | You start with an empty park, a gate, one tile of path and 1,200 coins. |
-| **Emotional hook:** name your animals, learn their habits, watch them enjoy what you build | Every animal gets a name, a **trait** (sociable, shy, playful, sleepy, foodie, curious) and a **favourite item**. Animals head for the pool, hop when happy and show a thought bubble when something's wrong. |
-| **Format:** isometric management, desktop first, touch friendly | 2:1 isometric canvas with pan, zoom (wheel, pinch, + −), tap to select, drag to lay paths. Phones get a bottom-sheet panel. |
-| **Storybook warmth:** rounded silhouettes, soft shadows, quiet ground colours | Palette tokens in `css/zoo.css`: Cream `#FBF5E8`, Sage `#A7BA91`, Apricot `#E8B58A`, Pond blue `#9EC7C7`, Forest ink `#244638`. Fraunces for titles, Nunito for text. |
+| 20 species, stable ids (`capybara`, `red-panda`…) | `D.SPECIES`, built from `pack/data/species.json`. The first animal of each species gets the pack's example name (Mochi, Maple…). |
+| 300 catalogue entries (12 templates + 3 signature items per species) | `D.ITEMS` and `D.CATALOGUE`. Each enclosure only offers its species' 15. |
+| Placement: inside / boundary / outside, footprints, rotations | `Sim.placeProblem` explains any refusal. Gates and viewing windows go in the fence. Signs and borders go just outside. Shelters, feeders, water, nursery and privacy planting are solid; the rest can be walked on. |
+| Upgrade levels 1–3 | An item's level needs the tier below it: level 2 needs "A safe home", level 3 needs "A place to explore". |
+| Capacity: `physical = floor(usable / tilesPerSlot)`, `supported = min(physical, shelter, feed, water)` | `Sim.habStats`. The panel shows all four numbers and which one is the bottleneck. **A feeder only counts if keepers can reach it** (keeper gate next to a path). Every life stage takes an adult slot, and so does a baby on the way. |
+| Needs: food, water, comfort, social, enrichment (0–100); wellbeing is the plain mean; health is separate | `Sim.needs`. The species' **priority need** (shade, climbing, nesting…) gets its own fix button, using the pack's `action_label`. |
+| Behaviour: urgent need, then parent, then favourite, then roam; commitment; per-object cooldown; seeded | `chooseAction` in `sim.js`. A newly placed item is tempting, so you see it used; the first use is announced. If a prop disappears, its users choose again. |
+| Breeding: off by default, explicit pair, checklist, one offspring, reserve the slot first, state machine | `Sim.readiness` and the `breed` action. A due birth replayed after a reload never makes a second baby: the child's id is reserved when the event starts. |
+| Baby → juvenile → adult, parent links, no death | Growth keeps the id, name, trait and parents. Babies follow their carer, except tortoise hatchlings. Egg-laying species hatch. |
+| Trading: adults only, 60% back, atomic, once per click | `buy` / `sell` take a transaction id; a repeat is ignored. Expecting parents and carers of young can't be sold. Family history is kept in `departed`. |
+| Resizing: same enclosure, preview, reject anything that strands an animal or prop | `resize` / `Sim.resizeProblem`. You pay for new fence and new ground only. |
+| Land: 32×32 chunks, start 2×2, up to 6×6, adjacent only, `750 × 1.35^n`, 5 coins/plot/day | `buyLand` / `Sim.landForSale`. |
+| Clock: 300 s game day at 1×, pause freezes, no offline progress | As specified. The old catch-up while away was removed, so returning never fills the park with surprise births. |
+| Scale targets 20 / 75 / 150 residents | `node tools/bench.js`: 0.07 / 0.19 / 0.42 ms of rules per game second, saves 15 / 43 / 79 KB. Drawing speed still needs measuring on real devices. |
 
-## The everyday loop
+## What the game adds
 
-1. **Build a habitat:** a 3×3 fenced plot in one biome, next to a path joined to the gate.
-2. **Welcome animals:** adoption offers arrive as your care reputation grows.
-3. **Care and observe:** keepers feed and tidy. You fix clear problems.
-4. **Earn and expand:** visitors pay at the gate and at amenities. Good care brings new offers.
+- **Visitors and money.** Tickets (against a fair price that rises with care), amenities, crowding on paths, daily running costs (animals by life stage, wages, land, buildings) and a day report.
+- **Care reputation.** Never spent. It rises while animals are well, and unlocks the pack's stages: starter (0), early (150), mid (700), late (2,000).
+- **Traits.** Sociable, shy, playful, sleepy, foodie and curious each nudge one need.
+- **Goals.** The deck's first 15 minutes, then the pack's build order (see `GOALS` in `content.js`).
 
-## Care: three bars, one problem at a time
+## Status against the pack's acceptance list
 
-Happiness is made of the three bars from the deck's Mochi panel:
-
-- **Food:** the habitat's bowl. Keepers top it up; you can too (10 coins).
-- **Comfort:** what the animal wants is in the habitat (a shelter, its species' wants, its trait's want), plus a bonus for its favourite item. Poop, crowds (for shy animals) and a signature habitat move it.
-- **Social:** enough of its own kind around.
-
-`Sim.problem()` turns the worst need into words and a fix, as the deck asks: *"Mochi needs shade"* with an **Add shade tree · 50** button. Problems come in this order: can't be reached, hungry, missing shelter, missing favourite, missing wants, messy, lonely, would love their favourite, shy of crowds.
-
-## Habitats that visibly improve (the deck's three tiers)
-
-1. **A safe home:** shelter, food and keeper access (a path).
-2. **A place to explore:** everything its residents want.
-3. **A signature habitat:** all of that, plus 3+ decorations planted round the fence.
-
-Higher tiers draw more visitors (`tierAppeal`), and a signature habitat makes its animals more comfortable.
-
-## A gentle tycoon with real choices
-
-- **One spendable currency (coins).** No energy timers and no paid care boosts.
-- **Care reputation** is earned, never spent. It rises while animals are well (and falls while they aren't), and from visitors who enjoyed their day. It unlocks adoption offers, buildings, staff and the zoo's stage: *Opening day* → *A local favourite* (500) → *Your dream zoo* (2,500).
-- **Running costs:** wages and upkeep per building, paid at the end of each day. The Zoo panel shows yesterday's net and tonight's costs; the day report shows the full sum.
-- **Ticket price** against a fair price that rises with care and amenities. Overcharge and fewer come.
-- **Crowding:** more visitors than your paths can hold lowers enjoyment, and shy animals hide.
-
-## The first 15 minutes (the goal card)
-
-| Minutes | Deck | Goals |
+| # | Milestone | Status |
 | --- | --- | --- |
-| 00–03 | Make it yours | Name the zoo · lay 4 path · build a Wetland habitat |
-| 03–06 | Meet the residents | Welcome two capybaras |
-| 06–10 | Solve a small need | Shelter · a shaded resting spot · hire a keeper · open the gates · 15 visitors |
-| 10–15 | Choose what comes next | Build an amenity · a "place to explore" habitat · a red panda |
-| later | A zoo that grows with you | Signature habitat · local favourite · 12 animals · a baby · dream zoo |
+| 1 | A living enclosure | ✅ tested: anchors, staying inside, a new item producing a new action |
+| 2 | Reliable data and saves | ✅ tested: round trip, junk saves, version 1 → 2 upgrade with a backup of the old save |
+| 3 | Trade | ✅ tested: double click, refusals change nothing, buy-then-sell loses |
+| 4 | Families | ✅ tested: off means nothing happens, reserved slot, save/reload at the due moment, relatives, carers |
+| 5 | Modular building and expansion | ✅ tested: feeder vs border, unreachable feeder, resize, land charged once |
+| 6 | Different locomotion | ⏳ not yet: everyone walks. Climbing routes, swim navigation, ramps and overhead routes need runtime sprites and path networks. |
+| 7 | Scale and usability | 🟡 rules benchmarked. Browser frame timing and the new-player test are still to do. |
 
-A bot run of the script reaches "a local favourite" around day 11 (about 22 minutes at normal speed).
+## Next
 
-## Fewer clicks, clearer decisions (the deck's UX rules)
-
-- **Tap the thing:** one contextual panel for an animal, a habitat or a building. Tapping an animal also says hello (a small cheer).
-- **Explain the problem:** see above.
-- **Forgiving building:** a ghost preview (green or red), the reason a spot won't work in the tip bar, **Undo** for 15 seconds with a full refund, and clear-for-half-back.
-- **Let the player set the pace:** pause while building (on by default), space to pause, ×3 speed, autosave every 10 seconds, half-pace catch-up while away (up to 2 hours), reduced motion (follows the system setting) and readable text.
-
-## Status
-
-**Built (first playable, per the deck's last slide):** one map, two starting species plus 14 more behind reputation, habitat placement and path access, animal needs and keeper routines, visitors, income and running costs, save and load (with old and junk saves loading safely), and tests in `test/zoo.test.js`.
-
-**Also in (kept gentle, since the deck lists them as later):** weather and events, babies, a guide.
-
-**Next, in the order the deck suggests:**
-
-1. Playtest the deck's three questions. Can a new player finish a habitat without help? Do they notice behaviour and choose an upgrade? Does the zoo feel alive at normal zoom?
-2. Real art (see `ART-BRIEF.md`), then idle, walk and sleep frames per animal.
-3. Rotate for non-square pieces, plus larger and themed habitats (zones).
-4. Specialist staff (vet, gardener), school visits as a proper event, habitat challenges.
-5. Conservation projects, seasonal decorations, a photo album, and a sandbox mode.
-
-## Design pieces that would help next
-
-Most useful first:
-
-1. **A scale line-up:** every animal next to a keeper and a guest, on one sheet, at the game's angle. It keeps sprites consistent.
-2. **One habitat at the exact game angle:** a 3×3 wetland seen at 2:1 isometric, empty, so the ground art matches the grid.
-3. **HUD and toolbar icons:** coin, visitors, care leaf, day sun, build hammer, paw, staff, map, as separate transparent PNGs in the deck's style.
-4. **Animation notes per animal:** idle, walk, happy, sleep, and what each trait looks like (a shy animal hiding, a sleepy one curled up).
-5. **What each habitat tier looks like:** the same habitat at tier 1, 2 and 3, so the improvement reads at a glance.
-6. **Guests and staff:** 6 visitor types and a keeper, at the same scale.
-7. **Logo or wordmark** for Cutise Zoo.
-8. **Sound and music direction:** a short mood list is enough.
-9. **The map's growth:** where expansion plots and zones go once the starting park is full.
+1. A new-player playtest of the pack's script: create a habitat, spot a care issue, place the fix, start breeding, find the newborn, expand.
+2. Runtime sprites (see `ART-BRIEF.md`). After that, idle, walk and sleep loops.
+3. Locomotion (milestone 6): connected climbing anchors, separate land and swim routes.
+4. Move and rotate placed items; free-form fence outlines.
+5. Seasonal scenery, conservation projects, a fuller photo album.

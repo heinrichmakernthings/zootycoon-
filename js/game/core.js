@@ -4,20 +4,29 @@
 const D = ZooData;
 const Sim = ZooSim;
 const SAVE_KEY = 'cutise-zoo-save';
+const BACKUP_KEY = 'cutise-zoo-save-backup'; // the save as it was before a version upgrade
 const PREFS_KEY = 'cutise-zoo-prefs';
 
 let S = null; // the zoo
 const ui = {
-  mode: null, // null (look and tap), 'build', 'bulldoze'
-  canUndo: false, // the last thing placed in this build session can be taken back
-  autoPaused: false, // paused because you're building (prefs.pauseWhileBuilding)
-  follow: null, // animal id the camera is following
-  naming: false, // the welcome pop-up is asking for the zoo's name
-  buildKey: null,
+  // what a tap does on the map: null (look), 'build' (park build), 'enclose' (drag a new enclosure),
+  // 'place' (an item into an enclosure), 'resize' (drag a new outline), 'bulldoze', 'land'
+  mode: null,
+  buildKey: null, // build mode: park build key
+  species: null, // enclose mode: which animal it's for
+  hab: null, // place / resize mode: which enclosure
+  item: null, // place mode: catalogue item id
+  rot: 0, // place mode: rotation
+  drag: null, // enclose / resize: {x0, y0, x1, y1} tiles while dragging
+  rect: null, // resize: the proposed outline waiting for Confirm
+  canUndo: false,
+  autoPaused: false,
+  follow: null, // animal id the camera follows
   hover: null, // {x, y} tile under the pointer
-  panel: null, // what the side panel is showing
+  panel: null, // {kind, id, tab}
+  naming: false,
   seenNews: 0,
-  reportDay: 0, // the last end-of-day report shown
+  reportDay: 0,
   speed: 1,
   paused: false,
 };
@@ -51,6 +60,10 @@ function act(cmd) {
   updateHud();
   return res;
 }
+// A fresh transaction id for anything that moves money: a double click or a retry sends the same
+// id, and the rules ignore the repeat (pack: buy once despite double click).
+let txCount = 0;
+const newTx = () => 'w' + Date.now().toString(36) + '-' + (txCount++).toString(36);
 
 // ---------- saving ----------
 function save() {
@@ -67,18 +80,25 @@ function loadSave() {
     S = Sim.createState((Date.now() ^ (Math.random() * 1e9)) >>> 0);
     return { fresh: true };
   }
+  const oldVersion = raw.state.v !== Sim.SCHEMA;
+  if (oldVersion)
+    try {
+      localStorage.setItem(BACKUP_KEY, JSON.stringify(raw)); // keep the old zoo, just in case
+    } catch (e) {}
   S = Sim.load(raw.state);
-  const away = Math.floor((Date.now() - (raw.savedAt || Date.now())) / 1000);
-  const out = away > 60 ? { away: Sim.catchUp(S, away) } : {};
-  // News and reports from before you opened the game are summed up in "while you were away".
-  ui.seenNews = S.newsId;
+  // No offline progress (pack: no surprise births while you're away). News from before this
+  // visit isn't replayed as toasts.
+  ui.seenNews = oldVersion ? 0 : S.newsId;
   ui.reportDay = S.report ? S.report.day : 0;
-  return out;
+  const away = Math.floor((Date.now() - (raw.savedAt || Date.now())) / 1000);
+  return { upgraded: oldVersion, away: away > 600 };
 }
 function newZoo() {
   S = Sim.createState((Date.now() ^ (Math.random() * 1e9)) >>> 0);
   ui.seenNews = 0;
   ui.reportDay = 0;
+  render.critters.clear();
+  render.home();
   save();
   updateHud();
 }
@@ -115,7 +135,7 @@ function sfx(kind) {
 }
 
 // ---------- the clock ----------
-// One zoo second per real second (or faster). News from the rules becomes toasts.
+// One zoo second per real second (or three). Paused time never reaches the rules.
 let lastTick = 0;
 function clock(now) {
   if (!ui.paused && now - lastTick >= 1000 / ui.speed) {
@@ -131,13 +151,14 @@ function clock(now) {
   for (const n of S.news) {
     if (n.id <= ui.seenNews) continue;
     ui.seenNews = n.id;
-    if (n.kind === 'baby' || n.kind === 'offer') sfx('baby');
+    if (n.kind === 'baby') sfx('baby');
     if (n.kind === 'stage') {
       sfx('level');
       celebrate();
     }
-    toast(n.text, n.kind);
+    toast(n.text, n.kind, n.animal);
   }
+  if (S.reveal.length && $('#modal').hidden) showReveal(S.reveal[0]);
   render.frame(now);
   requestAnimationFrame(clock);
 }
@@ -145,4 +166,6 @@ function clock(now) {
 // ---------- shared little helpers ----------
 const $ = (sel) => document.querySelector(sel);
 const esc = (v) => String(v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
-const fmt = (n) => (n >= 10000 ? (n / 1000).toFixed(1) + 'k' : String(Math.floor(n)));
+const fmt = (n) => (Math.abs(n) >= 10000 ? (n / 1000).toFixed(1) + 'k' : String(Math.floor(n)));
+const sexIcon = (sex) => (sex === 'f' ? '♀' : '♂');
+const stageName = { baby: 'Baby', juvenile: 'Juvenile', adult: 'Adult' };

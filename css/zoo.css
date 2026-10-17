@@ -816,3 +816,141 @@ input[type='range'] {
 [hidden] {
   display: none !important;
 }
+
+/* ---------- v2: enclosures, families, market ---------- */
+p.why {
+  margin: 4px 0;
+  color: var(--warn);
+  font-size: 12px;
+  font-weight: 700;
+}
+.capgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+.caprow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4eedf;
+  border-radius: 12px;
+  padding: 6px 2px;
+  font-size: 12px;
+}
+.caprow b {
+  font-size: 18px;
+}
+.caprow.neck {
+  background: var(--warn-bg);
+  color: var(--warn);
+  outline: 2px solid var(--apricot);
+}
+.caprow em {
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 800;
+}
+.items .itm span {
+  font-size: 22px;
+}
+.itm .count {
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  font-size: 11px;
+  background: var(--sage);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0 5px;
+}
+.placed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 13px;
+}
+.face em {
+  font-style: normal;
+  font-size: 10px;
+  color: var(--apricot);
+  font-weight: 800;
+}
+.face.gone {
+  opacity: 0.55;
+}
+.pairpick {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.pairpick > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.pick {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  padding: 5px 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.pick input {
+  accent-color: var(--leaf);
+}
+.pick small {
+  margin-left: auto;
+  color: var(--ink-soft);
+}
+.checks {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 10px;
+}
+.checks li {
+  padding: 3px 0;
+  color: var(--warn);
+  font-weight: 700;
+  font-size: 13px;
+}
+.checks li.ok {
+  color: var(--leaf);
+}
+.sexbig {
+  font-size: 22px;
+  color: var(--apricot);
+}
+h2.sp {
+  margin-top: 22px;
+  font-size: 20px;
+}
+select {
+  font: inherit;
+  flex: 1;
+  padding: 6px 8px;
+  border-radius: 10px;
+  border: 1.5px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+}
+.toast.link {
+  pointer-events: auto;
+  cursor: pointer;
+}
+.reveal {
+  text-align: center;
+}
+.reveal .hero {
+  font-size: 84px;
+  display: block;
+  animation: popin 0.5s cubic-bezier(0.3, 1.6, 0.6, 1);
+}
+.reveal .field {
+  text-align: left;
+}

@@ -381,12 +381,17 @@
         why: 'Make the enclosure bigger, or move someone.',
         fix: { ui: 'resize', label: 'Make it bigger' },
       };
-    if (hab.poop.length >= 3) return { text: `${a.name}'s home is messy`, why: 'Tap the poop to tidy up, or hire a keeper.' };
+    if (hab.poop.length >= 3) return { soft: true, text: `${a.name}'s home is messy`, why: 'Tap the poop to tidy up, or hire a keeper.' };
     if (n.social < 60)
-      return { text: `${a.name} is lonely`, why: `${sp.name}s like company.`, fix: { ui: 'market', label: 'Find a companion' } };
+      return {
+        soft: true,
+        text: `${a.name} is lonely`,
+        why: `${sp.name}s like company.`,
+        fix: { ui: 'market', label: 'Find a companion' },
+      };
     if (n.enrichment < 60) {
       const next = D.CATALOGUE[hab.sp].find((k) => D.ITEMS[k].cat === 'species_enrichment' && !hab.items.some((i) => i.k === k));
-      if (next) return { text: `${a.name} would love something new to do`, fix: placeFix(next) };
+      if (next) return { soft: true, text: `${a.name} would love something new to do`, fix: placeFix(next) };
     }
     return null;
   }

@@ -9,8 +9,9 @@
   addEventListener('visibilitychange', () => document.hidden && save());
   addEventListener('pagehide', save);
   updateHud();
-  if (start.fresh || !S.name) showWelcome();
-  else if (start.away) showAway(start.away);
+  if (start.upgraded) showUpgraded();
+  else if (start.fresh || !S.name) showWelcome();
+  else if (start.away) toast(`Welcome back! ${S.name} waited for you: time only passes while you play.`);
   save();
   requestAnimationFrame(clock);
 })();

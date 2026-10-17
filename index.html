@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#FBF5E8" />
     <title>Cutise Zoo</title>
-    <meta name="description" content="A little zoo. A lot of personality. A cosy zoo tycoon: build habitats, welcome animals, get to know them." />
+    <meta name="description" content="A little zoo. A lot of personality. A cosy zoo tycoon: fence homes for 20 animals, raise their babies and grow your park." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Nunito:wght@600;700;800;900&display=swap" />
     <link rel="stylesheet" href="css/zoo.css" />
@@ -30,12 +30,13 @@
         <button class="round" id="speed" data-ui="speed" title="Speed (space to pause)">▶</button>
         <button class="round" data-ui="zoomin" title="Zoom in">＋</button>
         <button class="round" data-ui="zoomout" title="Zoom out">－</button>
+        <button class="round" data-ui="home" title="Back to the gate">🎪</button>
       </div>
       <button id="goal" class="goal-card"></button>
 
       <nav id="toolbar">
         <button data-panel="build"><span>🔨</span>Build</button>
-        <button data-panel="animals"><span>🐾</span>Animals</button>
+        <button data-panel="market"><span>🐾</span>Animals</button>
         <button data-panel="staff"><span>🧑‍🌾</span>Staff</button>
         <button data-panel="zoo"><span>🗺️</span>Zoo</button>
       </nav>
@@ -49,12 +50,14 @@
 
     <div id="modal" hidden><div class="box"></div></div>
 
+    <script src="js/pack-data.js"></script>
     <script src="js/content.js"></script>
     <script src="js/sim.js"></script>
     <script src="js/art.js"></script>
     <script src="js/game/core.js"></script>
     <script src="js/game/render.js"></script>
     <script src="js/game/ui.js"></script>
+    <script src="js/game/panels.js"></script>
     <script src="js/game/input.js"></script>
     <script src="js/game/boot.js"></script>
   </body>
