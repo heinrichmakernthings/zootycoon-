@@ -29,6 +29,10 @@ const render = {
   fx: [],
   hits: [],
   last: 0,
+  // Canvas resolution cap. Phones report 3× pixels, which is 9× the painting of 1× for little visible
+  // gain; 2× looks the same at arm's length. If frames still come slowly it steps down to 1.5× and 1×.
+  maxDpr: 2,
+  gaps: [],
 
   init() {
     this.canvas = $('#zoo');
@@ -45,7 +49,7 @@ const render = {
   },
   resize() {
     const box = this.canvas.parentElement.getBoundingClientRect();
-    const dpr = window.devicePixelRatio || 1;
+    const dpr = Math.min(window.devicePixelRatio || 1, this.maxDpr);
     this.w = box.width;
     this.h = box.height;
     this.canvas.width = Math.floor(box.width * dpr);
@@ -235,10 +239,24 @@ const render = {
     c.fillText(text, X, Y);
   },
 
+  // Every 90 frames: if the middle frame took longer than 1/25 s, paint fewer pixels.
+  watchSpeed(dt) {
+    if (!dt || document.hidden || this.maxDpr <= 1 || (window.devicePixelRatio || 1) <= 1) return;
+    this.gaps.push(dt);
+    if (this.gaps.length < 90) return;
+    const mid = this.gaps.sort((a, b) => a - b)[45];
+    this.gaps = [];
+    if (mid > 1 / 25) {
+      this.maxDpr = Math.max(1, this.maxDpr - 0.5);
+      this.resize();
+    }
+  },
+
   // ---------- one frame ----------
   frame(now) {
     const dt = Math.min(0.1, (now - (this.last || now)) / 1000);
     this.last = now;
+    this.watchSpeed(dt);
     const c = this.ctx;
     if (ui.follow) {
       const cr = this.critters.get(ui.follow);
@@ -270,7 +288,7 @@ const render = {
           ? this.footSprite('gate', '🎪', g.x, g.y, 1, 1, 2.4)
           : this.sprite('gate', '🎪', ...this.toScreen(g.x + 0.95, g.y + 0.95), this.TW * 0.95),
     ]);
-    this.people(now, reached, things);
+    this.people(now, reached, things, dt);
     things.sort((a, b) => a[0] - b[0]);
     for (const [, draw] of things) draw();
     this.preview();
@@ -573,7 +591,7 @@ const render = {
     ]);
   },
 
-  people(now, reached, things) {
+  people(now, reached, things, dt) {
     const W = Sim.SIZE;
     const tiles = reached.size;
     const want = Math.min(Math.round(S.guests), 60, (tiles - 1) * 4);
@@ -628,7 +646,7 @@ const render = {
         w.ty = ny;
         w.p = 0;
       }
-      w.p += w.speed * ui.speed * (ui.paused ? 0 : 1);
+      w.p += w.speed * 60 * dt * ui.speed * (ui.paused ? 0 : 1); // speed is tiles per 1/60 s
       const k = Math.min(1, w.p);
       const wx = w.fx + (w.tx - w.fx) * k + 0.5 + w.off,
         wy = w.fy + (w.ty - w.fy) * k + 0.5 - w.off;
