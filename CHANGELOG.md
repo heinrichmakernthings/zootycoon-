@@ -2,12 +2,13 @@
 
 ## Unreleased
 
+- **Families at the zoo.** Visitors now come in parties that walk the paths together: families of three and four, a parent with a pram, a dad with a toddler on his shoulders, grandparents with the grandchildren, couples, teenage friends, and wheelchair users out with family or friends. The batch 2 brief has a cast of 16 real, everyday people drawn to one shared scale so children come up to a parent's waist.
 - **Smoother on phones.** The map paints at most 2× screen resolution (phones ask for 3×, which is more than twice the work for no visible gain), and steps down further if frames come slowly. On a phone-speed test with 150 animals that took it from 6–12 to about 30 frames a second. Visitors also walk at the same pace whatever the frame rate (they used to crawl on slow phones).
 - **Different ways of moving.** Red pandas, lemurs, snow leopards and goats climb up onto platforms and bridges and stay up there, moving branch to branch. Otters, penguins, capybaras and the other swimmers sink into pools and wallows with a ripple. Sloths hang upside down. Tortoises and sloths dawdle, elephants and giraffes amble. Big animals keep clear of the fence when they roam.
 - **Move items.** Tap a placed item and choose Move to pick it up and put it somewhere else, rotated if you like. Moving is free and follows the same rules as placing.
 - **Rebalanced.** Visitors stay longer, fair prices are lower, and enclosures cost upkeep by size, so money no longer runs away. A careful player reaches Friendly in about 27 minutes, Local favourite in about 95 and Dream zoo in about 3½ hours. `npm run balance` plays a bot through it and reports.
 - **Dialogs in the page.** Renaming an animal or the zoo and starting again use the game's own dialogs instead of browser pop-ups, so they work everywhere (including previews that block pop-ups).
-- **Ready for batch 2 art.** `docs/ART-BRIEF-BATCH-2.md` lists the 93 pictures still missing (portraits, juveniles, the peahen, species signs, gate, ground tiles, visitors, staff, fences, icons, logo), made from the game data by `npm run brief`. The game already uses each one the moment it's added.
+- **Ready for batch 2 art.** `docs/ART-BRIEF-BATCH-2.md` lists the 103 pictures still missing (portraits, juveniles, the peahen, species signs, gate, ground tiles, visitors, staff, fences, icons, logo), made from the game data by `npm run brief`. The game already uses each one the moment it's added.
 
 ## 0.2.0 — the animal pack
 

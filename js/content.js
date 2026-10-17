@@ -412,7 +412,48 @@
 
   // Every picture the game can use, by key (docs/ART-BRIEF.md and docs/ART-BRIEF-BATCH-2.md).
   // Batch 1 is delivered; batch 2 is briefed. A key draws its emoji or flat colour until its file exists.
-  const GUESTS = ['guest-1', 'guest-2', 'guest-3', 'guest-4', 'guest-5', 'guest-6'];
+  // Visitors: one picture per person, put together on the paths into parties that walk as a group.
+  // h is how much of its 256×256 picture the person stands (an adult 0.86, a five-year-old 0.5), so
+  // every picture is drawn at one size and a child still comes up to a parent's waist. The emoji
+  // stand-in is scaled by h too.
+  const PEOPLE = {
+    'guest-mum': { emoji: '👩', h: 0.86 },
+    'guest-dad': { emoji: '👨', h: 0.9 },
+    'guest-mum-2': { emoji: '🧕', h: 0.85 },
+    'guest-dad-2': { emoji: '🧔', h: 0.9 },
+    'guest-grandma': { emoji: '👵', h: 0.8 },
+    'guest-grandad': { emoji: '👴', h: 0.84 },
+    'guest-teen': { emoji: '🧑', h: 0.8 },
+    'guest-teen-2': { emoji: '🧑‍🦱', h: 0.78 },
+    'guest-girl': { emoji: '👧', h: 0.56 },
+    'guest-boy': { emoji: '👦', h: 0.58 },
+    'guest-girl-2': { emoji: '👧', h: 0.5 },
+    'guest-boy-2': { emoji: '👦', h: 0.52 },
+    'guest-toddler': { emoji: '🧒', h: 0.4 },
+    'guest-pram': { emoji: '👩‍🍼', h: 0.86 },
+    'guest-shoulders': { emoji: '👨', h: 0.98 },
+    'guest-wheelchair': { emoji: '🧑‍🦽', h: 0.62 },
+  };
+  const GUESTS = Object.keys(PEOPLE);
+  // Who comes together. Each slot lists who could fill it; nobody appears twice in one party.
+  // They walk in rows of two, in this order, so adults lead and children follow or hold a hand.
+  const ADULT = ['guest-mum', 'guest-dad', 'guest-mum-2', 'guest-dad-2'];
+  const KID = ['guest-girl', 'guest-boy', 'guest-girl-2', 'guest-boy-2'];
+  const TEEN = ['guest-teen', 'guest-teen-2'];
+  const GRAN = ['guest-grandma', 'guest-grandad'];
+  const PARTIES = [
+    { id: 'family', weight: 5, who: [ADULT, ADULT, KID, KID] },
+    { id: 'family-small', weight: 3, who: [ADULT, KID, ['guest-toddler', ...KID]] },
+    { id: 'parent-and-child', weight: 3, who: [ADULT, KID] },
+    { id: 'new-baby', weight: 2, who: [['guest-pram'], ADULT, KID] },
+    { id: 'on-shoulders', weight: 2, who: [['guest-shoulders'], ADULT, KID] },
+    { id: 'grandparents', weight: 2, who: [['guest-grandma'], ['guest-grandad'], KID, KID] },
+    { id: 'gran-day-out', weight: 2, who: [GRAN, KID] },
+    { id: 'couple', weight: 2, who: [ADULT, ADULT] },
+    { id: 'friends', weight: 2, who: [TEEN, TEEN] },
+    { id: 'wheelchair-family', weight: 1, who: [['guest-wheelchair'], ADULT, KID] },
+    { id: 'wheelchair-friends', weight: 1, who: [['guest-wheelchair'], [...TEEN, ...ADULT]] },
+  ];
   const ICONS = ['icon-coins', 'icon-visitors', 'icon-care', 'icon-day', 'icon-build', 'icon-animals', 'icon-staff', 'icon-zoo'];
   function artKeys() {
     const batch1 = [],
@@ -447,6 +488,8 @@
   const DATA = {
     LOCOMOTION,
     artKeys,
+    PEOPLE,
+    PARTIES,
     GUESTS,
     ICONS,
     BALANCE,

@@ -2,7 +2,6 @@
 // The rules decide where each animal is heading (its activity anchor); this file walks it there
 // smoothly, draws everything back to front, and only draws what's on screen (the map can be
 // 192×192 tiles). Pictures from ZOO_ART_READY are drawn when loaded; otherwise emoji stand-ins.
-const GUEST_FACES = ['🧒', '👧', '👦', '🧑', '👩', '👨', '👵', '👴', '👩‍🦰', '🧑‍🦱'];
 // Park buildings stand on one tile but read better a little larger than it (a tea room bigger than a bench).
 const BUILD_SCALE = { cafe: 1.9, gifts: 1.8, snacks: 1.7, toilet: 1.6, icecream: 1.5, tree: 1.5, fountain: 1.6, statue: 1.5, lamp: 1.2 };
 const ACTION_ICONS = {
@@ -591,38 +590,42 @@ const render = {
     ]);
   },
 
+  // Visitors come in parties (a family, grandparents with a grandchild, two friends) that share one
+  // route and walk in rows of two behind its leader. Staff walk alone.
   people(now, reached, things, dt) {
     const W = Sim.SIZE;
     const tiles = reached.size;
     const want = Math.min(Math.round(S.guests), 60, (tiles - 1) * 4);
     const staffWant = S.staff.keeper + S.staff.guide;
     const g = D.BALANCE.gate;
-    const add = (face, staff, key) =>
+    const add = (members, staff) =>
       this.walkers.push({
-        key,
+        members, // [{key, face, h, phase}]
         x: g.x,
         y: g.y,
         fx: g.x,
         fy: g.y,
         tx: g.x,
         ty: g.y,
-        face,
         staff,
-        off: Math.random() * 0.5 - 0.25,
-        speed: 0.008 + Math.random() * 0.006,
+        off: Math.random() * 0.3 - 0.15,
+        speed: 0.008 + Math.random() * 0.004,
         p: Math.random(),
       });
+    const person = (key) => ({ key, face: D.PEOPLE[key].emoji, h: D.PEOPLE[key].h, phase: Math.random() * 6 });
     const guests = this.walkers.filter((w) => !w.staff);
-    if (guests.length < want)
-      add(GUEST_FACES[Math.floor(Math.random() * GUEST_FACES.length)], false, D.GUESTS[Math.floor(Math.random() * D.GUESTS.length)]);
-    if (guests.length > want) this.walkers.splice(this.walkers.indexOf(guests[guests.length - 1]), 1);
+    const crowd = guests.reduce((n, w) => n + w.members.length, 0);
+    if (crowd < want) add(pickParty().map(person), false);
+    if (crowd - (guests.length ? guests[guests.length - 1].members.length : 0) >= want && guests.length)
+      this.walkers.splice(this.walkers.indexOf(guests[guests.length - 1]), 1);
     const staff = this.walkers.filter((w) => w.staff);
-    if (staff.length < staffWant)
+    if (staff.length < staffWant) {
+      const keeper = staff.length < S.staff.keeper;
       add(
-        staff.length < S.staff.keeper ? D.STAFF.keeper.emoji : D.STAFF.guide.emoji,
-        true,
-        staff.length < S.staff.keeper ? 'staff-keeper' : 'staff-guide'
+        [{ key: keeper ? 'staff-keeper' : 'staff-guide', face: keeper ? D.STAFF.keeper.emoji : D.STAFF.guide.emoji, h: 0.88, phase: 0 }],
+        true
       );
+    }
     if (staff.length > staffWant) this.walkers.splice(this.walkers.indexOf(staff[staff.length - 1]), 1);
     for (const w of this.walkers) {
       if (w.p >= 1 || !reached.has(w.ty * W + w.tx)) {
@@ -648,20 +651,32 @@ const render = {
       }
       w.p += w.speed * 60 * dt * ui.speed * (ui.paused ? 0 : 1); // speed is tiles per 1/60 s
       const k = Math.min(1, w.p);
-      const wx = w.fx + (w.tx - w.fx) * k + 0.5 + w.off,
-        wy = w.fy + (w.ty - w.fy) * k + 0.5 - w.off;
-      if (!this.visible(wx, wy)) continue;
-      things.push([
-        wx + wy,
-        () => {
-          const [X, Y] = this.toScreen(wx, wy);
-          const bob = prefs.reduceMotion ? 0 : Math.abs(Math.sin(now / 160 + w.off * 10)) * this.TW * 0.03;
-          this.shadow(X, Y, this.TW * 0.07);
-          const img = this.image(w.key);
-          if (img && img.complete && img.naturalWidth) this.sprite(w.key, '', X, Y - bob, this.TW * 0.5, w.tx - w.fx - (w.ty - w.fy) > 0);
-          else this.sprite('', w.face, X, Y - bob, this.TW * 0.34);
-        },
-      ]);
+      const dx = w.tx - w.fx,
+        dy = w.ty - w.fy;
+      const lx = w.fx + dx * k + 0.5 + w.off,
+        ly = w.fy + dy * k + 0.5 - w.off;
+      if (!this.visible(lx, ly)) continue;
+      const flip = dx - dy > 0;
+      const solo = w.members.length === 1;
+      w.members.forEach((m, i) => {
+        // rows of two: back along the way they're walking, and side by side across it
+        const row = Math.floor(i / 2),
+          side = solo || (i % 2 === 0 && i === w.members.length - 1) ? 0 : i % 2 ? 0.17 : -0.17;
+        const wx = lx - dx * row * 0.36 - dy * side,
+          wy = ly - dy * row * 0.36 + dx * side;
+        things.push([
+          wx + wy,
+          () => {
+            const [X, Y] = this.toScreen(wx, wy);
+            // little ones bob quicker
+            const bob = prefs.reduceMotion ? 0 : Math.abs(Math.sin(now / (m.h < 0.6 ? 110 : 160) + m.phase)) * this.TW * 0.03;
+            this.shadow(X, Y, this.TW * 0.07 * Math.max(0.6, m.h));
+            const img = this.image(m.key);
+            if (img && img.complete && img.naturalWidth) this.sprite(m.key, '', X, Y - bob, this.TW * 0.5, flip);
+            else this.sprite('', m.face, X, Y - bob, this.TW * 0.4 * m.h);
+          },
+        ]);
+      });
     }
   },
 
@@ -760,4 +775,16 @@ function animalArtKey(a) {
   if (a.stage !== 'adult' && ZOO_ART_READY[base + '-baby']) return base + '-baby';
   if (a.stage === 'adult' && a.sex === 'f' && ZOO_ART_READY[base + '-female']) return base + '-female';
   return base;
+}
+// One party from D.PARTIES, by weight, with nobody in it twice.
+function pickParty() {
+  const total = D.PARTIES.reduce((n, p) => n + p.weight, 0);
+  let r = Math.random() * total;
+  const party = D.PARTIES.find((p) => (r -= p.weight) < 0) || D.PARTIES[0];
+  const taken = [];
+  for (const slot of party.who) {
+    const free = slot.filter((k) => !taken.includes(k));
+    taken.push((free.length ? free : slot)[Math.floor(Math.random() * (free.length || slot.length))]);
+  }
+  return taken;
 }

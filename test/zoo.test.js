@@ -527,3 +527,15 @@ test('locomotion: every listed species and behaviour exists in the pack', () => 
   for (const b of [...L.water, ...L.high]) assert.ok(behaviours.has(b), `no item uses behaviour ${b}`);
   for (const sp of [...L.climbers, ...L.hangers, ...Object.keys(L.speed)]) assert.ok(D.SPECIES[sp], `unknown species ${sp}`);
 });
+
+test('visitors: every party is made of known people, and every person has a picture key in batch 2', () => {
+  const batch2 = D.artKeys().batch2;
+  for (const p of D.PARTIES) {
+    assert.ok(p.weight > 0 && p.who.length >= 2, p.id);
+    for (const slot of p.who) for (const k of slot) assert.ok(D.PEOPLE[k], `${p.id}: unknown person ${k}`);
+  }
+  for (const k in D.PEOPLE) {
+    assert.ok(batch2.includes(k), k);
+    assert.ok(D.PEOPLE[k].h > 0.3 && D.PEOPLE[k].h <= 1, k);
+  }
+});

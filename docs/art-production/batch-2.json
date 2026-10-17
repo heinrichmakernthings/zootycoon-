@@ -815,68 +815,178 @@
   },
   {
     "group": "People",
-    "key": "guest-1",
+    "key": "guest-mum",
     "size": [
       256,
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a little girl in a yellow raincoat holding a red balloon. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a mum in her thirties, light brown skin, dark hair in a loose bun, denim jacket over a striped top, jeans, trainers, a canvas tote bag on one shoulder. The figure stands 86% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
     "reference": null
   },
   {
     "group": "People",
-    "key": "guest-2",
+    "key": "guest-dad",
     "size": [
       256,
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a boy with binoculars round his neck, mid-step. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a dad in his thirties, pale freckled skin, ginger hair, checked shirt with rolled sleeves, chinos, a small rucksack. The figure stands 90% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
     "reference": null
   },
   {
     "group": "People",
-    "key": "guest-3",
+    "key": "guest-mum-2",
     "size": [
       256,
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a mum pushing a pram. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a mum in her thirties, warm brown skin, a sage-green hijab, long cream cardigan, holding a folded paper zoo map. The figure stands 85% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
     "reference": null
   },
   {
     "group": "People",
-    "key": "guest-4",
+    "key": "guest-dad-2",
     "size": [
       256,
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a grandad in a flat cap with a walking stick. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a dad in his forties, dark brown skin, short beard, navy rain jacket, holding a takeaway cup. The figure stands 90% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
     "reference": null
   },
   {
     "group": "People",
-    "key": "guest-5",
+    "key": "guest-grandma",
     "size": [
       256,
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a teenager taking a photo with a phone. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a grandma, pale skin, short curly white hair, a floral mac, glasses on a chain, a handbag over her arm. The figure stands 80% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
     "reference": null
   },
   {
     "group": "People",
-    "key": "guest-6",
+    "key": "guest-grandad",
     "size": [
       256,
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, facing LEFT: a dad carrying a toddler on his shoulders. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a grandad, deep brown skin, grey moustache, tweed flat cap, cardigan and a walking stick. The figure stands 84% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-teen",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a teenager (about 15), East Asian, bob haircut, oversized hoodie, holding up a phone to take a photo. The figure stands 80% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-teen-2",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a teenager (about 16), Black, curly high-top hair, headphones round the neck, bomber jacket, hands in pockets. The figure stands 78% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-girl",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a girl about 7, light brown skin, two puffs of curly hair, yellow raincoat and red wellies, holding a red balloon on a string. The figure stands 56% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-boy",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a boy about 8, pale skin, messy blond hair, dinosaur jumper, binoculars round his neck, mid-skip. The figure stands 58% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-girl-2",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a girl about 5, South Asian, long plait, pink dungarees, hugging a little plush capybara. The figure stands 50% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-boy-2",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a boy about 6, brown skin, a cap on backwards, shorts, holding an ice lolly. The figure stands 52% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-toddler",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a toddler about 2, chubby cheeks, a woolly bobble hat and wellies, arms out for balance as they waddle. The figure stands 40% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-pram",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a parent pushing a pram (one picture): a mum with short dark hair and a mustard coat, the pram in sage green with a little blanket peeking out, pram in FRONT of her (on the left). The figure stands 86% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-shoulders",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a dad carrying a toddler on his shoulders (one picture): the dad with olive skin and a beanie, the toddler in a dungaree with both hands in his hair, laughing. The figure stands 98% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
+    "reference": null
+  },
+  {
+    "group": "People",
+    "key": "guest-wheelchair",
+    "size": [
+      256,
+      256
+    ],
+    "transparent": true,
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: a young woman using a manual wheelchair, pushing herself along: medium brown skin, braids tied up, an apricot jumper; a sporty everyday chair, not a hospital one. The figure stands 62% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.",
     "reference": null
   },
   {
@@ -887,7 +997,7 @@
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zookeeper walking, full body, facing LEFT: sage-green overalls and bucket hat, carrying a bucket of chopped vegetables.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zookeeper walking, full body, facing LEFT, standing 88% of the canvas height: sage-green overalls and bucket hat, carrying a bucket of chopped vegetables.",
     "reference": null
   },
   {
@@ -898,7 +1008,7 @@
       256
     ],
     "transparent": true,
-    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo guide walking, full body, facing LEFT: apricot polo shirt and cream trousers, holding a clipboard, smiling.",
+    "prompt": "Warm storybook illustration for an isometric zoo game called Cutise Zoo. Soft 2.5D isometric form, rounded silhouettes, matte painted texture kept simple enough for a small game sprite, light from the upper left. Palette: cream #FBF5E8, sage #A7BA91, apricot #E8B58A, pond blue #9EC7C7, forest ink #244638. No text, no logos, no frame. One object only, transparent background (PNG), no ground, no cast shadow. The subject fills the canvas width with a small even margin and stands on the bottom edge (bottom-centre is where it touches the ground). A zoo guide walking, full body, facing LEFT, standing 88% of the canvas height: apricot polo shirt and cream trousers, holding a clipboard, smiling.",
     "reference": null
   },
   {

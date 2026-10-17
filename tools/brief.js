@@ -25,14 +25,31 @@ const ZONE_GROUND = {
   Coastal: 'pale shingle and smooth grey pebbles',
   Coollands: 'thin snow over rocky ground with a few frosty tufts',
 };
-const GUESTS = [
-  'a little girl in a yellow raincoat holding a red balloon',
-  'a boy with binoculars round his neck, mid-step',
-  'a mum pushing a pram',
-  'a grandad in a flat cap with a walking stick',
-  'a teenager taking a photo with a phone',
-  'a dad carrying a toddler on his shoulders',
-];
+// The visitor cast (keys and heights from D.PEOPLE). Real people and families: a mix of ages, sizes,
+// skin tones, hair and clothes, the sort you'd queue behind for an ice cream on a Saturday.
+const PEOPLE = {
+  'guest-mum':
+    'a mum in her thirties, light brown skin, dark hair in a loose bun, denim jacket over a striped top, jeans, trainers, a canvas tote bag on one shoulder',
+  'guest-dad': 'a dad in his thirties, pale freckled skin, ginger hair, checked shirt with rolled sleeves, chinos, a small rucksack',
+  'guest-mum-2': 'a mum in her thirties, warm brown skin, a sage-green hijab, long cream cardigan, holding a folded paper zoo map',
+  'guest-dad-2': 'a dad in his forties, dark brown skin, short beard, navy rain jacket, holding a takeaway cup',
+  'guest-grandma': 'a grandma, pale skin, short curly white hair, a floral mac, glasses on a chain, a handbag over her arm',
+  'guest-grandad': 'a grandad, deep brown skin, grey moustache, tweed flat cap, cardigan and a walking stick',
+  'guest-teen': 'a teenager (about 15), East Asian, bob haircut, oversized hoodie, holding up a phone to take a photo',
+  'guest-teen-2': 'a teenager (about 16), Black, curly high-top hair, headphones round the neck, bomber jacket, hands in pockets',
+  'guest-girl':
+    'a girl about 7, light brown skin, two puffs of curly hair, yellow raincoat and red wellies, holding a red balloon on a string',
+  'guest-boy': 'a boy about 8, pale skin, messy blond hair, dinosaur jumper, binoculars round his neck, mid-skip',
+  'guest-girl-2': 'a girl about 5, South Asian, long plait, pink dungarees, hugging a little plush capybara',
+  'guest-boy-2': 'a boy about 6, brown skin, a cap on backwards, shorts, holding an ice lolly',
+  'guest-toddler': 'a toddler about 2, chubby cheeks, a woolly bobble hat and wellies, arms out for balance as they waddle',
+  'guest-pram':
+    'a parent pushing a pram (one picture): a mum with short dark hair and a mustard coat, the pram in sage green with a little blanket peeking out, pram in FRONT of her (on the left)',
+  'guest-shoulders':
+    'a dad carrying a toddler on his shoulders (one picture): the dad with olive skin and a beanie, the toddler in a dungaree with both hands in his hair, laughing',
+  'guest-wheelchair':
+    'a young woman using a manual wheelchair, pushing herself along: medium brown skin, braids tied up, an apricot jumper; a sporty everyday chair, not a hospital one',
+};
 const ICONS = {
   'icon-coins': 'a small stack of golden coins with a paw-print stamp',
   'icon-visitors': 'two little visitor figures side by side',
@@ -113,28 +130,27 @@ add('Ground tiles', 'tile-grass', [256, 128], true, 'Soft sage lawn with the odd
 add('Ground tiles', 'tile-path', [256, 128], true, 'A warm cream flagstone path, rounded stones with soft moss in the joints.');
 for (const [zone, ground] of Object.entries(ZONE_GROUND))
   add('Ground tiles', 'ground-' + zone.toLowerCase(), [256, 128], true, `Enclosure ground for the ${zone} zone: ${ground}.`);
-GUESTS.forEach((who, i) =>
+for (const [key, who] of Object.entries(PEOPLE))
   add(
     'People',
-    'guest-' + (i + 1),
+    key,
     [256, 256],
     true,
-    `A zoo visitor walking, full body, facing LEFT: ${who}. Friendly, simple shapes that read at small size. Varied skin tones across the six visitors.`
-  )
-);
+    `A zoo visitor walking, full body, three-quarter view facing LEFT, mid-stride: ${who}. The figure stands ${Math.round(D.PEOPLE[key].h * 100)}% of the canvas height (all visitors share one scale, so families line up), centred, feet on the bottom edge. Friendly rounded shapes that read at small size; a real person, not a cartoon mascot.`
+  );
 add(
   'People',
   'staff-keeper',
   [256, 256],
   true,
-  'A zookeeper walking, full body, facing LEFT: sage-green overalls and bucket hat, carrying a bucket of chopped vegetables.'
+  'A zookeeper walking, full body, facing LEFT, standing 88% of the canvas height: sage-green overalls and bucket hat, carrying a bucket of chopped vegetables.'
 );
 add(
   'People',
   'staff-guide',
   [256, 256],
   true,
-  'A zoo guide walking, full body, facing LEFT: apricot polo shirt and cream trousers, holding a clipboard, smiling.'
+  'A zoo guide walking, full body, facing LEFT, standing 88% of the canvas height: apricot polo shirt and cream trousers, holding a clipboard, smiling.'
 );
 add(
   'Fences',
@@ -192,10 +208,21 @@ const md = [
   '## Priority',
   '',
   '1. `gate`, `tile-grass`, `tile-path` and the 8 `ground-*` tiles: the biggest visual change, since every screen shows them.',
-  '2. The 6 visitors and 2 staff: the paths come alive.',
+  '2. The 16 visitors and 2 staff: the paths come alive with families.',
   '3. The 20 portraits: the animal panel.',
   '4. Icons, fences, poop, logo.',
   '5. Juveniles, the peahen and species signs.',
+  '',
+  '## The visitors: real people and families',
+  '',
+  'Visitors are one picture per person, and the game puts them together into parties that walk the paths as a group: a family of four, a parent with a pram, a dad with a toddler on his shoulders, grandparents with the grandkids, a couple, two teenage friends, a wheelchair user out with their family. Adults lead and children walk beside or behind them. So:',
+  '',
+  "- **One shared scale.** Every visitor is drawn on the same 256×256 canvas and stands the stated share of its height (a dad 90%, a seven-year-old 56%, a toddler 40%), feet on the bottom edge. That way a child comes up to a parent's waist when they walk side by side. Do the whole cast in one ChatGPT conversation and keep comparing.",
+  '- **Real, everyday people.** A British Saturday at the zoo: different ages, body shapes, skin tones, hair and clothes; coats, rucksacks, prams and ice lollies. Warm and a little storybook, but people rather than mascots, and nobody a stereotype.',
+  '- **Same pose family.** All facing left, three-quarter view, mid-stride, arms relaxed (the game mirrors them to walk right). Props stay inside the canvas.',
+  '- **Read small.** On a phone a visitor is about 20 pixels tall: clear silhouettes, one or two strong colours each, no fine detail.',
+  '',
+  'Parties (from `D.PARTIES` in `js/content.js`): ' + D.PARTIES.map((p) => `${p.id.replace(/-/g, ' ')} (${p.who.length})`).join(', ') + '.',
   '',
 ];
 for (const g of groups) {
