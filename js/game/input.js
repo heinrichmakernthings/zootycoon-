@@ -169,10 +169,12 @@ const input = {
       const [w, h] = Sim.footprint(def, ui.rot);
       const x = tile.x - Math.floor((w - 1) / 2),
         y = tile.y - Math.floor((h - 1) / 2);
-      const res = act({ type: 'place', hab: ui.hab, item: ui.item, x, y, r: ui.rot });
+      const res = ui.moving
+        ? act({ type: 'moveItem', hab: ui.hab, item: ui.moving, x, y, r: ui.rot })
+        : act({ type: 'place', hab: ui.hab, item: ui.item, x, y, r: ui.rot });
       if (!res.ok) return;
       sfx('build');
-      render.pop(p.x, p.y, '-' + def.price + ' 🪙', '#ffe39a');
+      if (!ui.moving) render.pop(p.x, p.y, '-' + def.price + ' 🪙', '#ffe39a');
       const hab = ui.hab;
       setMode(null);
       ui.canUndo = true;

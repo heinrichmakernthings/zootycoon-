@@ -1008,3 +1008,10 @@ img.icon {
   width: min(320px, 80%);
   margin: -8px auto 6px;
 }
+.placed {
+  gap: 6px;
+}
+.placed span {
+  flex: 1;
+  min-width: 0;
+}

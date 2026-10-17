@@ -642,7 +642,7 @@ const render = {
       const [w, hh] = Sim.footprint(def, ui.rot);
       const x = h.x - Math.floor((w - 1) / 2),
         y = h.y - Math.floor((hh - 1) / 2);
-      const why = Sim.placeProblem(S, hab, ui.item, x, y, ui.rot);
+      const why = Sim.placeProblem(S, hab, ui.item, x, y, ui.rot, ui.moving ? { moving: true, ignore: ui.moving } : {});
       this.diamond(hab.x, hab.y, hab.w, hab.h, null, 'rgba(36,70,56,.45)', 2);
       this.diamond(x, y, w, hh, why ? 'rgba(224,122,95,.35)' : 'rgba(127,174,106,.45)', why ? '#e07a5f' : '#4f7f5a', 2);
       this.ctx.globalAlpha = 0.8;

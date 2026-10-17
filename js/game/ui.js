@@ -60,7 +60,8 @@ function setMode(mode, opts = {}) {
   ui.species = opts.sp || null;
   ui.hab = opts.hab || null;
   ui.item = opts.item || null;
-  ui.rot = 0;
+  ui.rot = opts.rot || 0;
+  ui.moving = opts.moving || null;
   ui.drag = null;
   ui.rect = null;
   ui.canUndo = false;
@@ -91,7 +92,7 @@ function setTip(why, rect, out) {
     if (ui.rect && !why) extra = `<button class="btn small" data-ui="confirmresize">Confirm · ${out.cost} 🪙</button>`;
   } else if (ui.mode === 'place') {
     const def = D.ITEMS[ui.item];
-    head = `${def.emoji} <b>${esc(def.name)}</b> · ${def.price} 🪙`;
+    head = `${def.emoji} <b>${esc(def.name)}</b> · ${ui.moving ? 'tap its new spot' : def.price + ' 🪙'}`;
     if (def.fp[0] !== def.fp[1]) extra = '<button class="btn small ghost" data-ui="rotate">⟳ Rotate</button>';
   } else if (ui.mode === 'land') head = '🗺️ Tap a plot next to your land to buy it';
   else head = '🧹 Tap to clear (half back)';
@@ -272,7 +273,11 @@ function onClick(e) {
   } else if (d.build) setMode('build', { k: d.build });
   else if (d.enclose) setMode('enclose', { sp: d.enclose });
   else if (d.place) setMode('place', { hab: +d.hab, item: d.place });
-  else if (d.resize) setMode('resize', { hab: +d.resize });
+  else if (d.moveitem) {
+    const hab = Sim.habById(S, +d.hab);
+    const it = hab && hab.items.find((i) => i.id === +d.moveitem);
+    if (it) setMode('place', { hab: hab.id, item: it.k, moving: it.id, rot: it.r });
+  } else if (d.resize) setMode('resize', { hab: +d.resize });
   else if (d.mode !== undefined) setMode(ui.mode === d.mode ? null : d.mode || null);
   else if (d.tab) {
     ui.panel.tab = d.tab;

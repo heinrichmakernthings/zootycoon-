@@ -407,7 +407,7 @@
     const [w, h] = footprint(def, r);
     const cells = cellsOf(x, y, w, h);
     const inside = ([cx, cy]) => cx >= hab.x && cx < hab.x + hab.w && cy >= hab.y && cy < hab.y + hab.h;
-    if (!opts.loading) {
+    if (!opts.loading && !opts.moving) {
       const tier = habStats(s, hab).tier;
       if (def.level > tier + 1) return `Needs "${TIER_NAMES[def.level - 1]}" first.`;
       if (s.coins < def.price) return `You need ${def.price} coins.`;
@@ -1055,6 +1055,19 @@
       touch(s);
       s.lastBuild = { kind: 'item', id: it.id, hab: hab.id, t: s.t, cost: def.price };
       return { id: it.id };
+    },
+    // Picks up a placed item and puts it down somewhere else in the same enclosure (free).
+    moveItem(s, { hab: id, item, x, y, r }) {
+      const hab = habOf(s, id);
+      const it = hab.items.find((i) => i.id === item);
+      need(it, 'Not there.');
+      const rot = r === undefined ? it.r : r;
+      const why = placeProblem(s, hab, it.k, x, y, rot, { moving: true, ignore: it.id });
+      need(!why, why);
+      Object.assign(it, { x, y, r: rot });
+      for (const a of residents(s, hab)) if (a.act && a.act.item === it.id) a.act = null; // go to its new spot
+      touch(s);
+      return {};
     },
     removeItem(s, { hab: id, item }) {
       const hab = habOf(s, id);

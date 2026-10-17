@@ -17,6 +17,7 @@ const ui = {
   hab: null, // place / resize mode: which enclosure
   item: null, // place mode: catalogue item id
   rot: 0, // place mode: rotation
+  moving: null, // place mode: id of a placed item being moved (rather than a new one)
   drag: null, // enclose / resize: {x0, y0, x1, y1} tiles while dragging
   rect: null, // resize: the proposed outline waiting for Confirm
   canUndo: false,

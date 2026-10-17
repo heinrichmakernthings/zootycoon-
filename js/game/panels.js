@@ -304,7 +304,7 @@ function habBuild(hab, st) {
   const placed = hab.items
     .map((i) => {
       const it = D.ITEMS[i.k];
-      return `<div class="placed"><span>${it.emoji} ${esc(it.name.replace(D.SPECIES[hab.sp].habitat + ' ', ''))}</span><button class="btn small ghost" data-cmd="${attr({ type: 'removeItem', hab: hab.id, item: i.id })}">Remove · +${Math.floor(it.price * D.BALANCE.refund)}</button></div>`;
+      return `<div class="placed"><span>${it.emoji} ${esc(it.name.replace(D.SPECIES[hab.sp].habitat + ' ', ''))}</span><button class="btn small ghost" data-moveitem="${i.id}" data-hab="${hab.id}">Move</button><button class="btn small ghost" data-cmd="${attr({ type: 'removeItem', hab: hab.id, item: i.id })}">Remove · +${Math.floor(it.price * D.BALANCE.refund)}</button></div>`;
     })
     .join('');
   return `<p class="muted small">Tap an item, then tap inside the fence. Dotted = what ${D.SPECIES[hab.sp].name.toLowerCase()}s need most. Gates and windows go on the fence; signs and borders just outside.</p>${groups}${placed ? `<h3>Placed</h3>${placed}` : ''}`;

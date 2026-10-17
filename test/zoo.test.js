@@ -500,3 +500,23 @@ test('art: every listed picture exists, has a known key, and nothing in assets/ 
   for (const file of listed)
     assert.ok(fs.existsSync(path.join(root, 'art-source', path.basename(file).replace(/\.webp$/, '.png'))), `no original for ${file}`);
 });
+
+test('moving a placed item: free, keeps its id, rotates, and still obeys placement rules', () => {
+  const z = livingEnclosure(30);
+  const { s, hab, h } = z;
+  const shade = ok(s, { type: 'place', hab, item: cap('shade'), x: 21, y: 54 }).id;
+  const coins = s.coins;
+  ok(s, { type: 'moveItem', hab, item: shade, x: 25, y: 54 });
+  const it = h.items.find((i) => i.id === shade);
+  assert.deepStrictEqual([it.x, it.y], [25, 54]);
+  assert.strictEqual(s.coins, coins, 'moving is free');
+  refused(s, { type: 'moveItem', hab, item: shade, x: 21, y: 49 }, /already there/); // on the shelter
+  refused(s, { type: 'moveItem', hab, item: shade, x: 30, y: 54 }, /inside the fence/);
+  const sig = ok(s, { type: 'place', hab, item: cap('feeder'), x: 21, y: 54 }).id;
+  ok(s, { type: 'moveItem', hab, item: sig, x: 21, y: 55, r: 90 });
+  assert.strictEqual(h.items.find((i) => i.id === sig).r, 90);
+  // a keeper gate can only move along the fence
+  const gate = h.items.find((i) => D.ITEMS[i.k].template === 'keeper-gate');
+  refused(s, { type: 'moveItem', hab, item: gate.id, x: 25, y: 53 }, /fence/);
+  ok(s, { type: 'moveItem', hab, item: gate.id, x: 31, y: 55 });
+});
