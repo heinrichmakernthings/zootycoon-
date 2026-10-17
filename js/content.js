@@ -390,6 +390,26 @@
   const CATALOGUE = {}; // species id → its 15 item ids, in pack order
   for (const it of PACK.items) (CATALOGUE[it.sp] = CATALOGUE[it.sp] || []).push(it.id);
 
+  // How animals get about (pack milestone 6). An item's behaviour says what kind of place it is:
+  // water (the animal sinks in with a ripple) or high (it climbs up). Climbers move between nearby
+  // high places without coming down; sloths hang beneath them. Speeds are relative to a walk.
+  const LOCOMOTION = {
+    water: ['swim', 'dive', 'wade', 'soak', 'wallow', 'water_spray', 'pebble_play'],
+    high: ['climb', 'climb_slow', 'paw_reach', 'leaf_reach', 'ledge_rest', 'hang_sleep', 'step_up', 'stand_watch', 'roost', 'sunbathe'],
+    canopyReach: 5, // tiles: high places closer than this count as connected
+    climbers: ['red-panda', 'ring-tailed-lemur', 'two-toed-sloth', 'snow-leopard', 'pygmy-goat'],
+    hangers: ['two-toed-sloth'],
+    speed: {
+      'two-toed-sloth': 0.3,
+      'aldabra-giant-tortoise': 0.4,
+      'african-elephant': 0.8,
+      giraffe: 0.9,
+      'malayan-tapir': 0.9,
+      'chilean-flamingo': 0.8,
+    },
+    roomy: 50, // tiles per slot at or above which an animal keeps clear of fences when roaming
+  };
+
   // Every picture the game can use, by key (docs/ART-BRIEF.md and docs/ART-BRIEF-BATCH-2.md).
   // Batch 1 is delivered; batch 2 is briefed. A key draws its emoji or flat colour until its file exists.
   const GUESTS = ['guest-1', 'guest-2', 'guest-3', 'guest-4', 'guest-5', 'guest-6'];
@@ -425,6 +445,7 @@
   }
 
   const DATA = {
+    LOCOMOTION,
     artKeys,
     GUESTS,
     ICONS,

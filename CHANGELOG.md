@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- **Different ways of moving.** Red pandas, lemurs, snow leopards and goats climb up onto platforms and bridges and stay up there, moving branch to branch. Otters, penguins, capybaras and the other swimmers sink into pools and wallows with a ripple. Sloths hang upside down. Tortoises and sloths dawdle, elephants and giraffes amble. Big animals keep clear of the fence when they roam.
+- **Move items.** Tap a placed item and choose Move to pick it up and put it somewhere else, rotated if you like. Moving is free and follows the same rules as placing.
+- **Rebalanced.** Visitors stay longer, fair prices are lower, and enclosures cost upkeep by size, so money no longer runs away. A careful player reaches Friendly in about 27 minutes, Local favourite in about 95 and Dream zoo in about 3½ hours. `npm run balance` plays a bot through it and reports.
+- **Dialogs in the page.** Renaming an animal or the zoo and starting again use the game's own dialogs instead of browser pop-ups, so they work everywhere (including previews that block pop-ups).
+- **Ready for batch 2 art.** `docs/ART-BRIEF-BATCH-2.md` lists the 93 pictures still missing (portraits, juveniles, the peahen, species signs, gate, ground tiles, visitors, staff, fences, icons, logo), made from the game data by `npm run brief`. The game already uses each one the moment it's added.
+
 ## 0.2.0 — the animal pack
 
 - **Real art.** 124 sprites from Codex: all 20 animals as adults and babies, the 12 shared fittings, 60 signature items and 12 park buildings, replacing the emoji. Each was checked (size, transparency, standing on the ground, facing left, baby proportions). Items now scale to their footprint; animals stand in front of feeders and shelters and on top of platforms and pools; shops are drawn a little larger; the market, catalogue, faces and birth reveal show the pictures. The game ships WebP copies (4.7 MB instead of 28.5 MB) and loads each picture only when it's first needed. Originals are kept in `art-source/`.

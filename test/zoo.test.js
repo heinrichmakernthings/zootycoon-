@@ -520,3 +520,10 @@ test('moving a placed item: free, keeps its id, rotates, and still obeys placeme
   refused(s, { type: 'moveItem', hab, item: gate.id, x: 25, y: 53 }, /fence/);
   ok(s, { type: 'moveItem', hab, item: gate.id, x: 31, y: 55 });
 });
+
+test('locomotion: every listed species and behaviour exists in the pack', () => {
+  const L = D.LOCOMOTION;
+  const behaviours = new Set(Object.values(D.ITEMS).map((i) => i.behaviour));
+  for (const b of [...L.water, ...L.high]) assert.ok(behaviours.has(b), `no item uses behaviour ${b}`);
+  for (const sp of [...L.climbers, ...L.hangers, ...Object.keys(L.speed)]) assert.ok(D.SPECIES[sp], `unknown species ${sp}`);
+});

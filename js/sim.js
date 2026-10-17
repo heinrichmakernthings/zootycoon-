@@ -561,6 +561,14 @@
       else if (def.behaviour === 'baby_rest') w = 3;
       else if (def.cat === 'species_enrichment') w = tr.enrich || tr.curious ? 3 : 2;
       if (s.t - it.placedAt < B.newItemSeconds) w *= B.newItemPull;
+      // climbers chain from one high place to the next (pack: connected climbing anchors)
+      const L = D.LOCOMOTION;
+      if (L.climbers.includes(a.sp) && L.high.includes(def.behaviour)) {
+        w *= 2;
+        const cur = a.act && a.act.item && hab.items.find((i) => i.id === a.act.item);
+        if (cur && cur !== it && L.high.includes(D.ITEMS[cur.k].behaviour) && Math.hypot(cur.x - it.x, cur.y - it.y) < L.canopyReach)
+          w *= 2;
+      }
       if (it.id === (a.act && a.act.item)) w *= 0.15;
       options.push({ w, type: def.behaviour, item: it });
     }
@@ -590,8 +598,10 @@
         y = it.y + 0.2 + rand(s) * (h - 0.4);
       }
     } else {
-      x = hab.x + 0.4 + rand(s) * (hab.w - 0.8);
-      y = hab.y + 0.4 + rand(s) * (hab.h - 0.8);
+      // big animals keep clear of the fence when they wander (pack: giant animals fit their space)
+      const m = D.SPECIES[a.sp].tilesPerSlot >= D.LOCOMOTION.roomy ? Math.min(1.5, hab.w / 4, hab.h / 4) : 0.4;
+      x = hab.x + m + rand(s) * (hab.w - 2 * m);
+      y = hab.y + m + rand(s) * (hab.h - 2 * m);
     }
     a.act = { type: pickd.type, item: pickd.item ? pickd.item.id : null, until: s.t + dur };
     a.x = Math.round(x * 100) / 100;

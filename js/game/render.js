@@ -448,7 +448,22 @@ const render = {
     const dx = a.x - cr.wx,
       dy = a.y - cr.wy,
       dist = Math.hypot(dx, dy);
-    const speed = (a.stage === 'adult' ? 1.4 : 1.8) * ui.speed * (ui.paused ? 0 : 1);
+    // How it gets there (pack milestone 6): into water, up high, or along the canopy between high places.
+    const L = D.LOCOMOTION;
+    const hab = Sim.habById(S, a.hab);
+    const it = a.act && a.act.item && hab && hab.items.find((i) => i.id === a.act.item);
+    const beh = it ? D.ITEMS[it.k].behaviour : null;
+    const mode = beh && L.water.includes(beh) ? 'water' : beh && L.high.includes(beh) ? 'high' : 'ground';
+    const key = a.act ? a.act.until + ':' + a.act.item : '';
+    if (cr.actKey !== key) {
+      cr.route = cr.mode === 'high' && mode === 'high' && dist < L.canopyReach && L.climbers.includes(a.sp) ? 'canopy' : 'ground';
+      cr.mode = mode;
+      cr.actKey = key;
+    }
+    const near = dist < 0.6;
+    const want = cr.route === 'canopy' || (cr.mode === 'high' && near) ? 1 : cr.mode === 'water' && near ? -1 : 0;
+    cr.lift = (cr.lift || 0) + (want - (cr.lift || 0)) * Math.min(1, dt * 4 * ui.speed);
+    const speed = (a.stage === 'adult' ? 1.4 : 1.8) * (L.speed[a.sp] || 1) * ui.speed * (ui.paused ? 0 : 1);
     cr.moving = dist > 0.03;
     if (dist > 6) {
       cr.wx = a.x;
@@ -468,24 +483,49 @@ const render = {
     // On a platform, in a pool or under a canopy: draw on top of that item, not behind it.
     const on = a.act && a.act.item && !cr.moving && hab.items.find((i) => i.id === a.act.item && !D.ITEMS[i.k].solid);
     const onDepth = on ? on.x + Sim.footprint(D.ITEMS[on.k], on.r)[0] + on.y + Sim.footprint(D.ITEMS[on.k], on.r)[1] - 0.99 : 0;
+    const highDepth = (cr.lift || 0) > 0.3 ? cr.wx + cr.wy + 2 : 0; // up on the canopy: in front of what's below
     things.push([
-      on ? Math.max(cr.wx + cr.wy, onDepth) : cr.wx + cr.wy,
+      Math.max(on ? Math.max(cr.wx + cr.wy, onDepth) : cr.wx + cr.wy, highDepth),
       () => {
         const big = Math.min(2.2, 0.75 + Math.sqrt(sp.tilesPerSlot) * 0.09);
         const size = TW * big * (a.stage === 'baby' ? 0.5 : a.stage === 'juvenile' ? 0.75 : 1);
         const calm = prefs.reduceMotion;
-        const hop = calm ? 0 : cr.moving ? Math.abs(Math.sin(now / 130 + a.id)) * TW * 0.06 : 0;
+        const hang = D.LOCOMOTION.hangers.includes(a.sp) && cr.lift > 0.3;
+        const hop =
+          calm || hang || (D.LOCOMOTION.speed[a.sp] || 1) < 0.5 ? 0 : cr.moving ? Math.abs(Math.sin(now / 130 + a.id)) * TW * 0.06 : 0;
         const [X, Y] = this.toScreen(cr.wx, cr.wy);
-        this.shadow(X, Y, size * 0.3);
+        const up = Math.max(0, cr.lift || 0) * (hang ? size * 1.15 : TW * 0.5);
+        const sink = Math.max(0, -(cr.lift || 0)) * size * 0.35;
+        if (sink < size * 0.05) this.shadow(X, Y, size * 0.3 * (1 - Math.min(0.5, up / TW)));
         const since = now - cr.helloNow;
         const squish = !calm && since < 600 ? 1 + Math.sin(since / 60) * 0.08 : 1;
         const art = animalArtKey(a);
         const c = this.ctx;
         c.save();
-        c.translate(X, Y - hop);
-        c.scale(squish, 2 - squish);
+        if (sink > 0) {
+          // in the water: only what's above the surface shows, with a ripple round it
+          c.beginPath();
+          c.rect(X - size, Y - size * 3, size * 2, size * 3 - size * 0.04);
+          c.clip();
+        }
+        if (hang) {
+          // hanging beneath the branch: feet up, body below
+          c.translate(X, Y - up);
+          c.scale(1, -1);
+        } else {
+          c.translate(X, Y - hop - up + sink);
+          c.scale(squish, 2 - squish);
+        }
         this.sprite(art, sp.emoji, 0, 0, size, cr.flip);
         c.restore();
+        if (sink > size * 0.05) {
+          const t = calm ? 0 : Math.sin(now / 400 + a.id) * 0.06;
+          c.strokeStyle = 'rgba(255,255,255,.75)';
+          c.lineWidth = 2;
+          c.beginPath();
+          c.ellipse(X, Y - size * 0.04, size * (0.42 + t), size * (0.12 + t / 3), 0, 0, Math.PI * 2);
+          c.stroke();
+        }
         const selected = ui.panel && ui.panel.kind === 'animal' && ui.panel.id === a.id;
         if (selected) {
           c.strokeStyle = '#E8B58A';
@@ -501,9 +541,15 @@ const render = {
               ? ACTION_ICONS[a.act.type] || (a.act.item && D.ITEMS[(hab.items.find((i) => i.id === a.act.item) || {}).k] ? '✨' : null)
               : null;
           const icon = p ? (p.soft ? '💭' : '❗') : a.stage === 'baby' && Math.sin(now / 900 + a.id) > 0.7 ? '💗' : act;
-          if (icon) this.bubble(X + size * 0.3, Y - size * 0.9, icon, Math.max(14, TW * 0.24));
+          if (icon) this.bubble(X + size * 0.3, Y - (hang ? up : size * 0.9 + up - sink), icon, Math.max(14, TW * 0.24));
         }
-        this.hits.push({ kind: 'animal', id: a.id, x: X, y: Y - size * 0.4, r: Math.max(size * 0.5, 16) });
+        this.hits.push({
+          kind: 'animal',
+          id: a.id,
+          x: X,
+          y: hang ? Y - up + size * 0.5 : Y - size * 0.4 - up + sink,
+          r: Math.max(size * 0.5, 16),
+        });
       },
     ]);
   },
