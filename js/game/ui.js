@@ -162,6 +162,27 @@ function confirmAct(title, body, cmd, label = 'Confirm') {
     `<button class="btn ghost" data-ui="closemodal">Cancel</button><button class="btn" data-ui="doconfirm">${esc(label)}</button>`
   );
 }
+// The browser's prompt() and confirm() are blocked in some places the game runs (and look out of
+// place everywhere), so naming and "are you sure?" use the game's own pop-up.
+let pendingFn = null;
+function askText(title, label, value, onOk, max = 16) {
+  pendingFn = () => {
+    const v = $('#ask-input').value.trim();
+    if (v) onOk(v);
+  };
+  modal(
+    `<h2>${esc(title)}</h2><label class="field">${esc(label)}<input id="ask-input" maxlength="${max}" value="${esc(value || '')}"></label>`,
+    `<button class="btn ghost" data-ui="closemodal">Cancel</button><button class="btn" data-ui="askok">Save</button>`
+  );
+  setTimeout(() => $('#ask-input') && $('#ask-input').select(), 0);
+}
+function askYes(title, body, label, onOk) {
+  pendingFn = onOk;
+  modal(
+    `<h2>${esc(title)}</h2>${body}`,
+    `<button class="btn ghost" data-ui="closemodal">Cancel</button><button class="btn" data-ui="askok">${esc(label)}</button>`
+  );
+}
 function confirmLand(cx, cy) {
   const price = Sim.landPrice(S);
   confirmAct(
@@ -263,7 +284,14 @@ const UI_ACTIONS = {
       act({ type: 'name', name: $('#zooname-input').value.trim() || 'Little Paws Zoo' });
     }
     pending = null;
+    pendingFn = null;
     closeModal();
+  },
+  askok() {
+    const fn = pendingFn;
+    pendingFn = null;
+    closeModal();
+    if (fn) fn();
   },
   doconfirm() {
     const cmd = pending;
@@ -318,8 +346,7 @@ const UI_ACTIONS = {
   },
   rename(d) {
     const a = Sim.animalById(S, +d.id);
-    const name = a && prompt(`A new name for ${a.name}?`, a.name);
-    if (name) act({ type: 'rename', animal: a.id, name });
+    if (a) askText(`Rename ${a.name}`, 'Their new name', a.name, (name) => act({ type: 'rename', animal: a.id, name }));
   },
   home: () => render.home(),
   sound() {
@@ -345,15 +372,19 @@ const UI_ACTIONS = {
   zoomin: () => render.zoomAt(1.25),
   zoomout: () => render.zoomAt(1 / 1.25),
   'rename-zoo'() {
-    const name = prompt('What should your zoo be called?', S.name);
-    if (name) act({ type: 'name', name });
+    askText('Rename your zoo', 'What should your zoo be called?', S.name, (name) => act({ type: 'name', name }), 28);
   },
   newzoo() {
-    if (confirm('Start over with a brand new zoo? Your animals will miss you.')) {
-      newZoo();
-      closePanel();
-      showWelcome();
-    }
+    askYes(
+      'Start a brand new zoo?',
+      '<p>Everything here goes: animals, enclosures, coins and progress. Your animals will miss you.</p>',
+      'Start over',
+      () => {
+        newZoo();
+        closePanel();
+        showWelcome();
+      }
+    );
   },
 };
 function onInput(e) {

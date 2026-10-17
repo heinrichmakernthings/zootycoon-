@@ -5,7 +5,12 @@
   input.init();
   document.addEventListener('click', onClick);
   document.addEventListener('input', onInput);
-  document.addEventListener('keydown', (e) => e.key === 'Enter' && e.target.id === 'zooname-input' && UI_ACTIONS.closemodal());
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    if (e.target.id === 'zooname-input') UI_ACTIONS.closemodal();
+    if (e.target.id === 'ask-input') UI_ACTIONS.askok();
+    if (e.target.id === 'reveal-name') UI_ACTIONS.revealdone();
+  });
   addEventListener('visibilitychange', () => document.hidden && save());
   addEventListener('pagehide', save);
   updateHud();
